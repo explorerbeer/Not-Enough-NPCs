@@ -1,0 +1,36 @@
+---==================================================================================================================---
+---                                                                                                                  ---
+---    Original Author(s) : Longreed                                                                                 ---
+---    Edited : explorerbee                                                                                          ---
+---    Date : 15/08/2024                                                                                             ---
+---                                                                                                                  ---
+---==================================================================================================================---
+
+local info_check = "workbench spawned"
+
+function spawn_workbench()
+    local workbench_nep = alife_create("tiski_nep_garbage", vector():set(-109.26, 1.8061, 24.95), 94119, 725)
+    workbench_nep.angle = vector():set(0, -1.5708, 0)
+
+    local data = utils_stpk.get_physic_data(workbench_nep)
+    data.custom_data = [[
+        [collide]
+        ignore_static
+        ignore_small_objects
+
+        [logic]
+        cfg = scripts\garbage\tiski_01.ltx
+    ]]
+
+    utils_stpk.set_physic_data(data, workbench_nep)
+end
+
+function actor_on_first_update()
+    if has_alife_info(info_check) then return end
+        spawn_workbench()
+        give_info(info_check)
+end
+
+function on_game_start()
+    RegisterScriptCallback("actor_on_first_update", actor_on_first_update)
+end

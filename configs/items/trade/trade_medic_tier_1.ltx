@@ -1,0 +1,74 @@
+#include "presets\trade_discounts.ltx"
+#include "presets\trade_presets.ltx"
+
+;Trader Profile
+[trader]
+buy_condition                       = trade_generic_buy
+buy_item_condition_factor           = 0.50
+buy_item_exponent                   = 2.25
+buy_supplies                        = {=drugkit_task_done()} supplies_2, supplies_1
+
+sell_condition                      = trade_generic_sell
+sell_item_exponent                  = 0.75
+
+discounts                           = discount_medic
+
+[trade_generic_buy]:medic
+itm_pda_common                           ;NO TRADE
+itm_pda_rare                             ;NO TRADE
+itm_pda_uncommon                         ;NO TRADE
+pri_a25_explosive_charge_item            ;NO TRADE
+itm_drugkit				= 2.0, 2.0
+
+
+[trade_generic_sell]:medic
+itm_drugkit				= 2.0, 2.0
+
+[supplies_1]:common_stock
+medkit					= 2, 1
+yadylin					= 2, 1
+tetanus					= 2, 1
+
+bandage					= 3, 1
+jgut					= 2, 1
+salicidic_acid			= 2, 1
+
+caffeine				= 2, 1
+
+antirad_cystamine		= 2, 1
+
+antibio_chlor			= 2, 1
+
+drug_sleepingpills		= 1, 1
+
+protein                 = 2, 1
+glucose_s               = 2, 1
+
+[supplies_2]:supplies_1
+medkit					= 3, 1
+medkit_army             = 1, 1
+stimpack				= 1, 1
+yadylin					= 3, 1
+analgetic				= 2, 1
+
+bandage					= 6, 1
+jgut					= 3, 1
+salicidic_acid			= 3, 1
+drug_coagulant			= 2, 1
+
+caffeine				= 3, 1
+drug_booster			= 1, 1
+
+antirad_cystamine		= 3, 1
+antirad_kalium			= 2, 1
+drug_radioprotector     = 1, 1
+
+antibio_chlor			= 3, 1
+antibio_sulfad			= 2, 1
+antiemetic   			= 2, 1
+
+drug_sleepingpills		= 2, 1
+
+protein                 = 3, 1
+glucose_s               = 3, 1
+glucose                 = 2, 1

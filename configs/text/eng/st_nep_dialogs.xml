@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<string_table>
+    <string id="my_custom_dialogue_1_0">
+        <text>Sample Text.</text>
+    </string>
+    <string id="my_custom_dialogue_1_1">
+        <text>No way.</text>
+    </string>
+
+    <string id="nep_help_wounded_medic_0">
+        <text>Sample dialog.</text>
+    </string>
+    <string id="nep_help_wounded_medic_1">
+        <text>No way.</text>
+    </string>
+</string_table>
