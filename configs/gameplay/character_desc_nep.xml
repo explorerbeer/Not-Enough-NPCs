@@ -103,7 +103,7 @@
     <specific_character id="killer_nep_zaton_medic">
         <name>killer_nep_zaton_medic_name</name>
         <bio>killer_nep_zaton_medic_bio</bio>
-        <icon>ui_inGame2_Orderly</icon>
+        <icon>ui_inGame2_Corpsman</icon>
         <map_icon x="1" y="0" />
         <visual>actors\nep\killer_nep_zaton_medic</visual>
         <snd_config>characters_voice\human\killer_1\</snd_config>
@@ -202,7 +202,7 @@
     <specific_character id="stalker_nep_darkscape_medic" team_default="1">
         <name>stalker_nep_darkscape_medic_name</name>
         <bio>stalker_nep_darkscape_medic_bio</bio>
-        <icon>ui_inGame2_Veterinarian</icon>
+        <icon>ui_inGame2_Vet</icon>
         <map_icon x="1" y="0" />
         <visual>actors\nep\stalker_nep_darkscape_medic</visual>
         <snd_config>characters_voice\human\stalker_1\</snd_config>

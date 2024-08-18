@@ -46,7 +46,7 @@
 
     <string id="encyclopedia_characters_stalker_nep_darkscape_medic_text">
         <text>
-            %c[pda_white]Ветеринар%c[ui_gray_1] - Молодой врач в Тёмной лощине.\n
+            %c[pda_white]Ветеринар%c[ui_gray_1] - молодой врач в Тёмной лощине.\n
             \n%c[pda_green]Информация%c[ui_gray_1]\n
             \nСовсем молодой парень, вчерашний выпускник, который чудом до сих пор остаётся в добром здравии. Тем не менее, лечить он умеет.
         </text>

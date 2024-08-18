@@ -16,7 +16,7 @@
     </string>
     <!-- Zaton Medic -->
     <string id="killer_nep_zaton_medic_name">
-        <text>Orderly</text>
+        <text>Corpsman</text>
      </string>
      <string id="killer_nep_zaton_medic_bio">
         <text>.</text>
@@ -44,7 +44,7 @@
     </string>
     <!-- Darkscape Medic -->
     <string id="stalker_nep_darkscape_medic_name">
-        <text>Veterinarian</text>
+        <text>Vet</text>
     </string>
     <string id="stalker_nep_darkscape_medic_bio">
         <text>.</text>
