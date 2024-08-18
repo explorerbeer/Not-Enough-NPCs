@@ -1,0 +1,39 @@
+[logic@stalker_nep_outskirts_medic]
+active                              = beh@teleport
+suitable                            = {=check_npc_name(stalker_nep_outskirts_medic)} true
+prior                               = 300
+level_spot                          = medic
+dont_keep_items                     = true
+
+[animpoint@general]
+combat_ignore_cond                  = {=is_warfare} false, {=check_enemy_name(actor)} false, true
+combat_ignore_keep_when_attacked    = {=is_warfare} false, true
+invulnerable                        = {=is_warfare} false, {!actor_enemy} true, false
+reach_movement                      = walk_noweap
+reach_distance                      = 1
+use_camp                            = false
+gather_items_enabled                = false
+help_wounded_enabled                = false
+corpse_detection_enabled            = false
+meet                                = meet
+
+[beh@teleport]
+on_info                             = %=teleport_npc_lvid(374283)% animpoint@stalker_nep_outskirts_medic
+
+[animpoint@stalker_nep_outskirts_medic]:animpoint@general
+cover_name                          = stalker_nep_outskirts_medic_cover
+avail_animations                    = animpoint_sit_normal 
+
+[meet]
+close_anim                          = nil
+close_victim                        = nil
+far_anim                            = nil
+far_victim                          = nil
+
+close_distance                      = 0
+far_distance                        = 0
+close_snd_distance                  = 3
+
+use                                 = {=actor_enemy} false, true
+allow_break                         = false
+trade_enable                        = false
