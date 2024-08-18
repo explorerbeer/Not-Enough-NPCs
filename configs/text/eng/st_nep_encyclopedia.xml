@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="Windows-1251"?>
 <string_table>
-    <!-- Template -->
-    <string id="">
-        <text></text>
-    </string>
-
-    <string id="">
-        <text>
-            %c[pda_white]%c[ui_gray_1] \n
-            \n%c[pda_green]Information%c[ui_gray_1]\n
-            \n
-        </text>
-    </string>
-
     <!-- Cordon -->
     <string id="encyclopedia_characters_stalker_nep_cordon_medic">
         <text>Esmarch</text>
