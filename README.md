@@ -1,4 +1,4 @@
-#Not Enough NPCs
+# Not Enough NPCs
 
 ---
 
@@ -12,7 +12,7 @@ I am always open to your suggestions and improvements. Feel free to offer your i
 
 ---
 
-##REQUIREMENTS
+## REQUIREMENTS
 
 Mandatory addons required for the mod to work:
 1. [DLTX & DXML](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes).
@@ -23,7 +23,7 @@ Optional addons to make your gameplay coupled with my mod:
 
 ---
 
-##INSTALLATION
+## INSTALLATION
 
 To **install**:
 1. Download and install the requirements.
@@ -41,7 +41,7 @@ My contacts:
 
 ---
 
-##CREDITS
+## CREDITS
 
 Special thanks to my close friends who participated in the development of the mod:
 | Name         | Description                                                            |
@@ -69,4 +69,4 @@ A list of people who helped me during the development process:
 
 ---
 
-##LICENSE
+## LICENSE
