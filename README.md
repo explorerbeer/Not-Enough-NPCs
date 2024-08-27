@@ -36,7 +36,7 @@ To **install**:
 ## SUPPORT & SUGGESTIONS
 
 My contacts:
-- [ModDB](https://www.moddb.com/members/explorerbee).
+- ModDB [page](https://www.moddb.com/members/explorerbee).
 - Discord: @explorerbee (explorerbee#4024).
 
 ---
