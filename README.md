@@ -18,7 +18,7 @@ Mandatory addons required for the mod to work:
 1. [DLTX & DXML](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes).
 
 Optional addons to make your gameplay coupled with my mod:
-1. [Western Goods](https://www.moddb.com/mods/stalker-anomaly/addons/western-goods) (a comprehensive mod that adds new mechanics, quests, items and devices in addition to new NPCs).
+1. [Western Goods](https://www.moddb.com/mods/stalker-anomaly/addons/western-goods) (a comprehensive mod that adds new mechanics, quests, items, devices and NPCs).
 2. [Dux's Innumerable Character Kit](https://www.moddb.com/mods/stalker-anomaly/addons/dick) (over9000 new vanilla-style NPC models).
 
 ---
