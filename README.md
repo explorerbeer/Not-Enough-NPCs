@@ -2,7 +2,7 @@
 
 ---
 
-##ABOUT
+## ABOUT
 
 This addon expands the player's points of interest by adding missing key NPCs (medics and mechanics) to faction bases. In addition to the basic functionality of such NPCs, they were also added unique dialogs, new quests, unique models and **(optional feature)** redesigned trade configs.  
 
