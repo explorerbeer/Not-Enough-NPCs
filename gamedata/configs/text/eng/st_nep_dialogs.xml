@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="Windows-1251"?>
+
+<!-- ================================================================================================================== -->
+<!--                                                                                                                    -->
+<!--     Original Author(s) : explorerbee, kostyumier, dzimka                                                           -->
+<!--     Edited : N/A                                                                                                   -->
+<!--     License : Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)            -->
+<!--                                                                                                                    -->
+<!-- ================================================================================================================== -->
+
 <string_table>
     <string id="my_custom_dialogue_1_0">
         <text>Sample Text.</text>
