@@ -25,7 +25,6 @@ Optional addons to make your gameplay coupled with my mod:
 
 ## INSTALLATION
 
-To **install**:
 1. Download and install the requirements.
 2. Download my addon.
 3. Use the keyboard shortcut Ctrl + M **(MO2 required)** to select the archive with my addon.
