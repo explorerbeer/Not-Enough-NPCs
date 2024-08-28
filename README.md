@@ -66,11 +66,13 @@ A list of people who helped me during the development process:
 | Longreed    | Plenty of help regarding NPC logic, as well as help with smart cover spawn scripts. |
 | xcvb (bvcx) | Help with NPC logic, workbench vise spawn.                                          |
 
+*If we forgot to mention your honors, bring your changes in advance. Let me know about it and I will be sure to add you to the lists.*
+
 ---
 
 ## LICENSE
 
-Everything contained in **Not Enough NPCs** and made by me, **explorerbee**, is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Everything contained in **Not Enough NPCs** and made by me, **explorerbee** & **kostyumier**, is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 This means you're allowed to redistribute and/or adapt the work, as long as you respect the following criteria :
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
