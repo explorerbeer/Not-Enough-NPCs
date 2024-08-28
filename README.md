@@ -62,7 +62,7 @@ A list of people who helped me during the development process:
 
 | Name        | Description                                                                         |
 |-------------|-------------------------------------------------------------------------------------|
-| NLTP_ASHES  | Explanation of the working principle of spawning scripts.                           |
+| NLTP_ASHES  | Explanation of the working principle of spawning scripts n' NPCs logic.             |
 | Longreed    | Plenty of help regarding NPC logic, as well as help with smart cover spawn scripts. |
 | xcvb (bvcx) | Help with NPC logic, workbench vise spawn.                                          |
 
