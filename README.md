@@ -6,9 +6,9 @@
 
 This addon expands the player's points of interest by adding missing key NPCs (medics and mechanics) to faction bases. In addition to the basic functionality of such NPCs, they were also added unique dialogs, new quests, unique models and **(optional feature)** redesigned trade configs.  
 
-In the future, I plan to further expand the filling of NPC bases by making them, directly, bases)
+In the future, we plan to further expand the filling of NPC bases by making them, directly, bases)
 
-I am always open to your suggestions and improvements. Feel free to offer your ideas to make this mod better.
+We are always open to your suggestions and improvements. Feel free to offer your ideas to make this mod better.
 
 ---
 
@@ -35,7 +35,7 @@ Optional addons to make your gameplay coupled with my mod:
 ## INSTALLATION
 
 1. Download and install the requirements.
-2. Download my addon.
+2. Download our addon.
 3. Use the keyboard shortcut Ctrl + M **(MO2 required)** to select the archive with my addon.
 4. Follow the instructions.
 
@@ -43,7 +43,7 @@ Optional addons to make your gameplay coupled with my mod:
 
 ## SUPPORT & SUGGESTIONS
 
-My contacts:
+Contacts:
 - ModDB [page](https://www.moddb.com/members/explorerbee).
 - Discord: **@explorerbee** (explorerbee#4024).
 
@@ -81,11 +81,11 @@ A list of people who helped me during the development process:
 
 ## LICENSE
 
-Everything contained in **Not Enough NPCs** and made by me, **explorerbee** & **kostyumier**, is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Everything contained in **Not Enough NPCs** and made by us, **explorerbee** & **kostyumier**, is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 This means you're allowed to redistribute and/or adapt the work, as long as you respect the following criteria :
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 - **NonCommercial** — You may not use the material for commercial purposes (this includes donations).
 - **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-For the work that wasn't made by me, unless a licence is specified in the [Credits](#special-thanks--credits) or in the files themselves, consider these works proprietary. If you want to reuse those, please get in touch with their original authors.
+For the work that wasn't made by us, unless a licence is specified in the [Credits](#special-thanks--credits) or in the files themselves, consider these works proprietary. If you want to reuse those, please get in touch with their original authors.
