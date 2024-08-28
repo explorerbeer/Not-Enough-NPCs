@@ -36,7 +36,7 @@ Optional addons to make your gameplay coupled with my mod:
 
 My contacts:
 - ModDB [page](https://www.moddb.com/members/explorerbee).
-- Discord: @explorerbee (explorerbee#4024).
+- Discord: **@explorerbee** (explorerbee#4024).
 
 ---
 
