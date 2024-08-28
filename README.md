@@ -52,11 +52,11 @@ Special thanks to my close friends who participated in the development of the mo
 A list of people whose work I used in my addon:
 | Name        | Description                                                       | License                                                                 |
 |-------------|-------------------------------------------------------------------|-------------------------------------------------------------------------|
-| Dux         | 3D models for the NPCs in the addon were created from his assets. | Proprietary                                                             |
-| NLTP_ASHES  | NPC spawn scripts were used.                                      | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| Dux         | 3D models for the NPCs in the addon were created from his [assets](https://www.moddb.com/mods/stalker-anomaly/addons/dick). | Proprietary                                                             |
+| NLTP_ASHES  | NPC spawn scripts were used.                                      | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)   |
 | Longreed    | Author of the script for spawn of smart-covers.                   | Proprietary                                                             |
 | xcvb (bvcx) | The author of the script of the spawning vise for the workbench.  | Proprietary                                                             |
-| GhenTuong   | Reused his `xr_logic_ex` script.                                    | Proprietary                                                             |
+| GhenTuong   | Reused his `xr_logic_ex` script.                                  | Proprietary                                                             |
 
 A list of people who helped me during the development process:
 
