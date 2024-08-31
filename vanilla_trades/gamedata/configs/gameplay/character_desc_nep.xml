@@ -90,11 +90,12 @@
             ammo_12x70_buck = 2 \n
         </supplies>
 
-        <start_dialog>zat_b22_stalker_medic_start</start_dialog>
-        <actor_dialog>dm_init_medic</actor_dialog>
-        <actor_dialog>dm_medic_general</actor_dialog>
+        <start_dialog>nep_truck_cemetery_medic_start</start_dialog>
+        <actor_dialog>nep_truck_cemetery_medic_init</actor_dialog>
+        <actor_dialog>nep_truck_cemetery_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+        <actor_dialog>nep_truck_cemetery_medic_bio</actor_dialog>
         <actor_dialog>actor_break_dialog</actor_dialog>
 
         #include "gameplay\character_criticals.xml"
@@ -256,11 +257,12 @@
             ammo_12x70_buck = 2 \n
         </supplies>
 
-        <start_dialog>zat_b22_stalker_medic_start</start_dialog>
-        <actor_dialog>dm_init_medic</actor_dialog>
-        <actor_dialog>dm_medic_general</actor_dialog>
+        <start_dialog>nep_jupiter_bandit_medic_start</start_dialog>
+        <actor_dialog>nep_jupiter_bandit_medic_init</actor_dialog>
+        <actor_dialog>nep_jupiter_bandit_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+        <actor_dialog>nep_jupiter_bandit_medic_bio</actor_dialog>
         <actor_dialog>actor_break_dialog</actor_dialog>
 
         #include "gameplay\character_criticals.xml"
