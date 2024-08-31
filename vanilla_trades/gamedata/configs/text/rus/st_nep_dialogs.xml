@@ -96,4 +96,9 @@
     <string id="nep_zaton_medic_general_10">
         <text>Ага, у тебя ран, как у меня волос. Как видишь, я лысый. Так что не придумывай лишнего, иди гуляй.</text>
     </string>
+
+    <!-- Init -->
+     <string id="nep_zaton_medic_init_0">
+        <text>Выбирай, что хочешь.</text>
+     </string>
 </string_table>
