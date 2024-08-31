@@ -199,7 +199,7 @@
                 <next>1</next>
             </phrase>
             <phrase id="1">
-                <text>nep_pripyat_medic_stalker_bio_bio_1_1</text>
+                <text>nep_pripyat_medic_stalker_bio_1_1</text>
                 <next>2</next>
             </phrase>
             <phrase id="2">
@@ -209,6 +209,7 @@
             <phrase id="3">
                 <text>nep_pripyat_medic_stalker_bio_1_3</text>
                 <next>4</next>
+                <next>5</next>
             </phrase>
             <phrase id="4">
                 <text>nep_pripyat_medic_stalker_bio_1_4</text>
