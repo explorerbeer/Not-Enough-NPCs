@@ -123,8 +123,7 @@
         </phrase_list>
     </dialog>
 
-<!-- Jupiter Ecolog Medic-->
-
+    <!-- Jupiter Ecolog Medic-->
     <!-- Start -->
     <dialog id="nep_jupiter_medic_ecolog_start">
         <phrase_list>
@@ -134,7 +133,7 @@
         </phrase_list>
     </dialog>
 
-     <!-- Bio -->
+    <!-- Bio -->
     <dialog id="nep_jupiter_medic_ecolog_bio">
         <dont_has_info>nep_jupiter_medic_ecolog_bio_over</dont_has_info>
         <phrase_list>
@@ -181,61 +180,60 @@
     </dialog>
 
     <!-- General -->
-        <dialog id="nep_jupiter_medic_ecolog_general">
-            <phrase_list>
-                <phrase id="0">
-                    <text>st_dm_medic_general_text_0</text>
-                    <next>1</next>
-                    <next>10</next>
-                </phrase>
-                <phrase id="1">
-                    <precondition>dialogs.is_actor_not_healthy</precondition>
-                    <text>nep_jupiter_medic_ecolog_general_1</text>
-                    <next>2</next>
-                    <next>3</next>
-                    <next>4</next>
-                    <next>5</next>
-                </phrase>
-                <phrase id="2">
-                    <precondition>dialogs.is_actor_injured</precondition>
-                    <text>st_dm_medic_general_text_2</text>
-                    <action>dialogs.heal_actor_injury</action>
-                    <action>medic_effects.medic_anim</action>
-                    <next>6</next>
-                </phrase>
-                <phrase id="3">
-                    <precondition>dialogs.is_actor_irradiated</precondition>
-                    <text>st_dm_medic_general_text_3</text>
-                    <action>dialogs.heal_actor_radiation</action>
-                    <action>medic_effects.medic_rad_anim</action>
-                    <next>6</next>
-                </phrase>
-                <phrase id="4">
-                    <precondition>dialogs.is_actor_injured_irradiated</precondition>
-                    <text>st_dm_medic_general_text_4</text>
-                    <action>dialogs.heal_actor_injury_radiation</action>
-                    <action>medic_effects.medic_anim</action>
-                    <next>6</next>
-                </phrase>
-                <phrase id="5">
-                    <text>st_dm_medic_general_text_5</text>
-                    <next>7</next>
-                </phrase>
-                <phrase id="6">
-                    <text>st_dm_medic_general_text_6</text>
-                </phrase>
-                <phrase id="7">
-                    <text>st_dm_medic_general_text_7</text>
-                </phrase>
-                <phrase id="10">
-                    <precondition>dialogs.is_actor_healthy</precondition>
-                    <text>nep_jupiter_medic_ecolog_general_10</text>
-                </phrase>
-            </phrase_list>
-        </dialog>
+    <dialog id="nep_jupiter_medic_ecolog_general">
+        <phrase_list>
+            <phrase id="0">
+                <text>st_dm_medic_general_text_0</text>
+                <next>1</next>
+                <next>10</next>
+            </phrase>
+            <phrase id="1">
+                <precondition>dialogs.is_actor_not_healthy</precondition>
+                <text>nep_jupiter_medic_ecolog_general_1</text>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+            </phrase>
+            <phrase id="2">
+                <precondition>dialogs.is_actor_injured</precondition>
+                <text>st_dm_medic_general_text_2</text>
+                <action>dialogs.heal_actor_injury</action>
+                <action>medic_effects.medic_anim</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="3">
+                <precondition>dialogs.is_actor_irradiated</precondition>
+                <text>st_dm_medic_general_text_3</text>
+                <action>dialogs.heal_actor_radiation</action>
+                <action>medic_effects.medic_rad_anim</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="4">
+                <precondition>dialogs.is_actor_injured_irradiated</precondition>
+                <text>st_dm_medic_general_text_4</text>
+                <action>dialogs.heal_actor_injury_radiation</action>
+                <action>medic_effects.medic_anim</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_dm_medic_general_text_5</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="6">
+                <text>st_dm_medic_general_text_6</text>
+            </phrase>
+            <phrase id="7">
+                <text>st_dm_medic_general_text_7</text>
+            </phrase>
+            <phrase id="10">
+                <precondition>dialogs.is_actor_healthy</precondition>
+                <text>nep_jupiter_medic_ecolog_general_10</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
 
-<!-- Outskirts Stalker Medic-->
-
+    <!-- Outskirts Stalker Medic-->
     <!-- Start -->
     <dialog id="nep_pripyat_medic_stalker_start">
         <phrase_list>
@@ -347,8 +345,7 @@
     </dialog>
 
 
-<!-- Outskirts Killer Medic-->
-
+    <!-- Outskirts Killer Medic-->
     <!-- Start -->
     <dialog id="nep_pripyat_medic_killer_start">
         <phrase_list>
@@ -447,8 +444,7 @@
         </phrase_list>
     </dialog>
 
-<!-- Garbage Stalker Mechanic-->
-
+    <!-- Garbage Stalker Mechanic-->
     <!-- Start -->
     <dialog id="stalker_nep_garbage_mechanic_start">
         <phrase_list>
@@ -521,8 +517,7 @@
 		</phrase_list>
     </dialog>
 
-    <!-- Garbage Stalker Medic-->
-
+    <!-- Garbage Stalker Medic-->   
     <!-- Start -->
     <dialog id="stalker_nep_garbage_medic_start">
         <phrase_list>
