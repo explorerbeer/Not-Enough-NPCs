@@ -232,7 +232,7 @@
 			</phrase>
 			<phrase id="1"> <!-- npc -->
 				<precondition>dialogs_mlr.check_no_debt</precondition>
-				<text>nep_yantar_medic_init</text>
+				<text>nep_yantar_medic_init_0</text>
 				<action>dialogs.npc_is_trader</action>
 			</phrase>
 			<phrase id="2"> <!-- npc -->
