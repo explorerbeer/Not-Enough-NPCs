@@ -360,7 +360,7 @@
 		<actor_dialog>dm_encrypted_pda</actor_dialog>
         <actor_dialog>dm_tech_repair</actor_dialog>
 		<actor_dialog>awr_tech_dialog_drink_1</actor_dialog>
-        <actor_dialog></actor_dialog>
+        <actor_dialog>stalker_nep_garbage_mechanic_bio</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
         
         #include "gameplay\character_criticals.xml"
