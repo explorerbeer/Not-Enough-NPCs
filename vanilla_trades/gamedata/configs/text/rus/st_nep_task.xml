@@ -9,10 +9,6 @@
 <!-- ================================================================================================================== -->
 
 <string_table>
-    <string id="killer_nep_yantar_medic_task_1_fetch_about">
-        <text>Хуй будешь?</text>
-    </string>
-
     <!-- Cordon Medic -->
      <string id="stalker_nep_cordon_medic_task_1_name">
         <text>Непростая наука</text>
@@ -23,5 +19,16 @@
      </string>
      <string id="stalker_nep_cordon_medic_task_1_fetch_finish">
         <text>Спасибо, выручил старика. С меня причитается.</text>
+     </string>
+
+     <!-- Yantar Medic -->
+     <string id="killer_nep_yantar_medic_task_1_name">
+         <text>Чистый экземпляр</text>
+     </string>
+     <string id="killer_nep_yantar_medic_task_1_fetch_about">
+         <text>Ну, может, и есть. Мне нужен один медицинский набор, без него работать почти невозможно. Плевать, откуда ты его достанешь, хоть поликлинику ограбишь, главное - найди целый и чистый экземпляр. За работу заплачу, я человек справедливый. Но и ты, если дерьмо принесёшь, с ним вдвоём нахер отправишься.</text>
+     </string>
+     <string id="killer_nep_yantar_medic_task_1_fetch_finish">
+         <text>Как и договаривались, твоя оплата. Всё, чеши отсюда.</text>
      </string>
 </string_table>
