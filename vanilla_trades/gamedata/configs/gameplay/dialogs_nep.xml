@@ -223,7 +223,6 @@
     </dialog>
 
     <!-- Init -->
-    <!-- Init -->
     <dialog id="nep_zaton_medic_init">
 		<phrase_list>
 			<phrase id="0"> <!-- actor -->
