@@ -1,0 +1,39 @@
+---==================================================================================================================---
+---                                                                                                                  ---
+---    Original Author(s) : NLTP_ASHES                                                                               ---
+---    Edited : explorerbee                                                                                                  ---
+---    Date : 25/07/2024                                                                                             ---
+---    License : Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)           ---
+---                                                                                                                  ---
+---==================================================================================================================---
+
+-- ---------------------------------------------------------------------------------------------------------------------
+-- DXML for character_desc_darkscape.xml
+-- ---------------------------------------------------------------------------------------------------------------------
+
+function dxml_character_desc_darkscape(xml_file_name, xml_obj)
+    if xml_file_name ~= [[gameplay\character_desc_darkscape.xml]] then
+        return
+    end
+
+    local query = "specific_character[id=dasc_trade_mlr]"
+    local query_res = xml_obj:query(query)
+
+    if size_table(query_res) ~= 1 then
+        printf("~[WG] WARNING | DXML | Aborting. Invalid number of results for '%s', got '%s', expected '%s'.", query, size_table(query_res), 1)
+        return
+    end
+
+    local xml_elem = query_res[1]
+
+    local xml_inject = [[
+        <actor_dialog>nep_help_wounded_medic</actor_dialog>
+    ]]
+
+    xml_obj:insertFromXMLString(xml_inject, xml_elem, #xml_elem.kids)
+end
+
+--- @return nil
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", dxml_character_desc_darkscape)
+end
