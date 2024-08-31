@@ -245,87 +245,90 @@
         <dont_has_info>nep_jupiter_bandit_medic_bio_over</dont_has_info>
         <phrase_list>
             <phrase id="0">
-                <text>nep_jupiter_bandit_medic_bio_1_0</text>
+                <text>nep_jupiter_bandit_medic_bio_0</text>
                 <next>1</next>
             </phrase>
             <phrase id="1">
-                <text>nep_jupiter_bandit_medic_bio_1_1</text>
+                <text>nep_jupiter_bandit_medic_bio_1</text>
                 <next>2</next>
             </phrase>
             <phrase id="2">
-                <text>nep_jupiter_bandit_medic_bio_1_2</text>
+                <text>nep_jupiter_bandit_medic_bio_2</text>
                 <next>3</next>
             </phrase>
             <phrase id="3">
-                <text>nep_jupiter_bandit_medic_bio_1_3</text>
-                <next>4</next>
-            </phrase>
-            <phrase id="4">
-                <text>nep_jupiter_bandit_medic_bio_1_4</text>
+                <text>nep_jupiter_bandit_medic_bio_3</text>
+                <next>40</next>
                 <next>50</next>
-                <next>60</next>
+            </phrase>
+            <phrase id="40">
+                <text>nep_jupiter_bandit_medic_bio_40</text>
+                <next>41</next>
+            </phrase>
+            <phrase id="41">
+                <text>nep_jupiter_bandit_medic_bio_41</text>
+                <next>42</next>
+            </phrase>
+            <phrase id="42">
+                <text>nep_jupiter_bandit_medic_bio_42</text>
+                <next>43</next>
+            </phrase>
+            <phrase id="43">
+                <text>nep_jupiter_bandit_medic_bio_43</text>
+                <next>44</next>
+            </phrase>
+            <phrase id="44">
+                <text>nep_jupiter_bandit_medic_bio_44</text>
+                <next>45</next>
+            </phrase>
+            <phrase id="45">
+                <text>nep_jupiter_bandit_medic_bio_45</text>
+                <next>46</next>
+            </phrase>
+            <phrase id="46">
+                <text>nep_jupiter_bandit_medic_bio_46</text>
+                <next>47</next>
+            </phrase>
+            <phrase id="47">
+                <text>nep_jupiter_bandit_medic_bio_47</text>
+                <next>480</next>
+                <next>490</next>
+            </phrase>
+            <phrase id="480">
+                <text>nep_jupiter_bandit_medic_bio_480</text> 
+                <next>481</next> 
+            </phrase>
+            <phrase id="481">
+                <text>nep_jupiter_bandit_medic_bio_481</text> 
+                <next>482</next> 
+            </phrase>
+            <phrase id="482">
+                <text>nep_jupiter_bandit_medic_bio_482</text>
+                <give_info>nep_jupiter_bandit_medic_bio_over</give_info>
+            </phrase>
+            <phrase id="490">
+                <text>nep_jupiter_bandit_medic_bio_490</text>
+                <next>491</next>
+            </phrase>
+            <phrase id="491">
+                <text>nep_jupiter_bandit_medic_bio_491</text>
+                <next>492</next>
+            </phrase>
+            <phrase id="492">
+                <text>nep_jupiter_bandit_medic_bio_492</text>
+                <give_info>nep_jupiter_bandit_medic_bio_over</give_info>
             </phrase>
             <phrase id="50">
-                <text>nep_jupiter_bandit_medic_bio_1_5_0</text>
+                <text>nep_jupiter_bandit_medic_bio_50</text>
                 <next>51</next>
             </phrase>
             <phrase id="51">
-                <text>nep_jupiter_bandit_medic_bio_1_5_1</text>
+                <text>nep_jupiter_bandit_medic_bio_51</text>
                 <next>52</next>
             </phrase>
             <phrase id="52">
-                <text>nep_jupiter_bandit_medic_bio_1_5_2</text>
-                <next>53</next>
-            </phrase>
-            <phrase id="53">
-                <text>nep_jupiter_bandit_medic_bio_1_5_3</text>
-                <next>54</next>
-            </phrase>
-            <phrase id="54">
-                <text>nep_jupiter_bandit_medic_bio_1_5_4</text>
-                <next>55</next>
-            </phrase>
-            <phrase id="55">
-                <text>nep_jupiter_bandit_medic_bio_1_5_5</text>
-                <next>56</next>
-            </phrase>
-            <phrase id="56">
-                <text>nep_jupiter_bandit_medic_bio_1_5_6</text>
-                <next>570</next>
-                <next>580</next>
-            </phrase>
-            <phrase id="570">
-                <text>nep_jupiter_bandit_medic_bio_1_5_7_0</text>
-                <give_info>saw_waksman</give_info>
-                <next>571</next>
-            </phrase>
-            <phrase id="571">
-                <text>nep_jupiter_bandit_medic_bio_1_5_7_1</text>
-                <next>572</next>
-            </phrase>
-            <phrase id="572">
-                <text>nep_jupiter_bandit_medic_bio_1_5_7_2</text>
-                <give_info>nep_jupiter_bandit_medic_bio_over</give_info>
-            </phrase>
-            <phrase id="580">
-                <text>nep_jupiter_bandit_medic_bio_1_5_8_0</text>
-                <next>581</next>
-            </phrase>
-            <phrase id="581">
-                <text>nep_jupiter_bandit_medic_bio_1_5_8_1</text>
-                <next>582</next>
-            </phrase>
-            <phrase id="582">
-                <text>nep_jupiter_bandit_medic_bio_1_5_8_2</text>
-                <give_info>nep_jupiter_bandit_medic_bio_over</give_info>
-            </phrase>
-            <phrase id="60">
-                <text>nep_jupiter_bandit_medic_bio_1_6_0</text>
-                <next>61</next>
-            </phrase>
-            <phrase id="61">
-                <text>nep_jupiter_bandit_medic_bio_1_6_1</text>
-                <next>52</next>
+                <text>nep_jupiter_bandit_medic_bio_52</text>
+                <next>43</next>
             </phrase>
         </phrase_list>
     </dialog>
