@@ -187,4 +187,9 @@
     <string id="nep_jupiter_bandit_medic_general_10">
         <text>М-м-м... Так, ты давай, это... Сваливай, короче, не требуется тебе ниче.</text>
     </string>
+
+    <!-- Init -->
+    <string id="nep_jupiter_bandit_medic_init_0">
+        <text>Ну лан, бери. Только не бесплатно!</text>
+    </string>
 </string_table>
