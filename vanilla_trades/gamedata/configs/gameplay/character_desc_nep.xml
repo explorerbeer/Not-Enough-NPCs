@@ -155,11 +155,12 @@
             ammo_5.45x39_fmj = 2 \n
         </supplies>
 
-        <start_dialog>zat_b22_stalker_medic_start</start_dialog>
+        <start_dialog>nep_pripyat_medic_stalker_start</start_dialog>
         <actor_dialog>dm_init_medic</actor_dialog>
         <actor_dialog>dm_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+        <actor_dialog>nep_pripyat_medic_stalker_bio</actor_dialog>
         <actor_dialog>actor_break_dialog</actor_dialog>
 
         #include "gameplay\character_criticals.xml"
@@ -188,7 +189,7 @@
             ammo_5.56x45_fmj = 2 \n
         </supplies>
 
-        <start_dialog>zat_b22_stalker_medic_start</start_dialog>
+        <start_dialog>nep_pripyat_medic_killer_start</start_dialog>
         <actor_dialog>dm_init_medic</actor_dialog>
         <actor_dialog>dm_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
@@ -285,7 +286,7 @@
             ammo_12x70_buck = 2 \n
         </supplies>
 
-        <start_dialog>zat_b22_stalker_medic_start</start_dialog>
+        <start_dialog>nep_jupiter_medic_ecolog_start</start_dialog>
         <actor_dialog>dm_init_medic</actor_dialog>
         <actor_dialog>dm_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
