@@ -60,6 +60,11 @@
         <text>Ну-ка, дай взгляну на тебя... Сынок, ты чего выдумаваешь? Мне б такое здоровье! Всё с тобой в порядке, не переживай.</text>
     </string>
 
+    <!-- Init -->
+    <string id="nep_cordon_medic_init_0">
+        <text>Ну, смотри, что есть.</text>
+    </string>
+
     <!-- Jupiter Ecolog Medic -->
     <!-- Start -->
     <string id="nep_jupiter_medic_ecolog_start">
@@ -104,6 +109,11 @@
     </string>
     <string id="nep_jupiter_medic_ecolog_general_10">
         <text>Лечение? Тебе? Босяк, не расчёсывай мне нервы, мне их есть куда тратить. Иди и делай себе раны, чтобы было куда лечить.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="ecolog_nep_jupiter_medic_init_0">
+        <text>Смотри, выбирай, но трогать нельзя, пока не купишь.</text>
     </string>
 
     <!-- Outskirts Stalker Medic -->
@@ -152,6 +162,11 @@
         <text>Подойди ко мне. Не-е, брат, куда уж тебя ещё лечить? Здоровья, как говорится, должно быть в меру, ха-ха-ха! Ладно, шучу. Здоров как пацан в военкомате.</text>
     </string>
 
+    <!-- Init -->
+    <string id="nep_pripyat_medic_stalker_init_0">
+        <text>Это мы мигом. Осматривайся, что приглянётся - говори, по цене не обижу.</text>
+    </string>
+
     <!-- Outskirts Killer Medic -->
     <!-- Start -->
     <string id="nep_pripyat_medic_killer_start">
@@ -187,6 +202,11 @@
     </string>
     <string id="killer_nep_outskirts_medic_general_10">
         <text>Ты мне лапшу не вешай, я же вижу, что ты здоров. Проваливай.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="nep_pripyat_medic_killer_init_0">
+        <text>Проходи, выбирай. Только сильно не задерживайся.</text>
     </string>
 
     <!-- Garbage Stalker Mechanic -->
@@ -253,8 +273,13 @@
     <string id="stalker_nep_garbage_medic_general_10">
         <text>Ну, это мы мигом... Так, не, не пытайся меня обмануть. Что тебе, халявных аскорбинок захотелось или что? Ты здоров как бык! Не трать моё время, оно очень дорогое.</text>
     </string>
+
+    <!-- Init -->
+    <string id="stalker_nep_garbage_medic_init_0">
+        <text>А, это без проблем, проходи, смотри! Скидок не предлагаю, итак всё дешёвое. Найдёшь дешевле, стреляй - обмануть хотят.</text>
+    </string>
  
-     <!-- Zaton Medic -->
+    <!-- Zaton Medic -->
     <!-- Start -->
     <string id="nep_zaton_medic_start_1">
         <text>Привет, сталкер. Какими ветрами к нам надуло?</text>

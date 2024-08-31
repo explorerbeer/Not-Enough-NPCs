@@ -123,6 +123,26 @@
         </phrase_list>
     </dialog>
 
+    <!-- Init -->
+    <dialog id="nep_cordon_medic_init">
+		<phrase_list>
+			<phrase id="0"> <!-- actor -->
+				<text>st_medic_dialog_init</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1"> <!-- npc -->
+				<precondition>dialogs_mlr.check_no_debt</precondition>
+				<text>nep_cordon_medic_init_0</text>
+				<action>dialogs.npc_is_trader</action>
+			</phrase>
+			<phrase id="2"> <!-- npc -->
+				<precondition>dialogs_mlr.check_debt</precondition>
+				<script_text>dialogs_mlr.st_debt_no_trade</script_text>
+			</phrase>
+		</phrase_list>
+    </dialog>
+
     <!-- Jupiter Ecolog Medic -->
     <!-- Start -->
     <dialog id="nep_jupiter_medic_ecolog_start">
@@ -231,6 +251,26 @@
                 <text>nep_jupiter_medic_ecolog_general_10</text>
             </phrase>
         </phrase_list>
+    </dialog>
+
+    <!-- Init -->
+    <dialog id="ecolog_nep_jupiter_medic_init">
+		<phrase_list>
+			<phrase id="0"> <!-- actor -->
+				<text>st_medic_dialog_init</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1"> <!-- npc -->
+				<precondition>dialogs_mlr.check_no_debt</precondition>
+				<text>ecolog_nep_jupiter_medic_init_0</text>
+				<action>dialogs.npc_is_trader</action>
+			</phrase>
+			<phrase id="2"> <!-- npc -->
+				<precondition>dialogs_mlr.check_debt</precondition>
+				<script_text>dialogs_mlr.st_debt_no_trade</script_text>
+			</phrase>
+		</phrase_list>
     </dialog>
 
     <!-- Outskirts Stalker Medic -->
@@ -345,6 +385,25 @@
         </phrase_list>
     </dialog>
 
+    <!-- Init -->
+    <dialog id="nep_pripyat_medic_stalker_init">
+		<phrase_list>
+			<phrase id="0"> <!-- actor -->
+				<text>st_medic_dialog_init</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1"> <!-- npc -->
+				<precondition>dialogs_mlr.check_no_debt</precondition>
+				<text>nep_pripyat_medic_stalker_init_0</text>
+				<action>dialogs.npc_is_trader</action>
+			</phrase>
+			<phrase id="2"> <!-- npc -->
+				<precondition>dialogs_mlr.check_debt</precondition>
+				<script_text>dialogs_mlr.st_debt_no_trade</script_text>
+			</phrase>
+		</phrase_list>
+    </dialog>
 
     <!-- Outskirts Killer Medic -->
     <!-- Start -->
@@ -443,6 +502,26 @@
                 <text>killer_nep_outskirts_medic_general_10</text>
             </phrase>
         </phrase_list>
+    </dialog>
+
+    <!-- Init -->
+    <dialog id="nep_pripyat_medic_killer_init">
+		<phrase_list>
+			<phrase id="0"> <!-- actor -->
+				<text>st_medic_dialog_init</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1"> <!-- npc -->
+				<precondition>dialogs_mlr.check_no_debt</precondition>
+				<text>nep_pripyat_medic_killer_init_0</text>
+				<action>dialogs.npc_is_trader</action>
+			</phrase>
+			<phrase id="2"> <!-- npc -->
+				<precondition>dialogs_mlr.check_debt</precondition>
+				<script_text>dialogs_mlr.st_debt_no_trade</script_text>
+			</phrase>
+		</phrase_list>
     </dialog>
 
     <!-- Garbage Stalker Mechanic -->
@@ -599,6 +678,26 @@
                 <text>stalker_nep_garbage_medic_general_10</text>
             </phrase>
         </phrase_list>
+    </dialog>
+
+    <!-- Init -->
+    <dialog id="stalker_nep_garbage_medic_init">
+		<phrase_list>
+			<phrase id="0"> <!-- actor -->
+				<text>st_medic_dialog_init</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1"> <!-- npc -->
+				<precondition>dialogs_mlr.check_no_debt</precondition>
+				<text>stalker_nep_garbage_medic_init_0</text>
+				<action>dialogs.npc_is_trader</action>
+			</phrase>
+			<phrase id="2"> <!-- npc -->
+				<precondition>dialogs_mlr.check_debt</precondition>
+				<script_text>dialogs_mlr.st_debt_no_trade</script_text>
+			</phrase>
+		</phrase_list>
     </dialog>
 
     <!-- Zaton Medic -->
