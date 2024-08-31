@@ -293,7 +293,7 @@
     </dialog>
 
     <!-- General -->
-    <dialog id="nep_jupiter_medic_ecolog_general">
+    <dialog id="stalker_nep_outskirts_medic_general">
         <phrase_list>
             <phrase id="0">
                 <text>st_dm_medic_general_text_0</text>
