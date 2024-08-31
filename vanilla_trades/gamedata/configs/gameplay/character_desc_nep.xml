@@ -290,6 +290,7 @@
         <actor_dialog>dm_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+        <actor_dialog>nep_jupiter_medic_ecolog_bio</actor_dialog>
         <actor_dialog>actor_break_dialog</actor_dialog>
 
         #include "gameplay\character_criticals.xml"

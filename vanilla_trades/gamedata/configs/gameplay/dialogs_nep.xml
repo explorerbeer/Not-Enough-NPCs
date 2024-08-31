@@ -122,4 +122,52 @@
             </phrase>
         </phrase_list>
     </dialog>
+
+<!-- Jupiter Ecolog Medic-->
+ <!-- Bio -->
+
+ <dialog id="nep_jupiter_medic_ecolog_bio">
+    <dont_has_info>nep_jupiter_medic_ecolog_bio_over</dont_has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>nep_jupiter_medic_ecolog_bio_1_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>nep_jupiter_medic_ecolog_bio_1_1</text>
+            <next>2</next>
+        </phrase>
+        <phrase id="2">
+            <text>nep_jupiter_medic_ecolog_bio_1_2</text>
+            <next>3</next>
+        </phrase>
+        <phrase id="3">
+            <text>nep_jupiter_medic_ecolog_bio_1_3</text>
+            <next>4</next>
+        </phrase>
+        <phrase id="4">
+            <text>nep_jupiter_medic_ecolog_bio_1_4</text>
+            <next>5</next>
+        </phrase>
+        <phrase id="5">
+            <text>nep_jupiter_medic_ecolog_bio_1_5</text>
+            <next>6</next>
+        </phrase>
+        <phrase id="6">
+            <text>nep_jupiter_medic_ecolog_bio_1_6</text>
+            <next>8</next>
+        </phrase>
+        <phrase id="7">
+            <text>nep_jupiter_medic_ecolog_bio_1_7</text>
+            <next>9</next>
+        </phrase>
+        <phrase id="8">
+            <text>nep_jupiter_medic_ecolog_bio_1_8</text>
+        </phrase>
+        <phrase id="9">
+            <text>nep_jupiter_medic_ecolog_bio_1_9</text>
+        </phrase>
+    </phrase_list>
+ </dialog>
+
 </game_dialogs>
