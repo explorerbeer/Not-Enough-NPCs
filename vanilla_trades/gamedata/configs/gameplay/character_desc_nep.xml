@@ -57,7 +57,7 @@
         </supplies>
 
         <start_dialog>nep_yantar_medic_start</start_dialog>
-        <actor_dialog>dm_init_medic</actor_dialog>
+        <actor_dialog>nep_yantar_medic_init</actor_dialog>
         <actor_dialog>nep_yantar_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
