@@ -91,10 +91,6 @@ job_descr = ecolog_nep_jupiter_medic_task_1_about
 fetch_descr = ecolog_nep_jupiter_medic_task_1_fetch_about
 task_complete_descr = ecolog_nep_jupiter_medic_task_1_fetch_finish
 
-stage_complete = 1
-status_functor = actor_has_fetch_item
-target_functor = general_fetch_task
-
 fetch_func = %=setup_generic_fetch_task(ecolog_nep_jupiter_medic_task_1_fetch:1:itm_drugkit)%
 on_complete = %=reward_stash(true) +ecolog_nep_jupiter_medic_drugkit_done =fetch_reward_and_remove(ecolog_nep_jupiter_medic_task_1_fetch:1.5) =complete_task_inc_goodwill(50:stalker) =inc_task_stage(ecolog_nep_jupiter_medic_task_1) =pstor_reset(ecolog_nep_jupiter_medic_task_1_fetch) =drx_sl_unregister_task_giver(ecolog_nep_jupiter_medic_task_1) =drx_sl_reset_stored_task(ecolog_nep_jupiter_medic_task_1)%
 on_fail = %=pstor_reset(ecolog_nep_jupiter_medic_task_1_fetch) =drx_sl_unregister_task_giver(ecolog_nep_jupiter_medic_task_1) =drx_sl_reset_stored_task(ecolog_nep_jupiter_medic_task_1)%
@@ -168,3 +164,26 @@ fetch_func = %=setup_generic_fetch_task(stalker_nep_garbage_medic_task_1_fetch:1
 on_complete = %=reward_stash(true) +stalker_nep_garbage_medic_drugkit_done =fetch_reward_and_remove(stalker_nep_garbage_medic_task_1_fetch:1.5) =complete_task_inc_goodwill(50:stalker) =inc_task_stage(stalker_nep_garbage_medic_task_1) =pstor_reset(stalker_nep_garbage_medic_task_1_fetch) =drx_sl_unregister_task_giver(stalker_nep_garbage_medic_task_1) =drx_sl_reset_stored_task(stalker_nep_garbage_medic_task_1)%
 on_fail = %=pstor_reset(stalker_nep_garbage_medic_task_1_fetch) =drx_sl_unregister_task_giver(stalker_nep_garbage_medic_task_1) =drx_sl_reset_stored_task(stalker_nep_garbage_medic_task_1)%
 condlist_0 = {!task_giver_alive(stalker_nep_garbage_medic_task_1)} fail
+
+[killer_nep_zaton_medic_task_1]
+icon = ui_inGame2_D_Sisshik
+prior = 50
+storyline = false
+precondition = {-killer_nep_zaton_medic_task_1_drugkit_done} true, false
+
+title = killer_nep_zaton_medic_task_1_name
+title_functor = general_fetch_task
+descr = killer_nep_zaton_medic_task_1_text
+descr_functor = general_fetch_task
+job_descr = killer_nep_zaton_medic_task_1_about
+fetch_descr = killer_nep_zaton_medic_task_1_fetch_about
+task_complete_descr = killer_nep_zaton_medic_task_1_fetch_finish
+
+stage_complete = 1
+status_functor = actor_has_fetch_item
+target_functor = general_fetch_task
+
+fetch_func = %=setup_generic_fetch_task(killer_nep_zaton_medic_task_1_fetch:1:itm_drugkit)%
+on_complete = %=reward_stash(true) +killer_nep_zaton_medic_task_1_drugkit_done =fetch_reward_and_remove(killer_nep_zaton_medic_task_1_fetch:1.5) =complete_task_inc_goodwill(50:bandit) =inc_task_stage(killer_nep_zaton_medic_task_1) =pstor_reset(killer_nep_zaton_medic_task_1_fetch) =drx_sl_unregister_task_giver(killer_nep_zaton_medic_task_1) =drx_sl_reset_stored_task(killer_nep_zaton_medic_task_1)%
+on_fail = %=pstor_reset(killer_nep_zaton_medic_task_1_fetch) =drx_sl_unregister_task_giver(killer_nep_zaton_medic_task_1) =drx_sl_reset_stored_task(killer_nep_zaton_medic_task_1)%
+condlist_0 = {!task_giver_alive(killer_nep_zaton_medic_task_1)} fail
