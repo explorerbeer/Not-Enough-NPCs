@@ -122,11 +122,12 @@
             ammo_7.62x51_fmj = 2 \n
         </supplies>
 
-        <start_dialog>zat_b22_stalker_medic_start</start_dialog>
+        <start_dialog>nep_zaton_medic_start</start_dialog>
         <actor_dialog>dm_init_medic</actor_dialog>
-        <actor_dialog>dm_medic_general</actor_dialog>
+        <actor_dialog>nep_zaton_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+        <actor_dialog>nep_zaton_medic_bio</actor_dialog>
         <actor_dialog>actor_break_dialog</actor_dialog>
 
         #include "gameplay\character_criticals.xml"
