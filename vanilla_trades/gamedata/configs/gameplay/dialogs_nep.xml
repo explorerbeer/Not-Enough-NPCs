@@ -171,7 +171,7 @@
             </phrase>
             <phrase id="8">
                 <text>nep_truck_cemetery_medic_bio_1_8</text>
-                <give_info>nep_cordon_medic_bio_over</give_info>
+                <give_info>nep_truck_cemetery_medic_bio_over</give_info>
             </phrase>
         </phrase_list>
     </dialog>
