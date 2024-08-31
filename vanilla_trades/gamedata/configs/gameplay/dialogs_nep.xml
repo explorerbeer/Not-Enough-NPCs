@@ -177,8 +177,8 @@
     </dialog>
 
     <!-- General -->
-    <dialog>
-        <phrase_list id="nep_truck_cemetery_medic_general">
+    <dialog id="nep_truck_cemetery_medic_general">
+        <phrase_list>
             <phrase id="0">
                 <text>st_dm_medic_general_text_0</text>
                 <next>1</next>
