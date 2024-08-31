@@ -157,7 +157,7 @@
 
         <start_dialog>nep_pripyat_medic_stalker_start</start_dialog>
         <actor_dialog>dm_init_medic</actor_dialog>
-        <actor_dialog>dm_medic_general</actor_dialog>
+        <actor_dialog>stalker_nep_outskirts_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
         <actor_dialog>nep_pripyat_medic_stalker_bio</actor_dialog>
@@ -191,7 +191,7 @@
 
         <start_dialog>nep_pripyat_medic_killer_start</start_dialog>
         <actor_dialog>dm_init_medic</actor_dialog>
-        <actor_dialog>dm_medic_general</actor_dialog>
+        <actor_dialog>killer_nep_outskirts_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
         <actor_dialog>nep_pripyat_medic_killer_bio</actor_dialog>
@@ -289,7 +289,7 @@
 
         <start_dialog>nep_jupiter_medic_ecolog_start</start_dialog>
         <actor_dialog>dm_init_medic</actor_dialog>
-        <actor_dialog>dm_medic_general</actor_dialog>
+        <actor_dialog>nep_jupiter_medic_ecolog_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
         <actor_dialog>nep_jupiter_medic_ecolog_bio</actor_dialog>
@@ -321,7 +321,7 @@
 
         <start_dialog>stalker_nep_garbage_medic_start</start_dialog>
         <actor_dialog>dm_init_medic</actor_dialog>
-        <actor_dialog>dm_medic_general</actor_dialog>
+        <actor_dialog>stalker_nep_garbage_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
         <actor_dialog>stalker_nep_garbage_medic_bio</actor_dialog>
@@ -355,7 +355,7 @@
 
         <start_dialog>stalker_nep_garbage_mechanic_start</start_dialog>
         <actor_dialog>dm_init_trader</actor_dialog>
-		<actor_dialog>dm_init_mechanic</actor_dialog>
+		<actor_dialog>stalker_nep_garbage_mechanic_init</actor_dialog>
 		<actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_encrypted_pda</actor_dialog>
