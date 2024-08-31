@@ -255,7 +255,7 @@
 
         <start_dialog>nep_jupiter_bandit_medic_start</start_dialog>
         <actor_dialog>dm_init_medic</actor_dialog>
-        <actor_dialog>dm_medic_general</actor_dialog>
+        <actor_dialog>nep_jupiter_bandit_medic_general</actor_dialog>
         <actor_dialog>dm_ordered_task_dialog</actor_dialog>
         <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
         <actor_dialog>nep_jupiter_bandit_medic_bio</actor_dialog>
