@@ -282,7 +282,7 @@
         </phrase_list>
     </dialog>
 
-<!-- Outskirts Killer Medic-->
+<!-- Garbage Stalker Mechanic-->
 
     <!-- Start -->
     <dialog id="stalker_nep_garbage_mechanic_start">
@@ -332,6 +332,36 @@
             <phrase id="8">
                 <text>stalker_nep_garbage_mechanic_bio_1_8</text>
                 <give_info>stalker_nep_garbage_mechanic_bio_over</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- Garbage Stalker Medic-->
+
+    <!-- Start -->
+    <dialog id="stalker_nep_garbage_medic_start">
+        <phrase_list>
+            <phrase id="0">
+                <text>stalker_nep_garbage_medic_start</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- Bio -->
+    <dialog id="stalker_nep_garbage_medic_bio">
+        <dont_has_info>stalker_nep_garbage_mechanic_bio_over</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>stalker_nep_garbage_mechanic_bio_1_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>stalker_nep_garbage_mechanic_bio_1_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>stalker_nep_garbage_mechanic_bio_1_2</text>
+                <give_info>stalker_nep_garbage_medic_bio_over</give_info>   
             </phrase>
         </phrase_list>
     </dialog>

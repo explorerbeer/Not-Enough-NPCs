@@ -200,6 +200,23 @@
    <string id="stalker_nep_garbage_mechanic_bio_1_8">
         <text>Зайду обязательно, Шпунт. Бывай.</text>
    </string> 
+   
+   <!-- Garbage Stalker Mechanic -->
+    <!-- Start -->
+    <string id="stalker_nep_garbage_medic_start">
+        <text>Приветствую. Ты по делу или так, поболтать?</text>
+    </string>
+
+    <!-- Bio -->
+    <string id="stalker_nep_garbage_medic_bio_1_0">
+        <text>Расскажи о себе.</text>
+    </string>
+    <string id="stalker_nep_garbage_medic_bio_1_1">
+        <text>Винт я. Врач и торговец. Лечу и торгую. \n \nЧего ты ещё ждёшь? Я что, похож на рассказчика? У меня нет ни времени, ни желания делиться тут с тобой своими откровениями. Что ты хочешь услышать, трагичную историю первой любви, мой любимый рецепт собачьих отбивных или пару тупых анекдотов? \n \nИди лучше к Шпунту, это мой брат, вон он сидит. Он, в отличие от меня, говорить любит, так что доставай его, а мне не мешай работать.</text>
+    </string>
+    <string id="stalker_nep_garbage_medic_bio_1_2">
+        <text>Ну, как скажешь.</text>
+    </string>
 </string_table>
 
     
