@@ -314,6 +314,14 @@
                 <text>nep_jupiter_bandit_medic_bio_1_4_8_2</text>
                 <give_info>nep_jupiter_bandit_medic_bio_over</give_info>
             </phrase>
+            <phrase id="50">
+                <text>nep_jupiter_bandit_medic_bio_1_5_0</text>
+                <next>51</next>
+            </phrase>
+            <phrase id="51">
+                <text>nep_jupiter_bandit_medic_bio_1_5_1</text>
+                <next>42</next>
+            </phrase>
         </phrase_list>
     </dialog>
 </game_dialogs>
