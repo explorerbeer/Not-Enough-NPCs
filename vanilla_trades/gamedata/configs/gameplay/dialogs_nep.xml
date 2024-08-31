@@ -282,6 +282,7 @@
             </phrase>
             <phrase id="8">
                 <text>nep_pripyat_medic_stalker_bio_1_8</text>
+                <give_info>nep_pripyat_medic_stalker_bio_over</give_info>
             </phrase>
             <phrase id="9">
                 <text>nep_pripyat_medic_stalker_bio_1_9</text>
