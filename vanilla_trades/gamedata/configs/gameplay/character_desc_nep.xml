@@ -263,7 +263,7 @@
     </specific_character>
 
     <!-- Jupiter Ecologist Medic -->
-    <specific_character id="ecolog_nep_jupiter_medic" team_default="1">
+    <specific_character id="ecolog_nep_jupiter_medic" team_default="2">
         <name>ecolog_nep_jupiter_medic_name</name>
         <bio>ecolog_nep_jupiter_medic_bio</bio>
         <icon>ui_inGame2_Waksman</icon>
