@@ -122,4 +122,198 @@
             </phrase>
         </phrase_list>
     </dialog>
+
+    <!-- Truck Cemetery Medic -->
+    <!-- Start dialog -->
+    <dialog id="nep_truck_cemetery_medic_start">
+        <phrase_list>
+            <phrase id="0">
+                <text>nep_truck_cemetery_medic_start_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    
+    <!-- Bio -->
+    <dialog id="nep_truck_cemetery_medic_bio">
+        <dont_has_info>nep_truck_cemetery_medic_bio_over</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>nep_truck_cemetery_medic_bio_1_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>nep_truck_cemetery_medic_bio_1_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>nep_truck_cemetery_medic_bio_1_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>nep_truck_cemetery_medic_bio_1_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>nep_truck_cemetery_medic_bio_1_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>nep_truck_cemetery_medic_bio_1_5</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="6">
+                <text>nep_truck_cemetery_medic_bio_1_6</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="7">
+                <text>nep_truck_cemetery_medic_bio_1_7</text>
+                <next>8</next>
+            </phrase>
+            <phrase id="8">
+                <text>nep_truck_cemetery_medic_bio_1_8</text>
+                <give_info>nep_cordon_medic_bio_over</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- General -->
+    <dialog>
+        <phrase_list id="nep_truck_cemetery_medic_general">
+            <phrase id="0">
+                <text>st_dm_medic_general_text_0</text>
+                <next>1</next>
+                <next>10</next>
+            </phrase>
+            <phrase id="1">
+                <precondition>dialogs.is_actor_not_healthy</precondition>
+                <text>nep_truck_cemetery_medic_general_1</text>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+            </phrase>
+            <phrase id="2">
+				<precondition>dialogs.is_actor_injured</precondition>
+                <text>st_dm_medic_general_text_2</text>
+                <action>dialogs.heal_actor_injury</action>
+				<action>medic_effects.medic_anim</action>
+				<next>6</next>
+            </phrase>
+            <phrase id="3">
+                <precondition>dialogs.is_actor_irradiated</precondition>
+				<text>st_dm_medic_general_text_3</text>
+				<action>dialogs.heal_actor_radiation</action>
+				<action>medic_effects.medic_rad_anim</action>
+				<next>6</next>
+            </phrase>
+            <phrase id="4">
+                <precondition>dialogs.is_actor_injured_irradiated</precondition>
+				<text>st_dm_medic_general_text_4</text>
+				<action>dialogs.heal_actor_injury_radiation</action>
+				<action>medic_effects.medic_anim</action>
+				<next>6</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_dm_medic_general_text_5</text>
+				<next>7</next>
+            </phrase>
+            <phrase id="6">
+				<text>st_dm_medic_general_text_6</text>
+            </phrase>
+            <phrase id="7">
+				<text>st_dm_medic_general_text_7</text>
+			</phrase>
+            <phrase id="10">
+				<precondition>dialogs.is_actor_healthy</precondition>
+                <text>nep_truck_cemetery_medic_general_10</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- Jupiter Bandit Medic -->
+    <!-- Start -->
+    <dialog id="nep_jupiter_bandit_medic_start">
+        <phrase_list>
+            <phrase id="0">
+                <text>nep_jupiter_bandit_medic_start_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    
+    <!-- Bio -->
+    <dialog id="nep_jupiter_bandit_medic_bio">
+        <dont_has_info>nep_jupiter_bandit_medic_bio_over</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>nep_jupiter_bandit_medic_bio_1_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>nep_jupiter_bandit_medic_bio_1_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>nep_jupiter_bandit_medic_bio_1_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>nep_jupiter_bandit_medic_bio_1_3</text>
+                <next>40</next>
+                <next>50</next>
+            </phrase>
+            <phrase id="40">
+                <text>nep_jupiter_bandit_medic_bio_1_4_0</text>
+                <next>41</next>
+            </phrase>
+            <phrase id="41">
+                <text>nep_jupiter_bandit_medic_bio_1_4_1</text>
+                <next>42</next>
+            </phrase>
+            <phrase id="42">
+                <text>nep_jupiter_bandit_medic_bio_1_4_2</text>
+                <next>43</next>
+            </phrase>
+            <phrase id="43">
+                <text>nep_jupiter_bandit_medic_bio_1_4_3</text>
+                <next>44</next>
+            </phrase>
+            <phrase id="44">
+                <text>nep_jupiter_bandit_medic_bio_1_4_4</text>
+                <next>45</next>
+            </phrase>
+            <phrase id="45">
+                <text>nep_jupiter_bandit_medic_bio_1_4_5</text>
+                <next>46</next>
+            </phrase>
+            <phrase id="46">
+                <text>nep_jupiter_bandit_medic_bio_1_4_6</text>
+                <next>470</next>
+                <next>480</next>
+            </phrase>
+            <phrase id="470">
+                <text>nep_jupiter_bandit_medic_bio_1_4_7_0</text>
+                <give_info>saw_waksman</give_info>
+                <next>471</next>
+            </phrase>
+            <phrase id="471">
+                <text>nep_jupiter_bandit_medic_bio_1_4_7_1</text>
+                <next>472</next>
+            </phrase>
+            <phrase id="472">
+                <text>nep_jupiter_bandit_medic_bio_1_4_7_2</text>
+            </phrase>
+            <phrase id="480">
+                <text>nep_jupiter_bandit_medic_bio_1_4_8_0</text>
+                <next>481</next>
+            </phrase>
+            <phrase id="481">
+                <text>nep_jupiter_bandit_medic_bio_1_4_8_1</text>
+                <next>482</next>
+            </phrase>
+            <phrase id="482">
+                <text>nep_jupiter_bandit_medic_bio_1_4_8_2</text>
+                <give_info>nep_jupiter_bandit_medic_bio_over</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
 </game_dialogs>
