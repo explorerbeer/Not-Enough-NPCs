@@ -127,11 +127,11 @@
     </string>
 
     <!-- Killer Outskirts Medic -->
-    <string id="encyclopedia_characters_stalker_nep_outskirts_medic">
+    <string id="encyclopedia_characters_killer_nep_outskirts_medic">
         <text>Фармацевт</text>
     </string>
 
-    <string id="encyclopedia_characters_stalker_nep_outskirts_medic_text">
+    <string id="encyclopedia_characters_killer_nep_outskirts_medic_text">
         <text>
             %c[pda_white]Фармацевт%c[ui_gray_1] - врач, член отряда Грифона в окрестностях Припяти.\n
             \n%c[pda_green]Информация%c[ui_gray_1]\n

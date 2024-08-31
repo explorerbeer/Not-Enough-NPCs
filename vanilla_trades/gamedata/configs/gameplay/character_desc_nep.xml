@@ -352,6 +352,7 @@
             ammo_5.45x39_fmj = 2 \n
         </supplies>
 
+        <start_dialog>stalker_nep_garbage_mechanic_start</start_dialog>
         <actor_dialog>dm_init_trader</actor_dialog>
 		<actor_dialog>dm_init_mechanic</actor_dialog>
 		<actor_dialog>dm_ordered_task_dialog</actor_dialog>
@@ -359,6 +360,7 @@
 		<actor_dialog>dm_encrypted_pda</actor_dialog>
         <actor_dialog>dm_tech_repair</actor_dialog>
 		<actor_dialog>awr_tech_dialog_drink_1</actor_dialog>
+        <actor_dialog></actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
         
         #include "gameplay\character_criticals.xml"
