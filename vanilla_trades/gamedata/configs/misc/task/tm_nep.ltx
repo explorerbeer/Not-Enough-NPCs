@@ -234,29 +234,29 @@ target_functor = general_fetch_task
 status_functor = actor_has_fetch_item
 
 condlist_0 = {!task_giver_alive(stalker_nep_garbage_mechanic_task_1)} fail
-fetch_func = %=setup_generic_fetch_task(stalker_nep_garbage_mechanic_task_1_fetch:1:itm_basickit stalker_nep_garbage_mechanic_task_1_fetch:1:itm_advancedkit)%
+fetch_func = %=setup_generic_fetch_task(stalker_nep_garbage_mechanic_task_1_fetch:1:itm_basickit)%
 on_complete = %=complete_task_inc_goodwill(50:stalker) =fetch_reward_and_remove(stalker_nep_garbage_mechanic_task_1_fetch) =inc_task_stage(stalker_nep_garbage_mechanic_task_1) +stalker_nep_garbage_mechanic_upgrade_tier_1 +stalker_nep_garbage_mechanic_upgrade_tier_2 =drx_sl_unregister_task_giver(stalker_nep_garbage_mechanic_task_1)%
 on_fail = %=fail_task_dec_goodwill(25:stalker) =drx_sl_unregister_task_giver(stalker_nep_garbage_mechanic_task_1)%
 
-[stalker_nep_garbage_mechanic_task_3]	;-- Find Level 3 Toolkit Task
+[stalker_nep_garbage_mechanic_task_2]	;-- Find Level 2 Toolkit Task
 icon = ui_inGame2_Instrumenti
 storyline = false
-prior = 17
+prior = 16
 precondition = {+stalker_nep_garbage_mechanic_upgrade_tier_1 +stalker_nep_garbage_mechanic_upgrade_tier_2 -stalker_nep_garbage_mechanic_upgrade_tier_3} true, false
 
-title = stalker_nep_garbage_mechanic_task_3_name
+title = stalker_nep_garbage_mechanic_task_2_name
 title_functor = general_fetch_task
-descr = stalker_nep_garbage_mechanic_task_3_text
+descr = stalker_nep_garbage_mechanic_task_2_text
 descr_functor = general_fetch_task
-job_descr = stalker_nep_garbage_mechanic_task_3_about
-fetch_descr = stalker_nep_garbage_mechanic_task_3_fetch_about
-task_complete_descr = stalker_nep_garbage_mechanic_task_3_fetch_finish
+job_descr = stalker_nep_garbage_mechanic_task_2_about
+fetch_descr = stalker_nep_garbage_mechanic_task_2_fetch_about
+task_complete_descr = stalker_nep_garbage_mechanic_task_2_fetch_finish
 
 stage_complete = 1
 target_functor = general_fetch_task
 status_functor = actor_has_fetch_item
 
-condlist_0 = {!task_giver_alive(stalker_nep_garbage_mechanic_task_3)} fail
-fetch_func = %=setup_generic_fetch_task(stalker_nep_garbage_mechanic_task_3_fetch:1:itm_expertkit)%
-on_complete = %=complete_task_inc_goodwill(50:killer) =fetch_reward_and_remove(stalker_nep_garbage_mechanic_task_3_fetch) =inc_task_stage(stalker_nep_garbage_mechanic_task_3) +stalker_nep_garbage_mechanic_upgrade_tier_3 =drx_sl_unregister_task_giver(stalker_nep_garbage_mechanic_task_3)%
-on_fail = %=fail_task_dec_goodwill(25:killer) =drx_sl_unregister_task_giver(stalker_nep_garbage_mechanic_task_3)%
+condlist_0 = {!task_giver_alive(stalker_nep_garbage_mechanic_task_2)} fail
+fetch_func = %=setup_generic_fetch_task(stalker_nep_garbage_mechanic_task_2_fetch:1:itm_expertkit)%
+on_complete = %=complete_task_inc_goodwill(50:killer) =fetch_reward_and_remove(stalker_nep_garbage_mechanic_task_2_fetch) =inc_task_stage(stalker_nep_garbage_mechanic_task_2) +stalker_nep_garbage_mechanic_upgrade_tier_2 =drx_sl_unregister_task_giver(stalker_nep_garbage_mechanic_task_2)%
+on_fail = %=fail_task_dec_goodwill(25:killer) =drx_sl_unregister_task_giver(stalker_nep_garbage_mechanic_task_2)%
