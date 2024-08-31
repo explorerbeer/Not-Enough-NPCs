@@ -132,7 +132,7 @@
             </phrase>
         </phrase_list>
     </dialog>
-
+    
     <!-- Bio -->
     <dialog id="nep_jupiter_medic_ecolog_bio">
         <dont_has_info>nep_jupiter_medic_ecolog_bio_over</dont_has_info>
@@ -177,7 +177,7 @@
                 <give_info>nep_jupiter_medic_ecolog_bio_over</give_info>
             </phrase>
         </phrase_list>
-    </dialog>
+    </dialog> 
 
     <!-- General -->
     <dialog id="nep_jupiter_medic_ecolog_general">
@@ -711,6 +711,125 @@
 			<phrase id="1"> <!-- npc -->
 				<precondition>dialogs_mlr.check_no_debt</precondition>
 				<text>nep_zaton_medic_init_0</text>
+				<action>dialogs.npc_is_trader</action>
+			</phrase>
+			<phrase id="2"> <!-- npc -->
+				<precondition>dialogs_mlr.check_debt</precondition>
+				<script_text>dialogs_mlr.st_debt_no_trade</script_text>
+			</phrase>
+		</phrase_list>
+    </dialog>
+
+    <!-- Yantar Medic -->
+    <!-- Start -->
+    <dialog id="nep_yantar_medic_start">
+        <phrase_list>
+            <phrase id="0">
+                <text>nep_yantar_medic_start_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- Bio -->
+    <dialog id="nep_yantar_medic_bio">
+        <dont_has_info>nep_yantar_medic_bio_over</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>nep_yantar_medic_bio_1_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>nep_yantar_medic_bio_1_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>nep_yantar_medic_bio_1_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>nep_yantar_medic_bio_1_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>nep_yantar_medic_bio_1_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>nep_yantar_medic_bio_1_5</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="6">
+                <text>nep_yantar_medic_bio_1_6</text>
+                <give_info>nep_yantar_medic_bio_over</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- General -->
+    <dialog id="nep_yantar_medic_general">
+        <phrase_list>
+            <phrase id="0">
+                <text>st_dm_medic_general_text_0</text>
+                <next>1</next>
+                <next>10</next>
+            </phrase>
+            <phrase id="1">
+                <precondition>dialogs.is_actor_not_healthy</precondition>
+                <text>nep_yantar_medic_general_1</text>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+            </phrase>
+            <phrase id="2">
+                <precondition>dialogs.is_actor_injured</precondition>
+                <text>st_dm_medic_general_text_2</text>
+                <action>dialogs.heal_actor_injury</action>
+                <action>medic_effects.medic_anim</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="3">
+                <precondition>dialogs.is_actor_irradiated</precondition>
+                <text>st_dm_medic_general_text_3</text>
+                <action>dialogs.heal_actor_radiation</action>
+                <action>medic_effects.medic_rad_anim</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="4">
+                <precondition>dialogs.is_actor_injured_irradiated</precondition>
+                <text>st_dm_medic_general_text_4</text>
+                <action>dialogs.heal_actor_injury_radiation</action>
+                <action>medic_effects.medic_anim</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_dm_medic_general_text_5</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="6">
+                <text>st_dm_medic_general_text_6</text>
+            </phrase>
+            <phrase id="7">
+                <text>st_dm_medic_general_text_7</text>
+            </phrase>
+            <phrase id="10">
+                <precondition>dialogs.is_actor_healthy</precondition>
+            <text>nep_yantar_medic_general_10</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- Init -->
+    <dialog id="nep_yantar_medic_init">
+        <phrase_list>
+            <phrase id="0"> <!-- actor -->
+                <text>st_medic_dialog_init</text>
+                <next>1</next>
+                <next>2</next>
+            </phrase>
+            <phrase id="1"> <!-- npc -->
+            <precondition>dialogs_mlr.check_no_debt</precondition>
+                <text>nep_yantar_medic_init_0</text>
 				<action>dialogs.npc_is_trader</action>
 			</phrase>
 			<phrase id="2"> <!-- npc -->
