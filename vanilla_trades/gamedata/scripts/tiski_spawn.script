@@ -38,8 +38,8 @@ function actor_on_first_update()
 
     if bind_awr.angles_t["gar_awr_tiski_01"] then
         local m_data = alife_storage_manager.get_state()
-        
-        bind_awr.angles_t["gar_awr_tiski_01" .. workbench_nep.id] = bind_awr.angles_t["gar_awr_tiski_01"]
+
+        bind_awr.angles_t["gar_awr_tiski_01" .. m_data.tiski_id] = bind_awr.angles_t["gar_awr_tiski_01"]
 	    bind_awr.angles_t["gar_awr_tiski_01"] = nil
     end
 end
