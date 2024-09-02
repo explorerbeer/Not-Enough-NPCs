@@ -69,6 +69,7 @@
 Список людей, оказавших мне помощь с созданием данного аддона:
 | Никнейм     | Описание                                                                            |
 |-------------|-------------------------------------------------------------------------------------|
+| VodoXleb    | Помощь с проблемой привязки верстака к NPC.                                         |
 | NLTP_ASHES  | Объяснение принципа работы скрипта спавна и логики NPC.                             |
 | Longreed    | Plenty of help regarding NPC logic, as well as help with smart cover spawn scripts. |
 | xcvb (bvcx) | Help with NPC logic, workbench vise spawn.                                          |
