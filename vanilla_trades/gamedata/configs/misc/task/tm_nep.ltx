@@ -173,7 +173,7 @@ condlist_0 = {!task_giver_alive(stalker_nep_garbage_medic_task_1)} fail
 icon = ui_inGame2_D_Sisshik
 prior = 50
 storyline = false
-precondition = {-killer_nep_zaton_medic_task_1_drugkit_done} true, false
+precondition = {-killer_nep_zaton_medic_drugkit_done} true, false
 
 title = killer_nep_zaton_medic_task_1_name
 title_functor = general_fetch_task
@@ -188,7 +188,7 @@ status_functor = actor_has_fetch_item
 target_functor = general_fetch_task
 
 fetch_func = %=setup_generic_fetch_task(killer_nep_zaton_medic_task_1_fetch:1:itm_drugkit)%
-on_complete = %=reward_stash(true) +killer_nep_zaton_medic_task_1_drugkit_done =fetch_reward_and_remove(killer_nep_zaton_medic_task_1_fetch:1.5) =complete_task_inc_goodwill(50:bandit) =inc_task_stage(killer_nep_zaton_medic_task_1) =pstor_reset(killer_nep_zaton_medic_task_1_fetch) =drx_sl_unregister_task_giver(killer_nep_zaton_medic_task_1) =drx_sl_reset_stored_task(killer_nep_zaton_medic_task_1)%
+on_complete = %=reward_stash(true) +killer_nep_zaton_medic_drugkit_done =fetch_reward_and_remove(killer_nep_zaton_medic_task_1_fetch:1.5) =complete_task_inc_goodwill(50:bandit) =inc_task_stage(killer_nep_zaton_medic_task_1) =pstor_reset(killer_nep_zaton_medic_task_1_fetch) =drx_sl_unregister_task_giver(killer_nep_zaton_medic_task_1) =drx_sl_reset_stored_task(killer_nep_zaton_medic_task_1)%
 on_fail = %=pstor_reset(killer_nep_zaton_medic_task_1_fetch) =drx_sl_unregister_task_giver(killer_nep_zaton_medic_task_1) =drx_sl_reset_stored_task(killer_nep_zaton_medic_task_1)%
 condlist_0 = {!task_giver_alive(killer_nep_zaton_medic_task_1)} fail
 
@@ -196,7 +196,7 @@ condlist_0 = {!task_giver_alive(killer_nep_zaton_medic_task_1)} fail
 icon = ui_inGame2_D_Sisshik
 prior = 50
 storyline = false
-precondition = {-bandit_nep_jupiter_medic_task_1_drugkit_done} true, false
+precondition = {-bandit_nep_jupiter_medic_drugkit_done} true, false
 
 title = bandit_nep_jupiter_medic_task_1_task_1_name
 title_functor = general_fetch_task
@@ -211,52 +211,54 @@ status_functor = actor_has_fetch_item
 target_functor = general_fetch_task
 
 fetch_func = %=setup_generic_fetch_task(bandit_nep_jupiter_medic_task_1_task_1_fetch:1:itm_drugkit)%
-on_complete = %=reward_stash(true) +bandit_nep_jupiter_medic_task_1_drugkit_done =fetch_reward_and_remove(bandit_nep_jupiter_medic_task_1_task_1_fetch:1.5) =complete_task_inc_goodwill(50:bandit) =inc_task_stage(bandit_nep_jupiter_medic_task_1_task_1) =pstor_reset(bandit_nep_jupiter_medic_task_1_task_1_fetch) =drx_sl_unregister_task_giver(bandit_nep_jupiter_medic_task_1_task_1) =drx_sl_reset_stored_task(bandit_nep_jupiter_medic_task_1_task_1)%
+on_complete = %=reward_stash(true) +bandit_nep_jupiter_medic_drugkit_done =fetch_reward_and_remove(bandit_nep_jupiter_medic_task_1_task_1_fetch:1.5) =complete_task_inc_goodwill(50:bandit) =inc_task_stage(bandit_nep_jupiter_medic_task_1_task_1) =pstor_reset(bandit_nep_jupiter_medic_task_1_task_1_fetch) =drx_sl_unregister_task_giver(bandit_nep_jupiter_medic_task_1_task_1) =drx_sl_reset_stored_task(bandit_nep_jupiter_medic_task_1_task_1)%
 on_fail = %=pstor_reset(bandit_nep_jupiter_medic_task_1_task_1_fetch) =drx_sl_unregister_task_giver(bandit_nep_jupiter_medic_task_1_task_1) =drx_sl_reset_stored_task(bandit_nep_jupiter_medic_task_1_task_1)%
 condlist_0 = {!task_giver_alive(bandit_nep_jupiter_medic_task_1_task_1)} fail
 
-[stalker_nep_garbage_mechanic_task_1]	;-- Find Level 1 Toolkit Task
-icon = ui_inGame2_Instrumenti
-storyline = false
-prior = 15
-precondition = {-stalker_nep_garbage_mechanic_upgrade_tier_1 -stalker_nep_garbage_mechanic_upgrade_tier_2} true, false
+[stalker_nep_garbage_mechanic_task_1]
+precondition = {-stalker_nep_garbage_mechanic_upgrade_tier_1} true, false
 
 title = stalker_nep_garbage_mechanic_task_1_name
-title_functor = general_fetch_task
-descr = stalker_nep_garbage_mechanic_task_1_text
-descr_functor = general_fetch_task
 job_descr = stalker_nep_garbage_mechanic_task_1_about
-fetch_descr = stalker_nep_garbage_mechanic_task_1_fetch_about
-task_complete_descr = stalker_nep_garbage_mechanic_task_1_fetch_finish
+task_complete_descr = stalker_nep_garbage_mechanic_task_1_finish
 
 stage_complete = 1
-target_functor = general_fetch_task
-status_functor = actor_has_fetch_item
+descr_functor = multifetch_task_descr_functor
+status_functor = multifetch_status_functor
+target_functor = multifetch_target_functor
+
+required_item_1 = itm_basickit
+required_item_1_num = 1
+required_item_2 = itm_advancedkit
+required_item_2_num = 1
 
 condlist_0 = {!task_giver_alive(stalker_nep_garbage_mechanic_task_1)} fail
-fetch_func = %=setup_generic_fetch_task(stalker_nep_garbage_mechanic_task_1_fetch:1:itm_basickit)%
-on_complete = %=complete_task_inc_goodwill(50:stalker) =fetch_reward_and_remove(stalker_nep_garbage_mechanic_task_1_fetch) =inc_task_stage(stalker_nep_garbage_mechanic_task_1) +stalker_nep_garbage_mechanic_upgrade_tier_1 +stalker_nep_garbage_mechanic_upgrade_tier_2 =drx_sl_unregister_task_giver(stalker_nep_garbage_mechanic_task_1)%
-on_fail = %=fail_task_dec_goodwill(25:stalker) =drx_sl_unregister_task_giver(stalker_nep_garbage_mechanic_task_1)%
+on_job_descr = %=multifetch_on_job_descr(stalker_nep_garbage_mechanic_task_1)%
+on_complete = %=multifetch_remove(stalker_nep_garbage_mechanic_task_1:true) =complete_task_inc_goodwill(50:stalker) =reward_stash(true) +stalker_nep_garbage_mechanic_upgrade_tier_1 +stalker_nep_garbage_mechanic_upgrade_tier_2%
+on_fail = %=fail_task_dec_goodwill(25:stalker)%
 
-[stalker_nep_garbage_mechanic_task_2]	;-- Find Level 2 Toolkit Task
-icon = ui_inGame2_Instrumenti
-storyline = false
-prior = 16
-precondition = {+stalker_nep_garbage_mechanic_upgrade_tier_1 +stalker_nep_garbage_mechanic_upgrade_tier_2 -stalker_nep_garbage_mechanic_upgrade_tier_3} true, false
+[stalker_nep_garbage_mechanic_task_2]
+precondition = {+stalker_nep_garbage_mechanic_upgrade_tier_2 -stalker_nep_garbage_mechanic_upgrade_tier_3} true, false
 
 title = stalker_nep_garbage_mechanic_task_2_name
-title_functor = general_fetch_task
-descr = stalker_nep_garbage_mechanic_task_2_text
-descr_functor = general_fetch_task
 job_descr = stalker_nep_garbage_mechanic_task_2_about
-fetch_descr = stalker_nep_garbage_mechanic_task_2_fetch_about
-task_complete_descr = stalker_nep_garbage_mechanic_task_2_fetch_finish
+task_complete_descr = stalker_nep_garbage_mechanic_task_2_finish
 
 stage_complete = 1
-target_functor = general_fetch_task
-status_functor = actor_has_fetch_item
+descr_functor = multifetch_task_descr_functor
+status_functor = multifetch_status_functor
+target_functor = multifetch_target_functor
+
+optional_item_1 = itm_ammokit
+optional_item_1_num = 1
+
+required_item_1 = itm_expertkit
+required_item_1_num = 1
+
+on_extra_items_delivered_1 = %=reward_stash(true)%
 
 condlist_0 = {!task_giver_alive(stalker_nep_garbage_mechanic_task_2)} fail
-fetch_func = %=setup_generic_fetch_task(stalker_nep_garbage_mechanic_task_2_fetch:1:itm_expertkit)%
-on_complete = %=complete_task_inc_goodwill(50:killer) =fetch_reward_and_remove(stalker_nep_garbage_mechanic_task_2_fetch) =inc_task_stage(stalker_nep_garbage_mechanic_task_2) +stalker_nep_garbage_mechanic_upgrade_tier_2 =drx_sl_unregister_task_giver(stalker_nep_garbage_mechanic_task_2)%
-on_fail = %=fail_task_dec_goodwill(25:killer) =drx_sl_unregister_task_giver(stalker_nep_garbage_mechanic_task_2)%
+on_job_descr = %=multifetch_on_job_descr(stalker_nep_garbage_mechanic_task_2)%
+on_complete = %=multifetch_task_trigger_extra_items_condlist(stalker_nep_garbage_mechanic_task_2) =multifetch_remove(stalker_nep_garbage_mechanic_task_2:true) =complete_task_inc_goodwill(50:stalker) =reward_stash(true) +stalker_nep_garbage_mechanic_upgrade_tier_3%
+on_fail = %=fail_task_dec_goodwill(25:stalker)%
+

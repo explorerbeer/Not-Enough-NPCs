@@ -1,7 +1,7 @@
 ---==================================================================================================================---
 ---                                                                                                                  ---
----    Original Author(s) : Longreed                                                                                 ---
----    Edited : explorerbee                                                                                          ---
+---    Original Author(s) : bvcx                                                                                 ---
+---    Edited : explorerbee, VodoXleb                                                                                          ---
 ---    Date : 15/08/2024                                                                                             ---
 ---    License : Proprietary                                                                                         ---
 ---                                                                                                                  ---
@@ -10,7 +10,7 @@
 local info_check = "workbench spawned"
 
 function spawn_workbench()
-    local workbench_nep = alife_create("tiski_nep_garbage", vector():set(-109.26, 1.8061, 24.95), 94119, 725)
+    local workbench_nep = alife_create("gar_awr_tiski_01", vector():set(-109.26, 1.8061, 24.95), 94119, 725)
     workbench_nep.angle = vector():set(0, -1.5708, 0)
 
     local data = utils_stpk.get_physic_data(workbench_nep)
@@ -18,12 +18,14 @@ function spawn_workbench()
         [collide]
         ignore_static
         ignore_small_objects
-
         [logic]
         cfg = scripts\garbage\tiski_01.ltx
     ]]
 
     utils_stpk.set_physic_data(data, workbench_nep)
+
+    bind_awr.angles_t["gar_awr_tiski_01"..workbench_nep.id] = bind_awr.angles_t["gar_awr_tiski_01"]
+	bind_awr.angles_t["gar_awr_tiski_01"] = nil
 end
 
 function actor_on_first_update()
