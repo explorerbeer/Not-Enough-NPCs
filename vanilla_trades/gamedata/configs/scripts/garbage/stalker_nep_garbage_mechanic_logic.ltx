@@ -28,19 +28,18 @@ corpse_detection_enabled            = false
 meet                                = meet
 
 [beh@teleport]
-on_info                             = %=teleport_npc_lvid(98333)% animpoint@stalker_nep_garbage_mechanic_idle
+on_info                             = %=teleport_npc_lvid(94673)% animpoint@stalker_nep_garbage_mechanic_idle
 
 [animpoint@stalker_nep_garbage_mechanic_idle]:animpoint@general
-cover_name                          = stalker_nep_garbage_mechanic_cover_idle
-avail_animations                    = animpoint_sit_normal
+cover_name                          = gar_smart_cover_mlr_tech_angar
 
-on_info                             = {+awr_stalker_nep_garbage_mechanic_access} animpoint@stalker_nep_garbage_mechanic_job
+; on_info                             = {+awr_stalker_nep_garbage_mechanic_access} animpoint@stalker_nep_garbage_mechanic_job
 
-[animpoint@stalker_nep_garbage_mechanic_job]:animpoint@general
-cover_name                          = stalker_nep_garbage_mechanic_cover_job
-avail_animations                    = animpoint_sit_normal
-on_game_timer                       = 2000 | animpoint@stalker_nep_garbage_mechanic_idle %=awr_timer_msg_off%
-meet                                = no_meet
+; [animpoint@stalker_nep_garbage_mechanic_job]:animpoint@general
+; cover_name                          = stalker_nep_garbage_mechanic_cover_job
+; avail_animations                    = animpoint_sit_normal_drink_vodka
+; on_game_timer                       = 2000 | animpoint@stalker_nep_garbage_mechanic_idle %=awr_timer_msg_off%
+; meet                                = no_meet
 
 [meet]
 close_anim                          = nil
