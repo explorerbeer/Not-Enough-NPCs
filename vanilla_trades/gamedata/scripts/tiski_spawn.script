@@ -26,8 +26,6 @@ function spawn_workbench()
     ]]
 
     utils_stpk.set_physic_data(data, workbench_nep)
-
-    
 end
 
 function actor_on_first_update()
