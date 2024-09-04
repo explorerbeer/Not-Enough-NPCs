@@ -166,7 +166,7 @@
         <dont_has_info>nep_jupiter_medic_ecolog_bio_over</dont_has_info>
         <phrase_list>
             <phrase id="0">
-                <give_info>met_with_waxman</give_info>
+                <give_info>met_with_waksman</give_info>
                 <text>nep_jupiter_medic_ecolog_bio_1_0</text>
                 <next>1</next>
             </phrase>
@@ -189,6 +189,7 @@
             <phrase id="5">
                 <text>nep_jupiter_medic_ecolog_bio_1_5</text>
                 <next>6</next>
+                <next>7</next>
             </phrase>
             <phrase id="6">
                 <text>nep_jupiter_medic_ecolog_bio_1_6</text>
@@ -203,8 +204,8 @@
                 <next>80</next>
                 <next>800</next>
             </phrase>
-            <has_info>met_with_acid</has_info>
             <phrase id="80">
+                <has_info>met_with_acid</has_info>
                 <text>nep_jupiter_medic_ecolog_bio_1_80</text>
                 <next>81</next>
             </phrase>
@@ -214,6 +215,7 @@
             </phrase>
             <phrase id="82">
                 <text>nep_jupiter_medic_ecolog_bio_1_82</text>
+                <give_info>nep_jupiter_medic_ecolog_bio_over</give_info>
             </phrase>
             <phrase id="800">
                 <text>nep_jupiter_medic_ecolog_bio_1_800</text>
@@ -225,16 +227,8 @@
             </phrase>
             <phrase id="9">
                 <text>nep_jupiter_medic_ecolog_bio_1_9</text>
-                <next>90</next>
-                <next>900</next>
-            </phrase>
-            <phrase id="90">
-                <text>nep_jupiter_medic_ecolog_bio_1_90</text>
-                <next>81</next>
-            </phrase>
-            <phrase id="900">
-                <text>nep_jupiter_medic_ecolog_bio_1_900</text>
-                <next>82</next>
+                <next>80</next>
+                <next>800</next>
             </phrase>
         </phrase_list>
     </dialog> 
@@ -1118,7 +1112,6 @@
     <!-- Bio -->
     <dialog id="nep_jupiter_bandit_medic_bio">
         <dont_has_info>nep_jupiter_bandit_medic_bio_over</dont_has_info>
-        <has_info>met_with_waxman</has_info>
         <phrase_list>
             <phrase id="0">
                 <give_info>met_with_acid</give_info>
@@ -1172,6 +1165,7 @@
                 <next>490</next>
             </phrase>
             <phrase id="480">
+                <has_info>met_with_waksman</has_info>
                 <text>nep_jupiter_bandit_medic_bio_480</text> 
                 <next>481</next> 
             </phrase>
