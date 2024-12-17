@@ -8,7 +8,7 @@
 ;---==================================================================================================================---
 
 [logic@killer_nep_yantar_medic]
-active                              = beh@stand_day
+active                              = beh@teleport
 suitable                            = {=check_npc_name(killer_nep_yantar_medic)} true
 prior                               = 300
 trade                               = items\trade\trade_drug_dealer.ltx
@@ -55,6 +55,9 @@ help_wounded_enabled                = false
 corpse_detection_enabled            = false
 
 meet                                = meet
+
+[beh@teleport]
+on_info                             = %=teleport_npc_lvid(79977)% beh@stand_day
 
 [beh@stand_day]:beh@general
 pt1                                 = 25000, smoking_stand | pos:30.6667, 11.88, -249.3932 look:31.3507, 11.8854, -250.1220
