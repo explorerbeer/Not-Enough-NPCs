@@ -13,16 +13,12 @@
 -- Constants, global variables and imported functions
 -- ---------------------------------------------------------------------------------------------------------------------
 
---- @param story_id string
---- @return cse_alife_object|nil
 function server_object_by_sid(story_id)
     if not validate_params({story_id,"server_object_by_sid"}) then return end
 
     return get_story_se_object(story_id)
 end
 
---- @param params table
---- @return boolean
 function validate_params(params)
     local index = 1
     for i,_ in pairs(params) do
@@ -35,10 +31,6 @@ function validate_params(params)
     return true
 end
 
---- @param sec string
---- @param pos vector
---- @param smart cse_alife_smart_zone
---- @return cse_alife_online_offline_group
 function spawn_story_squad(sec, pos, smart)
     if not validate_params({sec,smart,"spawn_story_squad"}) then return end
 
@@ -66,12 +58,6 @@ function spawn_story_squad(sec, pos, smart)
     end
 end
 
---- @param sec string
---- @param pos vector
---- @param lvid number
---- @param gvid number
---- @param smart cse_alife_smart_zone
---- @return cse_alife_online_offline_group
 function spawn_squad(sec, pos, lvid, gvid, smart)
     if not validate_params({sec,pos,lvid,gvid,"spawn_squad"}) then return end
 
@@ -100,4 +86,22 @@ function spawn_squad(sec, pos, lvid, gvid, smart)
         printf("![WG] ERROR | Utils | Failed to create squad (%s)",sec)
         return
     end
+end
+
+function actor_has(sect, needed) 
+	if not needed then
+		needed = 1
+	end
+	
+    local count = 0
+	
+    local function itr(actor, item) 
+		if item:section() == sect then 
+			count = count + 1 
+		end 
+	end
+
+	db.actor:iterate_inventory(itr, db.actor)
+	
+    return count >= needed 
 end

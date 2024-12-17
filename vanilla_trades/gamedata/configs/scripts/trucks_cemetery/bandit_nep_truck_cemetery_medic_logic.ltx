@@ -3,7 +3,7 @@
 ;---    Original Author(s) : explorerbee, kostyumier                                                                  ---
 ;---    Edited : N/A                                                                                                  ---
 ;---    Date : N/A                                                                                                    ---
-;---    License : Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)           ---
+
 ;---                                                                                                                  ---
 ;---==================================================================================================================---
 
@@ -26,8 +26,8 @@ dont_keep_items		= true
 
 ; игнорирует любых врагов, если актер не враг или режим игры не война группировок
 combat_ignore_cond					= {=is_warfare} false, {=check_enemy_name(actor)} false, true
-combat_ignore_keep_when_attacked	= {=is_warfare} false, true
 ; неуязвимость, аналогично игнору комбата, это нужно для того чтоб медик 
+combat_ignore_keep_when_attacked	= {=is_warfare} false, true
 ; случайно не помер, от пары тушканов.
 invulnerable						= {=is_warfare} false, {!actor_enemy} true, false
 ; нпс идет на место работы, в анимации ходьбы без оружия

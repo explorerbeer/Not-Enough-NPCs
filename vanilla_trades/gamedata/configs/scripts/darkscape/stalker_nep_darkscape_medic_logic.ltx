@@ -3,7 +3,7 @@
 ;---    Original Author(s) : explorerbee, kostyumier                                                                  ---
 ;---    Edited : N/A                                                                                                  ---
 ;---    Date : N/A                                                                                                    ---
-;---    License : Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)           ---
+
 ;---                                                                                                                  ---
 ;---==================================================================================================================---
 
@@ -17,6 +17,9 @@ level_spot                          = medic
 dont_keep_items                     = true
 
 [animpoint@general]
+reach_movement                      = walk_noweap
+reach_distance                      = 100
+
 use_camp                            = false
 gather_items_enabled                = false
 help_wounded_enabled                = false
@@ -26,9 +29,6 @@ corpse_detection_enabled            = false
 on_info                             = %=teleport_npc_lvid(667467)% animpoint@wounded
 
 [animpoint@wounded]:animpoint@general
-reach_movement                      = walk_noweap
-reach_distance                      = 1
-
 cover_name                          = stalker_nep_darkscape_medic_cover_wounded
 avail_animations                    = zat_b106_wounded_idle
 
@@ -38,18 +38,17 @@ invulnerable                        = false
 
 meet                                = no_meet
 
-; [animpoint@stand]:animpoint@general
-; reach_movement                      = walk_noweap
-; reach_distance                      = 1
+on_info                             = {+stalker_nep_darkscape_medic_done} animpoint@stand 
 
-; cover_name                          = stalker_nep_darkscape_medic_cover
-; avail_animations                    = animpoint_stay_wall
+[animpoint@stand]:animpoint@general
+cover_name                          = stalker_nep_darkscape_medic_cover
+avail_animations                    = animpoint_stay_wall
 
-; combat_ignore_cond                  = {=is_warfare} false, {=check_enemy_name(actor)} false, true
-; combat_ignore_keep_when_attacked    = {=is_warfare} false, true
-; invulnerable                        = {=is_warfare} false, {!actor_enemy} true, false
+combat_ignore_cond                  = {=is_warfare} false, {=check_enemy_name(actor)} false, true
+combat_ignore_keep_when_attacked    = {=is_warfare} false, true
+invulnerable                        = {=is_warfare} false, {!actor_enemy} true, false
 
-; meet                                = meet
+meet                                = meet
 
 [meet]
 close_anim                          = nil

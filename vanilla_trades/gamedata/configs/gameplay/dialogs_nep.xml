@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="Windows-1251"?>
 <game_dialogs>
-    <dialog id="my_custom_dialog_1">
-        <phrase_list>
-            <phrase id="0">
-                <text>my_custom_dialogue_1_0</text>
-                <next>1</next>
-            </phrase>
-            <phrase id="1">
-                <text>my_custom_dialogue_1_1</text>
-            </phrase>
-        </phrase_list>
-    </dialog>
-
-    <dialog id="nep_help_wounded_medic">
-        <phrase_list>
-            <phrase id="0">
-                <text>nep_help_wounded_medic_0</text>
-                <next>1</next>
-            </phrase>
-            <phrase id="1">
-                <text>nep_help_wounded_medic_1</text>
-            </phrase>
-        </phrase_list>
-    </dialog>
-
     <!-- Cordon Medic -->
      <!-- Start dialog -->
     <dialog id="nep_cordon_medic_start">
@@ -75,7 +51,7 @@
                 <give_info>nep_cordon_medic_bio_over</give_info>
             </phrase>
         </phrase_list>
-     </dialog>
+    </dialog>
 
     <!-- General -->
     <dialog id="nep_cordon_medic_general">
@@ -145,6 +121,210 @@
 				<action>dialogs.npc_is_trader</action>
 			</phrase>
 			<phrase id="2"> <!-- npc -->
+				<precondition>dialogs_mlr.check_debt</precondition>
+				<script_text>dialogs_mlr.st_debt_no_trade</script_text>
+			</phrase>
+		</phrase_list>
+    </dialog>
+
+    <!-- Darkscape Trader -->
+    <dialog id="nep_help_wounded_medic">
+        <dont_has_info>nep_help_wounded_medic_give</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>nep_help_wounded_medic_1_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>nep_help_wounded_medic_1_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>nep_help_wounded_medic_1_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>nep_help_wounded_medic_1_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>nep_help_wounded_medic_1_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>nep_help_wounded_medic_1_5</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="6">
+                <text>nep_help_wounded_medic_1_6</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="7">
+                <text>nep_help_wounded_medic_1_7</text>
+                <next>8</next>
+            </phrase>
+            <phrase id="8">
+                <text>nep_help_wounded_medic_1_8</text>
+                <give_info>nep_help_wounded_medic_give</give_info>
+                <action>nep_help_wounded_medic.help_wounded_medic_task_1_start</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <dialog id="nep_help_wounded_medic_complete">
+        <dont_has_info>nep_help_wounded_medic_done</dont_has_info>
+        <has_info>nep_help_wounded_medic_give</has_info>
+        <precondition>nep_help_wounded_medic.help_wounded_medic_task_1_has_item</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>nep_help_wounded_medic_complete_1_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>nep_help_wounded_medic_complete_1_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>nep_help_wounded_medic_complete_1_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>nep_help_wounded_medic_complete_1_3</text>
+                <give_info>nep_help_wounded_medic_done</give_info>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>nep_help_wounded_medic_complete_1_4</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- Darkscape Medic -->
+    <!-- Start -->
+    <dialog id="nep_darkscape_medic_stalker_start">
+        <phrase_list>
+            <phrase id="0">
+                <text>nep_darkscape_medic_stalker_start</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- Bio -->
+    <dialog id="nep_darkscape_medic_stalker_bio">
+        <dont_has_info>nep_darkscape_medic_bio_over</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>nep_darkscape_medic_bio_1_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>nep_darkscape_medic_bio_1_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>nep_darkscape_medic_bio_1_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>nep_darkscape_medic_bio_1_3</text>
+                <next>30</next>
+                <next>300</next>
+            </phrase>
+            <phrase id="30">
+                <text>nep_darkscape_medic_bio_1_30</text>
+                <next>31</next>
+            </phrase>
+            <phrase id="31">
+                <text>nep_darkscape_medic_bio_1_31</text>
+                <next>32</next>
+            </phrase>
+            <phrase id="32">
+                <text>nep_darkscape_medic_bio_1_32</text>
+                <give_info>nep_darkscape_medic_bio_over</give_info>
+            </phrase>
+            <phrase id="300">
+                <text>nep_darkscape_medic_bio_1_300</text>
+                <next>301</next>
+            </phrase>
+            <phrase id="301">
+                <text>nep_darkscape_medic_bio_1_301</text>
+                <next>302</next>
+            </phrase>
+            <phrase id="302">
+                <text>nep_darkscape_medic_bio_1_302</text>
+                <give_info>nep_darkscape_medic_bio_over</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- General -->
+    <dialog id="nep_darkscape_medic_general">
+        <phrase_list>
+            <phrase id="0">
+                <text>st_dm_medic_general_text_0</text>
+                <next>1</next>
+                <next>10</next>
+            </phrase>
+            <phrase id="1">
+                <precondition>dialogs.is_actor_not_healthy</precondition>
+                <text>nep_darkscape_medic_general_1</text>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+            </phrase>
+            <phrase id="2">
+                <precondition>dialogs.is_actor_injured</precondition>
+                <text>st_dm_medic_general_text_2</text>
+                <action>dialogs.heal_actor_injury</action>
+                <action>medic_effects.medic_anim</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="3">
+                <precondition>dialogs.is_actor_irradiated</precondition>
+                <text>st_dm_medic_general_text_3</text>
+                <action>dialogs.heal_actor_radiation</action>
+                <action>medic_effects.medic_rad_anim</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="4">
+                <precondition>dialogs.is_actor_injured_irradiated</precondition>
+                <text>st_dm_medic_general_text_4</text>
+                <action>dialogs.heal_actor_injury_radiation</action>
+                <action>medic_effects.medic_anim</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_dm_medic_general_text_5</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="6">
+                <text>st_dm_medic_general_text_6</text>
+            </phrase>
+            <phrase id="7">
+                <text>st_dm_medic_general_text_7</text>
+            </phrase>
+            <phrase id="10">
+                <precondition>dialogs.is_actor_healthy</precondition>
+                <text>nep_darkscape_medic_general_10</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <!-- Init -->
+    <dialog id="stalker_nep_darkscape_medic_init">
+        <phrase_list>
+			<phrase id="0">
+				<text>st_medic_dialog_init</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<precondition>dialogs_mlr.check_no_debt</precondition>
+				<text>stalker_nep_darkscape_medic_init_0</text>
+				<action>dialogs.npc_is_trader</action>
+			</phrase>
+			<phrase id="2">
 				<precondition>dialogs_mlr.check_debt</precondition>
 				<script_text>dialogs_mlr.st_debt_no_trade</script_text>
 			</phrase>

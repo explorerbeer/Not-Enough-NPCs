@@ -11,13 +11,6 @@
 local INFO = "npcs_info"
 
 local covers = {
-	stalker_nep_garbage_medic_cover = {
-		position	= vector():set(-97.6707, 0.7124, 0.2168),
-		direction	= vector():set(0, -0.1047, 0),
-		lvid		= 102209,
-		gvid        = 726,
-		description = "animpoint_stay_wall"
-	},
 	stalker_nep_cordon_medic_cover = {
 		position	= vector():set(0.9111, 0.908, 289.01),
 		direction	= vector():set(0, -2.2689, 0),
@@ -25,20 +18,13 @@ local covers = {
 		gvid		= 446,
 		description	= "animpoint_sit_normal"
 	},
-	-- stalker_nep_darkscape_medic_cover = {
-	-- 	position	= vector():set(249.6979, -0.5193, -174.4012),
-	-- 	direction	= vector():set(0, 1.2915, 0),
-	-- 	lvid		= 302815,
-	-- 	gvid		= 1405,
-	-- 	description	= "animpoint_sit_low"
-	-- },
-	-- stalker_nep_garbage_mechanic_cover_job = {
-	-- 	position	= vector():set(-103.15, 0.7140, 21.5821),
-	-- 	direction	= vector():set(0, -1.0472, 0),
-	-- 	lvid		= 98333,
-	-- 	gvid		= 725,
-	-- 	description = "animpoint_sit_normal"
-	-- },
+	stalker_nep_darkscape_medic_cover = {
+		position	= vector():set(250.4173, -0.5193, -174.4425),
+		direction	= vector():set(0, 1.3963, -0),
+		lvid		= 668327,
+		gvid		= 1405,
+		description	= "animpoint_stay_wall"
+	},
 	stalker_nep_darkscape_medic_cover_wounded = {
 		position	= vector():set(249.2169, -0.4416, -186.9579),
 		direction	= vector():set(0, 2.618, 0),
@@ -81,13 +67,6 @@ local covers = {
 		gvid		= 4531,
 		description	= "animpoint_sit_normal"
 	},
-	stalker_nep_outskirts_medic_cover = {
-		position   	= vector():set(144.9120, -0.0956, -185.8716),
-		direction   = vector():set(0, 0.9424, 0),
-		lvid		= 374283,
-		gvid        = 4921,
-		description	= "animpoint_sit_normal"
-	},
 	killer_nep_outskirts_medic_cover = {
 		position   	= vector():set(-171.11, 0.81, -347),
 		direction   = vector():set(0, 4.62512, 0),
@@ -112,7 +91,6 @@ end
 
 -------------------------------------------------------------------------
 local function spawn_covers_process()
-	
 	for section, p in pairs(covers) do
 		
 		local se_cover = alife_create("smart_cover", p.position, p.lvid, p.gvid)
@@ -149,8 +127,7 @@ local function spawn_covers_process()
 
 end
 
-local function actor_on_first_update()
-	
+local function on_game_load()
 	if has_alife_info(INFO) then
 		return
 	end
@@ -161,5 +138,5 @@ local function actor_on_first_update()
 end
 
 function on_game_start()
-	RegisterScriptCallback("on_game_load", actor_on_first_update)
+	RegisterScriptCallback("on_game_load", on_game_load)
 end

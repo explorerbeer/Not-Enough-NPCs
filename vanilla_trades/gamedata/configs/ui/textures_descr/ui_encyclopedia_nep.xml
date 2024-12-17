@@ -50,8 +50,8 @@
             id="encyclopedia_characters_bandit_nep_jupiter_medic_image"
             x="256" 
             y="256"
-            width=""
-            height="" 
+            width="256"
+            height="256" 
         />
 
         <!-- Ecolog Jupiter Medic -->

@@ -3,7 +3,7 @@
 ;---    Original Author(s) : explorerbee, kostyumier                                                                  ---
 ;---    Edited : N/A                                                                                                  ---
 ;---    Date : N/A                                                                                                    ---
-;---    License : Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)           ---
+
 ;---                                                                                                                  ---
 ;---==================================================================================================================---
 
@@ -219,6 +219,7 @@ condlist_0 = {!task_giver_alive(bandit_nep_jupiter_medic_task_1_task_1)} fail
 precondition = {-stalker_nep_garbage_mechanic_upgrade_tier_1} true, false
 
 title = stalker_nep_garbage_mechanic_task_1_name
+descr = stalker_nep_garbage_mechanic_task_1_text
 job_descr = stalker_nep_garbage_mechanic_task_1_about
 task_complete_descr = stalker_nep_garbage_mechanic_task_1_finish
 
@@ -241,6 +242,7 @@ on_fail = %=fail_task_dec_goodwill(25:stalker)%
 precondition = {+stalker_nep_garbage_mechanic_upgrade_tier_2 -stalker_nep_garbage_mechanic_upgrade_tier_3} true, false
 
 title = stalker_nep_garbage_mechanic_task_2_name
+descr = stalker_nep_garbage_mechanic_task_2_text
 job_descr = stalker_nep_garbage_mechanic_task_2_about
 task_complete_descr = stalker_nep_garbage_mechanic_task_2_finish
 
@@ -262,3 +264,18 @@ on_job_descr = %=multifetch_on_job_descr(stalker_nep_garbage_mechanic_task_2)%
 on_complete = %=multifetch_task_trigger_extra_items_condlist(stalker_nep_garbage_mechanic_task_2) =multifetch_remove(stalker_nep_garbage_mechanic_task_2:true) =complete_task_inc_goodwill(50:stalker) =reward_stash(true) +stalker_nep_garbage_mechanic_upgrade_tier_3%
 on_fail = %=fail_task_dec_goodwill(25:stalker)%
 
+[nep_help_wounded_medic_task_1]
+precondition = {-stalker_nep_darkscape_medic_done} true, false
+
+title = nep_help_wounded_medic_task_1_name
+descr = nep_help_wounded_medic_task_1_text
+target = {=actor_has_item(itm_drugkit)} dasc_trade_mlr
+
+icon = ui_inGame2_D_Sisshik
+storyline = false
+
+stage_complete = 1
+
+condlist_0 = {+nep_help_wounded_medic_done} complete, {+stalker_nep_darkscape_medic_death} fail
+on_complete = %+stalker_nep_darkscape_medic_done =remove_item(itm_drugkit) =reward_random_money(3000:5500) =complete_task_inc_goodwill(50:stalker)%
+on_fail = %=fail_task_dec_goodwill(25:stalker)%

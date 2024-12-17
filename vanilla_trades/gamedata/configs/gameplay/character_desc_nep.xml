@@ -224,11 +224,10 @@
             ammo_12x70_buck = 2 \n
         </supplies>
 
-        <start_dialog>zat_b22_stalker_medic_start</start_dialog>
-        <actor_dialog>dm_init_medic</actor_dialog>
-        <actor_dialog>dm_medic_general</actor_dialog>
-        <actor_dialog>dm_ordered_task_dialog</actor_dialog>
-        <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+        <start_dialog>nep_darkscape_medic_stalker_start</start_dialog>
+        <actor_dialog>stalker_nep_darkscape_medic_init</actor_dialog>
+        <actor_dialog>nep_darkscape_medic_general</actor_dialog>
+        <actor_dialog>nep_darkscape_medic_stalker_bio</actor_dialog>
         <actor_dialog>actor_break_dialog</actor_dialog>
 
         #include "gameplay\character_criticals.xml"
@@ -311,7 +310,7 @@
         <visual>actors\nep\stalker_nep_garbage_medic</visual>
         <snd_config>characters_voice\human\stalker_1\</snd_config>
         <class>stalker_nep_garbage_medic</class>
-        <community>stalker</community>
+        <community>trader</community>
         <terrain_sect>stalker_terrain</terrain_sect>
         <rank>3750</rank>
         <reputation>120</reputation>
@@ -343,7 +342,7 @@
         <visual>actors\nep\stalker_nep_garbage_mechanic</visual>
         <snd_config>characters_voice\human\stalker_1\</snd_config>
         <class>stalker_nep_garbage_medic</class>
-        <community>stalker</community>
+        <community>trader</community>
         <terrain_sect>stalker_terrain</terrain_sect>
         <rank>3300</rank>
         <reputation>150</reputation>

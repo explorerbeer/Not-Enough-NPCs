@@ -20,7 +20,6 @@ function dxml_character_desc_darkscape(xml_file_name, xml_obj)
     local query_res = xml_obj:query(query)
 
     if size_table(query_res) ~= 1 then
-        printf("~[NEP] WARNING | DXML | Aborting. Invalid number of results for '%s', got '%s', expected '%s'.", query, size_table(query_res), 1)
         return
     end
 
@@ -28,6 +27,7 @@ function dxml_character_desc_darkscape(xml_file_name, xml_obj)
 
     local xml_inject = [[
         <actor_dialog>nep_help_wounded_medic</actor_dialog>
+        <actor_dialog>nep_help_wounded_medic_complete</actor_dialog>
     ]]
 
     xml_obj:insertFromXMLString(xml_inject, xml_elem, #xml_elem.kids)
