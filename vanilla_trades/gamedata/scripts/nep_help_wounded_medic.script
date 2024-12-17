@@ -3,5 +3,5 @@ function help_wounded_medic_task_1_start()
 end
 
 function help_wounded_medic_task_1_has_item()
-    return wg_utils.actor_has("itm_drugkit")
+    return nep_utils.actor_has("itm_drugkit")
 end
