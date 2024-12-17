@@ -18,7 +18,6 @@ A small selection of screenshots:
 | ![ss_podle_08-15-24_22-20-59_(l02_garbage)](https://github.com/user-attachments/assets/0a710c50-13fd-4a26-bcdc-ea75775979a8) | ![ss_podle_08-15-24_21-45-02_(k02_trucks_cemetery)](https://github.com/user-attachments/assets/883df7ce-f925-4b75-a632-2b8360bea296) | ![ss_podle_08-15-24_23-00-49_(k01_darkscape)](https://github.com/user-attachments/assets/3da275d0-1e21-4a02-8d52-63da76593e5b) |
 |------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 
-
 ---
 
 ## REQUIREMENTS
@@ -63,7 +62,6 @@ A list of people whose work I used in my addon:
 |-------------|-------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Dux         | 3D models for the NPCs in the addon were created from his [assets](https://www.moddb.com/mods/stalker-anomaly/addons/dick). | Proprietary                                                             |
 | NLTP_ASHES  | Some scripts were used.                                           | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)   |
-                                                    |
 
 A list of people who helped me during the development process:
 
