@@ -62,10 +62,8 @@ A list of people whose work I used in my addon:
 | Name        | Description                                                       | License                                                                 |
 |-------------|-------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Dux         | 3D models for the NPCs in the addon were created from his [assets](https://www.moddb.com/mods/stalker-anomaly/addons/dick). | Proprietary                                                             |
-| NLTP_ASHES  | NPC spawn scripts were used.                                      | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)   |
-| Longreed    | Author of the script for spawn of smart-covers.                   | Proprietary                                                             |
-| xcvb (bvcx) | The author of the script of the spawning vise for the workbench.  | Proprietary                                                             |
-| GhenTuong   | Reused his `xr_logic_ex` script.                                  | Proprietary                                                             |
+| NLTP_ASHES  | Some scripts were used.                                           | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)   |
+                                                    |
 
 A list of people who helped me during the development process:
 
@@ -77,15 +75,3 @@ A list of people who helped me during the development process:
 
 *If we forgot to mention your honors, bring your changes in advance. Let me know about it and I will be sure to add you to the lists.*
 
----
-
-## LICENSE
-
-Everything contained in **Not Enough NPCs** and made by us, **explorerbee** & **kostyumier**, is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-This means you're allowed to redistribute and/or adapt the work, as long as you respect the following criteria :
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- **NonCommercial** — You may not use the material for commercial purposes (this includes donations).
-- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-
-For the work that wasn't made by us, unless a licence is specified in the [Credits](#special-thanks--credits) or in the files themselves, consider these works proprietary. If you want to reuse those, please get in touch with their original authors.
