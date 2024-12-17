@@ -64,14 +64,13 @@ A list of people whose work I used in my addon:
 | Dux         | 3D models for the NPCs in the addon were created from his [assets](https://www.moddb.com/mods/stalker-anomaly/addons/dick). | Proprietary                                                             |
 | NLTP_ASHES  | Some scripts were used.                                           | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)   |
                                                     |
-
 A list of people who helped me during the development process:
 
 | Name        | Description                                                                         |
 |-------------|-------------------------------------------------------------------------------------|
+| VodoXleb    | Help with the problem of binding a workbench to an NPC.                             |                                                       
 | NLTP_ASHES  | Explanation of the working principle of spawning scripts n' NPCs logic.             |
 | Longreed    | Plenty of help regarding NPC logic, as well as help with smart cover spawn scripts. |
 | xcvb (bvcx) | Help with NPC logic, workbench vise spawn.                                          |
 
 *If we forgot to mention your honors, bring your changes in advance. Let me know about it and I will be sure to add you to the lists.*
-
