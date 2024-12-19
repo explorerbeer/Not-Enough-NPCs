@@ -276,6 +276,6 @@ storyline = false
 
 stage_complete = 1
 
-condlist_0 = {+nep_help_wounded_medic_done} complete, {+stalker_nep_darkscape_medic_death} fail
+condlist_0 = {+nep_help_wounded_medic_done} complete, {+dasc_trade_mlr_death} fail, {+stalker_nep_darkscape_medic_death} fail
 on_complete = %+stalker_nep_darkscape_medic_done =remove_item(itm_drugkit) =reward_random_money(3000:5500) =complete_task_inc_goodwill(50:stalker)%
 on_fail = %=fail_task_dec_goodwill(25:stalker)%
