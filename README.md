@@ -4,9 +4,9 @@
 
 ## ABOUT
 
-This addon expands the player's points of interest by adding missing key NPCs (medics and mechanics) to faction bases. In addition to the basic functionality of such NPCs, they were also added unique dialogs, new quests, unique models and **(optional feature)** redesigned trade configs.  
+The addon expands the player's points of interest by adding missing key NPCs (medics and mechanics) to faction bases. In addition to the basic functionality of these NPCs, they have also been given unique dialogs and created separate character models.
 
-In the future, we plan to further expand the filling of NPC bases by making them, directly, bases)
+In the future, we plan to expand the NPC bases even further and add quests for new characters.
 
 We are always open to your suggestions and improvements. Feel free to offer your ideas to make this mod better.
 
