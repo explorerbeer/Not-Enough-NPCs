@@ -61,7 +61,7 @@ A list of people whose work I used in my addon:
 | Name        | Description                                                       | License                                                                 |
 |-------------|-------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Dux         | 3D models for the NPCs in the addon were created from his [assets](https://www.moddb.com/mods/stalker-anomaly/addons/dick). | Proprietary                                                             |
-| NLTP_ASHES  | Some scripts were used.                                           | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)    |
+| NLTP_ASHES  | Some code parts were used.                                           | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)    |
  
 A list of people who helped me during the development process:
 | Name        | Description                                                                         |
