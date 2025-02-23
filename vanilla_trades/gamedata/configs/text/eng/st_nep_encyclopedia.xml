@@ -24,27 +24,27 @@
 
     <!-- Garbage Medic -->
     <string id="encyclopedia_characters_stalker_nep_garbage_medic">
-        <text>Joint</text>
+        <text>Bob</text>
     </string>
 
     <string id="encyclopedia_characters_stalker_nep_garbage_medic_text">
         <text>
-            %c[pda_white]Joint%c[ui_gray_1] is a local doctor stationed at the Garbage Depot.\n
+            %c[pda_white]Bob%c[ui_gray_1] is a local doctor stationed at the Garbage Depot.\n
             \n%c[pda_green]Information%c[ui_gray_1]\n
-            \nJoint's brother. He is a small-time huckster who came to the Zone for easy money. Nevertheless, he's a much better doctor than a merchant.
+            \Bit's brother. He is a small-time huckster who came to the Zone for easy money. Nevertheless, he's a much better doctor than a merchant.
         </text>
     </string>
 
     <!-- Garbage Mechanic -->
     <string id="encyclopedia_characters_stalker_nep_garbage_mechanic">
-        <text>Joint</text>
+        <text>Bit</text>
     </string>
 
     <string id="encyclopedia_characters_stalker_nep_garbage_mechanic_text">
         <text>
-            %c[pda_white]Joint%c[ui_gray_1] is a technician who sits at the Garbage Depot. \n
+            %c[pda_white]Bit%c[ui_gray_1] is a technician who sits at the Garbage Depot. \n
             \n%c[pda_green]Information%c[ui_gray_1]\n
-            \nJoint's brother. Mechanic, knows by heart every bolt in every bucket on wheels in the Zone. He also knows his way around a gun.
+            \Bit's brother. Mechanic, knows by heart every bolt in every bucket on wheels in the Zone. He also knows his way around a gun.
         </text>
     </string>
 

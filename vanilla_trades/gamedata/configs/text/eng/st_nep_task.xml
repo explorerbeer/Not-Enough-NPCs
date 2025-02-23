@@ -9,4 +9,164 @@
 <!-- ================================================================================================================== -->
 
 <string_table>
+    <!-- Darkscape Trader -->
+    <string id="nep_help_wounded_medic_task_1_name">
+        <text>Rescuing the Drowning</text>
+    </string>
+    <string id="nep_help_wounded_medic_task_1_text">
+        <text>The lumberjack asked to find a medical kit for a poor soul in their camp. I should find it, otherwise things will go badly...</text>
+    </string>
+
+    <!-- Jupiter Ecolog Medic-->
+    <string id="ecolog_nep_jupiter_medic_task_1_name">
+        <text>A Simple Tool</text>
+    </string>
+    <string id="ecolog_nep_jupiter_medic_task_1_text">
+        <text>Professor Waxman asked to find him a simple tool. I dare to assume, given his role, that it's a kit for making medicines.</text>
+    </string>
+    <string id="ecolog_nep_jupiter_medic_task_1_fetch_about">
+        <text>There's always work, as long as there are people to do it. Stalker, we're all scientists here, we have test tubes, beakers, and other instruments for important and not-so-important discoveries. But as you can see, I'm also a doctor. And that's where the problem lies.\n \nI don't have a simple tool, stalker. Our supply service is driving me to the grave and beyond, and I'm dragging all my patients with me. Including you. So it's in your best interest to find this tool for me. Or rather, a whole set of tools. Ask me where to look, and I'll honestly tell you I don't know and don't want to know. Just bring it to me, and I'll reward you right away.</text>
+    </string>
+    <string id="ecolog_nep_jupiter_medic_task_1_fetch_finish">
+        <text>Kosher, stalker. As promised, here's your reward. Straight from the heart, by the way.</text>
+    </string>
+
+    <!-- Outskirts Stalker Medic-->
+    <string id="stalker_nep_outskirts_medic_task_1_name">
+        <text>Rh Factor</text>
+    </string>
+    <string id="stalker_nep_outskirts_medic_task_1_text">
+        <text>I'm surprised that someone like Rhesus needs a kit for making medicines. Isn't his positive aura enough for healing?...</text>
+    </string>
+    <string id="stalker_nep_outskirts_medic_task_1_fetch_about">
+        <text>Work? Yeah, there's something. You know, not many traders come here, to Pripyat. Well, they do, but their selection is pretty limited. Dangerous places, you understand. And when it comes to chemicals or medical tools more complex than a rusty knife, it's a real problem. Of course, sometimes stalkers bring stuff, and I try to buy as much as I can, but it's barely enough.\n \nRight now, I could really use one thing, called a "medicine-making kit." It's got a lot of stuff, enough to last a while. If you bring it, I'll be very grateful. And I won't just thank you with words, I'll throw in some cash too.</text>
+    </string>
+    <string id="stalker_nep_outskirts_medic_task_1_fetch_finish">
+        <text>Well done! The traders couldn't do it, but you did! Thanks, friend, you really helped me out. Here, as promised, some cash.</text>
+    </string>
+
+    <!-- Outskirts Killer Medic-->
+    <string id="killer_nep_outskirts_medic_task_1_name">
+        <text>Pharmacology</text>
+    </string>
+    <string id="killer_nep_outskirts_medic_task_1_text">
+        <text>Got an order from a mercenary to find a medicine-making kit. I should really try to find it. Don't want to cross their path.</text>
+    </string>
+    <string id="killer_nep_outskirts_medic_task_1_fetch_about">
+        <text>There's work. Let me take a look at you... Alright, you look like a tough guy, maybe you can handle it.\n \nAnyway, I won't beat around the bush, I need one medical kit. For work. No idea where to find it, but I've heard from other stalkers that they find such things here and there. If you find it, I'll pay.\n \nYou in?</text>
+    </string>
+    <string id="killer_nep_outskirts_medic_task_1_fetch_finish">
+        <text>Alright, I see you found it. Good job. Here's your reward.</text>
+    </string>
+
+    <!-- Garbage Stalker Medic-->
+    <string id="stalker_nep_garbage_medic_task_1_name">
+        <text>Bobs and Bits</text>
+    </string>
+    <string id="stalker_nep_garbage_medic_task_1_text">
+        <text>Brother Bob asked me to find a medical kit for him. I'll try to help, they seem like good guys.</text>
+    </string>
+    <string id="stalker_nep_garbage_medic_task_1_fetch_about">
+        <text>Work? There's always work for those willing to do it. You know, here in the Garbage, you can find anything you want. My brother, Bit, is always running around, looking for something, some parts and whatnot. We don't get along very well, but still, I need something to work with, so I've asked him a few times to find some things for me.\n \nBut, apparently, either he's messing with me on purpose, or something else, but the situation is that he's never managed to get me what I asked for. So I'll ask you, you're a stalker after all, you wander a lot, always looking for something. Find one thing for me.\n \nWhat thing, you ask? A medical kit, with various reagents, chemicals, and so on. The work isn't free, of course, I'll pay. Where to look, I don't know. But it's definitely not in the Garbage. Anyway, when you find it, bring it to me right away, the sooner the better.</text>
+    </string>
+    <string id="stalker_nep_garbage_medic_task_1_fetch_finish">
+        <text>Oh, you found it! Just don't tell me you found it in the Garbage, or I'll kill that idiot... Well, alright, here's your money. And don't tell my brother, let him keep looking, ha-ha!</text>
+    </string>
+
+    <!-- Cordon Medic -->
+    <string id="stalker_nep_cordon_medic_task_1_name">
+        <text>Complex Science</text>
+    </string>
+    <string id="stalker_nep_cordon_medic_task_1_text">
+        <text>Esmarch, the local medic at Cordon, asked me to find a medical kit for him. I don't want to let such a man down, especially the guys whose lives Esmarch could save with such a kit.</text>
+    </string>
+    <string id="stalker_nep_cordon_medic_task_1_fetch_about">
+        <text>Work, you say? Yeah, there's one thing. You see, lad, medicine is a complex science, it requires both hands and tools. Well, mixing potions, making poultices, I don't conjure all this out of thin air, right? My hands are fine, strong grip, but I lack tools. Of course, I can stitch a wound with a sewing needle and pour Stolychnaya instead of an anesthetic, but it's better to act, so to speak, scientifically.\n \nAnyway, bring me some medical kit, I've heard there's plenty of that stuff in the Zone, thanks to the traders. And I, in turn, won't leave you in debt, I'll throw in some rubles for your help. So, will you help an old man out?</text>
+    </string>
+    <string id="stalker_nep_cordon_medic_task_1_fetch_finish">
+        <text>Thanks, you helped an old man out. Here's your due.</text>
+    </string>
+
+    <!-- Yantar Medic -->
+    <string id="killer_nep_yantar_medic_task_1_name">
+        <text>Clean Specimen</text>
+    </string>
+    <string id="killer_nep_yantar_medic_task_1_text">
+        <text>It's not very pleasant to work with such freaks, but money, no matter how you look at it, doesn't smell. Once I find this kit, I'll try not to contact this Gloomy guy anymore. How much can one word say about a person...</text>
+    </string>
+    <string id="killer_nep_yantar_medic_task_1_fetch_about">
+        <text>Well, maybe there is. I need one medical kit, it's almost impossible to work without it. I don't care where you get it, even if you rob a clinic, just find a whole and clean specimen. I'll pay for the work, I'm a fair man. But if you bring me crap, you'll both go to hell together.</text>
+    </string>
+    <string id="killer_nep_yantar_medic_task_1_fetch_finish">
+        <text>As agreed, here's your payment.</text>
+    </string>
+
+    <!-- Truck Cemetery Medic -->
+    <string id="bandit_nep_truck_cemetery_medic_task_1_name">
+        <text>Grief Without Reason</text>
+    </string>
+    <string id="bandit_nep_truck_cemetery_medic_task_1_text">
+        <text>Some fool at the Truck Cemetery really begged me to find a medical kit for him. I don't know what he plans to do with it, but I sure as hell won't be treated by him.</text>
+    </string>
+    <string id="bandit_nep_truck_cemetery_medic_task_1_fetch_about">
+        <text>Work? Well, there's one thing, yeah.\n \nI'm short on tools, stalker. Medical ones. Well, you know, those big kits with all sorts of stuff in them. I asked our guys to bring one, but they can't even understand what the kit looks like, they keep bringing me who knows what. But you, I see, are a smart guy, you'll figure out what I need.\n \nAnyway, bring me such a kit, one will be enough, and I'll throw in a couple of rubles for vodka. Deal?</text>
+    </string>
+    <string id="bandit_nep_truck_cemetery_medic_task_1_fetch_finish">
+        <text>Oh, look, the tool, thanks! Here, take this, for vodka.</text>
+    </string>
+
+    <!-- Zaton Medic -->
+    <string id="killer_nep_zaton_medic_task_1_name">
+        <text>Medical Research</text>
+    </string>
+    <string id="killer_nep_zaton_medic_task_1_text">
+        <text>Supply problems in the North don't raise any questions, except when it comes to mercenaries. The medic asked me to bring him a medicine-making kit.\n \nCould it be that the big shots from the mainland ran out of money?</text>
+    </string>
+    <string id="killer_nep_zaton_medic_task_1_fetch_about">
+        <text>Work? I thought stalkers came to the Zone just to laze around. Go twist some figs, but you won't have any business with me.\n \nThough, wait, maybe there's one task. We recently got a shipment from the mainland, we ordered some stuff. I personally asked for a medical kit to be sent to me, so I could work. But apparently, the bosses decided that I could go to hell, and not get any medical research. Anyway, I never saw the kit. There should be plenty of them in the Zone, but I won't go looking myself, my life is too precious. But you, if you have nothing to do, can bring me such a kit. You'll get a reward, of course, any work should be paid.</text>
+    </string>
+    <string id="killer_nep_zaton_medic_task_1_fetch_finish">
+        <text>I see you didn't twist any figs. You're not made of thumbs, after all. Here's your payment.</text>
+    </string>
+
+    <!-- Bandit Jupiter Medic-->
+    <string id="bandit_nep_jupiter_medic_task_1_task_1_name">
+        <text>Recipes for Brewing</text>
+    </string>
+    <string id="bandit_nep_jupiter_medic_task_1_task_1_text">
+        <text>The drug addict among the bandits asked me to bring him a medicine-making kit. It'll be funny if he burns out his brain completely after this.</text>
+    </string>
+    <string id="bandit_nep_jupiter_medic_task_1_task_1_fetch_about">
+        <text>There's work, brother, yeah. Anyway, there's this thing, with all sorts of... stuff. Well, medical stuff, so to speak. I've seen such things when I worked at the university, we were always brewing something there. And in the Zone, you know, you want to brew too, but there's nothing! Well, not nothing, the recipes are all here, in my... damn head. The problem is the lack of materials.\n \nSo you, brother, will bring me these materials. Just hurry up, I've got a queue, for this, uh... m-m-m... A queue for them. Not for the materials, but for the product. Nobody cares about the materials, but everyone wants to get high.\n \nWhat are you standing there for, damn it? Go, hurry up, I'm already starting to twitch! Don't just stand there, brother, please, for fuck's sake.</text>
+    </string>
+    <string id="bandit_nep_jupiter_medic_task_1_task_1_fetch_finish">
+        <text>Damn, what took you so long? I almost, uh, twisted into a spiral... Well, what are you waiting for? Ah, damn, here, take it and get lost.</text>
+    </string>
+
+    <!-- Garbage Mechanic -->
+    <string id="stalker_nep_garbage_mechanic_task_1_name">
+        <text>Bits and Bobs Part 1</text>    
+    </string>
+    <string id="stalker_nep_garbage_mechanic_task_1_text">
+        <text>The mechanic at the Garbage really asked me to find some tools for him. I don't know if he'll manage, but I'd still like to see the Chernobyl all-terrain vehicle.</text>
+    </string>
+    <string id="stalker_nep_garbage_mechanic_task_1_about">
+        <text>There's work, yeah. As you can see, I'm a mechanic, that's why I settled in the Garbage. And because Screw is nearby... Anyway, there's plenty of everything here, especially for someone like me who loves tinkering with mechanisms and electronics. Just the other day, I found a ZAZ, almost intact, can you imagine? I got inside, the pads aren't worn out, the tank is intact, but a couple of injectors are missing, of course...\n \nSorry, stalker, got carried away. What were we talking about? Ah, yes, so, in the Garbage, there's everything, but some things I either can't see, or they're really not here.\n \nSo I have a very responsible task for you. Find me a couple of tool kits for various jobs. I've started a very intricate project, and I need only the best for it. I'll tell you more about it later. So, are you in?</text>
+    </string>
+    <string id="stalker_nep_garbage_mechanic_task_1_finish">
+        <text>Thanks, brother, you really helped me out. Now we can start the work. Here's your due.</text>
+    </string>
+
+    <string id="stalker_nep_garbage_mechanic_task_2_name">
+        <text>Bits and Bobs Part 2</text>
+    </string>
+    <string id="stalker_nep_garbage_mechanic_task_2_text">
+        <text>Even with the extensive set of tools I've already brought to Bit, he needs to find a couple more.\n \nI'm sure it's worth it.</text>
+    </string>
+    <string id="stalker_nep_garbage_mechanic_task_2_about">
+        <text>You helped me a lot with those tools. Unfortunately, it's not enough to finish my work. I've been tinkering with my device, trying to calibrate it, but without good tools, it's impossible. So, if you find me some quality calibration tools, I'll be very grateful.\n \nOh, and if you come across a weapon kit on the way, grab that too. Just the tools, I don't need ammo, parts, or anything else, there's plenty of that in the Garbage. Will you do me this favor?</text>
+    </string>
+    <string id="stalker_nep_garbage_mechanic_task_2_finish">
+        <text>Great, now everything's in order. I don't know what I'd do without you! Here, take it, don't be shy, it won't be extra.</text>
+    </string>
 </string_table>

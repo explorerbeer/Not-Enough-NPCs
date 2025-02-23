@@ -74,14 +74,14 @@
     </string>
     <!-- Garbage Medic -->
     <string id="stalker_nep_garbage_medic_name">
-        <text>Joint</text>
+        <text>Bob</text>
      </string>
      <string id="stalker_garbage_medic_bio">
         <text>.</text>
      </string>
      <!-- Garbage Mechanic -->
       <string id="stalker_nep_garbage_mechanic_name">
-        <text>Joint</text>
+        <text>Bit</text>
       </string>
       <string id="stalker_nep_garbage_mechanic_bio">
         <text>.</text>
