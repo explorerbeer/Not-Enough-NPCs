@@ -76,6 +76,20 @@ local covers = {
 	}
 }
 
+local medics = {
+	stalker_nep_cordon_medic_squad = "esc_smart_terrain_5_7",
+	stalker_nep_darkscape_medic_squad = "ds2_domik_st",
+	stalker_nep_garbage_medic_squad = "gar_smart_terrain_3_5",
+	killer_nep_yantar_medic_squad = "yan_smart_terrain_6_4",
+	bandit_nep_truck_cemetery_medic_squad = "trc_sim_20",
+	bandit_nep_jupiter_medic_squad  = "jup_a12",
+	ecolog_nep_jupiter_medic_squad  = "jup_b41",
+	killer_nep_zaton_medic_squad  = "zat_b40_smart_terrain",
+	stalker_nep_outskirts_medic_squad  = "pri_a16",
+	killer_nep_outskirts_medic_squad  = "pri_a18_smart_terrain",
+	stalker_nep_garbage_mechanic_squad  = "gar_smart_terrain_3_5",
+}
+
 -------------------------------------------------------------------------
 local debug_mode = true
 
@@ -90,6 +104,12 @@ local function print_dbg(txt, ...)
 end
 
 -------------------------------------------------------------------------
+local function spawn_medics_process()
+	for section, smart_name in pairs(medics) do
+		xr_effects.create_squad(nil, nil, { section, smart_name })
+	end
+end
+
 local function spawn_covers_process()
 	for section, p in pairs(covers) do
 		
@@ -132,7 +152,7 @@ local function on_game_load()
 	end
 	
 	spawn_covers_process()
-	-- spawn_medics_process()
+	spawn_medics_process()
 	
 	give_info(INFO)
 end
