@@ -32,7 +32,7 @@
         <texture 
             id="ui_inGame2_Corpsman"
             x="123"
-            y="123"
+            y="87"
             width="123"
             height="87" 
         />
@@ -46,14 +46,14 @@
         <texture 
             id="ui_inGame2_Rhesus"
             x="0"
-            y="123"
+            y="87"
             width="123"
             height="87" 
         />
         <texture 
             id="ui_inGame2_Vet"
             x="246"
-            y="123"
+            y="87"
             width="123"
             height="87" 
         />
