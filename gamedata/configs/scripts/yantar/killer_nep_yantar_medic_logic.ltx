@@ -1,0 +1,90 @@
+;---==================================================================================================================---
+;---                                                                                                                  ---
+;---    Original Author(s) : explorerbee, kostyumier                                                                  ---
+;---    Edited : N/A                                                                                                  ---
+;---    Date : N/A                                                                                                    ---
+
+;---                                                                                                                  ---
+;---==================================================================================================================---
+
+[logic@killer_nep_yantar_medic]
+active                              = beh@stand_day
+suitable                            = {=check_npc_name(killer_nep_yantar_medic)} true
+prior                               = 300
+trade                               = items\trade\trade_drug_dealer.ltx
+level_spot                          = medic
+dont_keep_items                     = true
+net_spawn                           = pt1
+
+[beh@general]
+behavior_state                      = beh_move
+
+target                              = waypoint
+walk_dist                           = 100
+jog_dist                            = 220
+
+walk_anim                           = walk
+jog_anim                            = run
+run_anim                            = rush
+
+combat_ignore_cond                  = {=is_warfare} false, {=actor_true_enemy =check_enemy_name(actor)} false, true
+combat_ignore_keep_when_attacked    = {=is_warfare} false, true
+invulnerable                        = {=is_warfare} false, {!actor_enemy} true, false
+
+reach_movement                      = walk_noweap
+reach_distance                      = 10
+
+use_camp                            = false
+gather_items_enabled                = false
+help_wounded_enabled                = false
+corpse_detection_enabled            = false
+
+meet                                = meet
+
+[animpoint@general]
+combat_ignore_cond                  = {=is_warfare} false, {=actor_true_enemy =check_enemy_name(actor)} false, true
+combat_ignore_keep_when_attacked    = {=is_warfare} false, true
+invulnerable                        = {=is_warfare} false, {!actor_enemy} true, false
+
+reach_movement                      = walk_noweap
+reach_distance                      = 10
+
+use_camp                            = false
+gather_items_enabled                = false
+help_wounded_enabled                = false
+corpse_detection_enabled            = false
+
+meet                                = meet
+
+[beh@teleport]
+; on_info                             = %=teleport_npc_lvid(79977)% beh@stand_day
+
+[beh@stand_day]:beh@general
+pt1                                 = 25000, smoking_stand | pos:30.6667, 11.88, -249.3932 look:31.3507, 11.8854, -250.1220
+pt2                                 = 25000, fold_arms | pos:30.6667, 11.88, -249.3932 look:31.3507, 11.8854, -250.1220
+pt3                                 = 25000, fold_arms | pos:30.6667, 11.88, -249.3932 look:31.3507, 11.8854, -250.1220
+path_end                            = loop
+
+on_info                             = {=is_night} animpoint@stand_night
+on_info2                            = {=surge_started} animpoint@stand_night
+
+[animpoint@stand_night]:animpoint@general
+cover_name                          = killer_nep_yantar_medic_cover_night
+avail_animations                    = animpoint_stay_wall
+
+on_info                             = {!is_night} beh@stand_day
+on_info2                            = {!surge_started !is_night} beh@stand_day
+
+[meet]
+close_anim                          = nil
+close_victim                        = nil
+far_anim                            = nil
+far_victim                          = nil
+
+close_distance                      = 0
+far_distance                        = 0
+close_snd_distance                  = 3
+
+use                                 = {=actor_enemy} false, true
+allow_break                         = false
+trade_enable                        = false

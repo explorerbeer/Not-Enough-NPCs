@@ -1,0 +1,183 @@
+---==================================================================================================================---
+---                                                                                                                  ---
+---    Original Author(s) : Longreed                                                                                 ---
+---    Edited : explorerbee                                                                                          ---
+---    Date : 25/07/2024                                                                                             ---
+---    License : Proprietary                                                                                         ---
+---    A script created to dynamically spawn smart covers.                                                           ---
+---                                                                                                                  ---
+---==================================================================================================================---
+
+local INFO = "npcs_info"
+
+local covers = {
+	stalker_nep_cordon_medic_cover = {
+		position	= vector():set(0.9111, 0.908, 289.01),
+		direction	= vector():set(0, -2.2689, 0),
+		lvid		= 302815,
+		gvid		= 446,
+		description	= "animpoint_sit_normal"
+	},
+	stalker_nep_darkscape_medic_cover = {
+		position	= vector():set(250.4173, -0.5193, -174.4425),
+		direction	= vector():set(0, 1.3963, -0),
+		lvid		= 668327,
+		gvid		= 1405,
+		description	= "animpoint_stay_wall"
+	},
+	stalker_nep_darkscape_medic_cover_wounded = {
+		position	= vector():set(249.2169, -0.4416, -186.9579),
+		direction	= vector():set(0, 2.618, 0),
+		lvid		= 667467,
+		gvid		= 1405,
+		description	= "animpoint_sit_normal"
+	},
+	stalker_nep_garbage_medic_cover = {
+		position	= vector():set(-94.8328, 0.8520, -0.9777),
+		direction	= vector():set(-1.30, 0, 0.06),
+		lvid		= 104449,
+		gvid		= 726,
+		description = "animpoint_sit_low"
+	},
+	stalker_nep_garbage_mechanic_cover = {
+		position 	= vector():set(-108.4580, 0.9257, 24.4791),
+		direction	= vector():set(0, 0, 0),
+		lvid		= 94674,
+		gvid		= 725,
+		description = "animpoint_sit_high"
+	},
+	killer_nep_yantar_medic_cover_night = {
+		position	= vector():set(32.6453, -11.7319, -278.9),
+		direction	= vector():set(0, 2.356, 0),
+		lvid		= 79977,
+		gvid		= 2198,
+		description	= "animpoint_stay_wall"
+	},
+	bandit_nep_truck_cemetery_medic_cover = {
+		position	= vector():set(212.7938, 8.25, 315.8731),
+		direction	= vector():set(0, 1.0472, 0),
+		lvid		= 721166,
+		gvid		= 5297,
+		description	= "animpoint_sit_low"
+	},
+	killer_nep_zaton_medic_cover = {
+		position	= vector():set(346.9193, 37.83, -399.4556),
+		direction	= vector():set(0, 1.57, 0),
+		lvid		= 1541857,
+		gvid		= 4138,
+		description	= "animpoint_sit_normal"
+	},
+	bandit_nep_jupiter_medic_cover = {
+		position	= vector():set(-450.95, 0.315, -367.4292),
+		direction	= vector():set(0, 1.92, 0),
+		lvid		= 334,
+		gvid		= 4818,
+		description	= "animpoint_sit_normal"
+	},
+	ecolog_nep_jupiter_medic_cover = {
+		position	= vector():set(-199.1982, -4.0130, 56.0940),
+		direction	= vector():set(0, -0.5236, 0),
+		lvid		= 342141,
+		gvid		= 4531,
+		description	= "animpoint_sit_normal"
+	},
+	stalker_nep_outskirts_medic_cover = {
+		position	= vector():set(149.5775, -0.0956, -190.2325),
+		direction   = vector():set(0, -1.4835, 0),
+		lvid        = 378540,
+		gvid		= 4921,
+		description = "animpoint_stay_wall"
+	},
+	killer_nep_outskirts_medic_cover = {
+		position   	= vector():set(-171.11, 0.81, -347),
+		direction   = vector():set(0, 4.62512, 0),
+		lvid		= 40292,
+		gvid        = 5019,
+		description	= "animpoint_sit_normal"
+	}
+}
+
+local medics = {
+	stalker_nep_cordon_medic_squad = "esc_smart_terrain_5_7",
+	stalker_nep_darkscape_medic_squad = "ds2_domik_st",
+	stalker_nep_garbage_medic_squad = "gar_smart_terrain_3_5",
+	killer_nep_yantar_medic_squad = "yan_smart_terrain_6_4",
+	bandit_nep_truck_cemetery_medic_squad = "trc_sim_20",
+	bandit_nep_jupiter_medic_squad  = "jup_a12",
+	ecolog_nep_jupiter_medic_squad  = "jup_b41",
+	killer_nep_zaton_medic_squad  = "zat_b40_smart_terrain",
+	stalker_nep_outskirts_medic_squad  = "pri_a16",
+	killer_nep_outskirts_medic_squad  = "pri_a18_smart_terrain",
+	stalker_nep_garbage_mechanic_squad  = "gar_smart_terrain_3_5",
+}
+
+-------------------------------------------------------------------------
+local debug_mode = true
+
+local function print_dbg(txt, ...)
+	
+	if not debug_mode then
+		return
+	end
+	
+	printf("[DSC] Debug | " .. txt, ...)
+	
+end
+
+-------------------------------------------------------------------------
+local function spawn_medics_process()
+	for section, smart_name in pairs(medics) do
+		xr_effects.create_squad(nil, nil, { section, smart_name })
+	end
+end
+
+local function spawn_covers_process()
+	for section, p in pairs(covers) do
+		
+		local se_cover = alife_create("smart_cover", p.position, p.lvid, p.gvid)
+		local data = se_cover and utils_stpk.get_smart_cover_data(se_cover)
+		
+		if data then
+			
+			se_cover.script_version = 12
+			se_cover.angle = p.direction
+			
+			-- cse_alife_object_properties
+			data.custom_data = strformat("[story_object]\n story_id = %s", section)
+			
+			-- cse_shape_properties
+			data.shapes = { [1] = { shtype = 0, offset = vector():set(0, 0, 0), radius = 2 } }
+			
+			-- cse_smart_cover_properties
+			data.description = p.description
+			data.unk2_f32 = 0
+			data.enter_min_enemy_distance = 15
+			data.exit_min_enemy_distance = 10
+			data.is_combat_cover =  0
+			data.can_fire = 1
+			
+			-- se_smart_cover_properties
+			data.loopholes = {}
+			
+			utils_stpk.set_smart_cover_data(data, se_cover)
+		end
+		
+		print_dbg("Spawn Cover: %s | Dynamic Name: %s", section, se_cover and se_cover:name())
+		
+	end
+end
+
+local function on_game_load()
+	if has_alife_info(INFO) then
+		return
+	end
+	
+	spawn_covers_process()
+	spawn_medics_process()
+	
+	give_info(INFO)
+end
+
+function on_game_start()
+	RegisterScriptCallback("on_game_load", on_game_load)
+end

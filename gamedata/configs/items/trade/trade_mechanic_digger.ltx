@@ -1,0 +1,244 @@
+;---==================================================================================================================---
+;---                                                                                                                  ---
+;---    Original Author(s) : explorerbee                                                                              ---
+;---    Edited : N/A                                                                                                  ---
+;---    Date : N/A                                                                                                    ---
+
+;---                                                                                                                  ---
+;---==================================================================================================================---
+
+#include "presets\trade_discounts.ltx"
+#include "presets\trade_presets.ltx"
+
+[trader]
+buy_condition                       = trade_generic_buy
+buy_item_condition_factor           = 0.50
+buy_item_exponent                   = 2.25
+buy_supplies                        = {=toolkit_task_done(3)} supplies_4, {=toolkit_task_done(2)} supplies_3, {=toolkit_task_done(1)} supplies_2, supplies_1
+
+sell_condition                      = trade_generic_sell
+sell_item_exponent                  = 0.75
+
+discounts                           = discount_mechanic
+
+[trade_generic_buy]:mechanic, toolkits_h
+itm_pda_common                           ;NO TRADE
+itm_pda_rare                             ;NO TRADE
+itm_pda_uncommon                         ;NO TRADE
+pri_a25_explosive_charge_item            ;NO TRADE
+
+[trade_generic_sell]:mechanic, toolkits_h
+
+[supplies_1]:common_stock
+grooming                            = 4, 0.5
+swiss_knife                         = 4, 0.5
+
+ball_hammer                         = 4, 0.5
+duct_tape                           = 4, 0.5
+grease                              = 4, 0.5
+steel_wool                          = 4, 0.5
+
+prt_o_fabrics_1                     = 6, 0.5 
+prt_o_fabrics_2                     = 4, 0.5 
+prt_o_fabrics_3                     = 4, 0.5
+prt_o_fabrics_4                     = 4, 0.5
+prt_o_retardant_1                   = 4, 0.5 
+prt_o_retardant_2                   = 4, 0.5 
+prt_o_retardant_3                   = 4, 0.5 
+prt_o_retardant_4                   = 4, 0.5 
+prt_o_retardant_5                   = 4, 0.5 
+prt_o_retardant_6                   = 4, 0.5 
+prt_o_retardant_7                   = 4, 0.5 
+prt_o_retardant_8                   = 4, 0.5 
+prt_o_retardant_9                   = 4, 0.5 
+prt_o_retardant_10                  = 4, 0.5
+prt_o_ballistic_1                   = 4, 0.35
+prt_o_ballistic_2                   = 4, 0.35 
+prt_o_ballistic_3                   = 4, 0.35 
+prt_o_ballistic_4                   = 4, 0.35 
+prt_o_ballistic_5                   = 4, 0.35 
+prt_o_ballistic_6                   = 4, 0.35
+prt_o_ballistic_7                   = 4, 0.35 
+prt_o_ballistic_8                   = 4, 0.35 
+prt_o_ballistic_9                   = 4, 0.35 
+prt_o_ballistic_10                  = 4, 0.35
+
+prt_i_ammo                          = 4, 0.5 
+prt_i_textolite                     = 4, 0.5 
+prt_i_capacitors                    = 4, 0.35
+prt_i_transistors                   = 6, 0.35
+prt_i_resistors                     = 6, 0.35
+prt_i_copper                        = 6, 0.4
+prt_i_wood                          = 8, 0.5
+prt_i_scrap                         = 6, 0.6
+prt_i_fasteners                     = 6, 0.5
+prt_i_plastic                       = 4, 0.7
+
+[supplies_2]:supplies_1
+grooming                            = 6, 0.5
+swiss_knife                         = 6, 0.5
+
+ball_hammer                         = 6, 0.5
+duct_tape                           = 6, 0.5
+grease                              = 6, 0.5
+steel_wool                          = 6, 0.5
+
+prt_o_fabrics_1                     = 8, 0.5 
+prt_o_fabrics_2                     = 6, 0.5 
+prt_o_fabrics_3                     = 6, 0.5
+prt_o_fabrics_4                     = 6, 0.5
+prt_o_retardant_1                   = 6, 0.5
+prt_o_retardant_2                   = 6, 0.5 
+prt_o_retardant_3                   = 6, 0.5 
+prt_o_retardant_4                   = 6, 0.5 
+prt_o_retardant_5                   = 6, 0.5 
+prt_o_retardant_6                   = 6, 0.5 
+prt_o_retardant_7                   = 6, 0.5 
+prt_o_retardant_8                   = 6, 0.5 
+prt_o_retardant_9                   = 6, 0.5 
+prt_o_retardant_10                  = 6, 0.5
+prt_o_retardant_11                  = 4, 0.45
+prt_o_retardant_12                  = 4, 0.45
+prt_o_retardant_13                  = 4, 0.45
+prt_o_retardant_14                  = 4, 0.45
+prt_o_ballistic_1                   = 6, 0.35
+prt_o_ballistic_2                   = 6, 0.35 
+prt_o_ballistic_3                   = 6, 0.35 
+prt_o_ballistic_4                   = 6, 0.35 
+prt_o_ballistic_5                   = 6, 0.35 
+prt_o_ballistic_6                   = 6, 0.35
+prt_o_ballistic_7                   = 6, 0.35 
+prt_o_ballistic_8                   = 6, 0.35 
+prt_o_ballistic_9                   = 6, 0.35 
+prt_o_ballistic_10                  = 6, 0.35
+prt_o_ballistic_11                  = 4, 0.35
+prt_o_ballistic_12                  = 4, 0.35
+prt_o_ballistic_13                  = 4, 0.35
+prt_o_ballistic_14                  = 4, 0.35
+
+prt_i_ammo                          = 6, 0.5 
+prt_i_textolite                     = 6, 0.5 
+prt_i_capacitors                    = 6, 0.35
+prt_i_transistors                   = 8, 0.35
+prt_i_resistors                     = 8, 0.35
+prt_i_copper                        = 8, 0.4
+prt_i_wood                          = 10, 0.5
+prt_i_scrap                         = 8, 0.6
+prt_i_fasteners                     = 8, 0.5
+prt_i_plastic                       = 6, 0.7
+
+[supplies_3]:supplies_2
+grooming                            = 8, 0.5
+swiss_knife                         = 8, 0.5
+
+ball_hammer                         = 8, 0.5
+duct_tape                           = 8, 0.5
+grease                              = 8, 0.5
+steel_wool                          = 8, 0.5
+
+prt_o_fabrics_1                     = 10, 0.5 
+prt_o_fabrics_2                     = 8, 0.5 
+prt_o_fabrics_3                     = 8, 0.5
+prt_o_fabrics_4                     = 8, 0.5
+prt_o_retardant_1                   = 8, 0.5
+prt_o_retardant_2                   = 8, 0.5 
+prt_o_retardant_3                   = 8, 0.5 
+prt_o_retardant_4                   = 8, 0.5 
+prt_o_retardant_5                   = 8, 0.5 
+prt_o_retardant_6                   = 8, 0.5 
+prt_o_retardant_7                   = 8, 0.5 
+prt_o_retardant_8                   = 8, 0.5 
+prt_o_retardant_9                   = 8, 0.5 
+prt_o_retardant_10                  = 8, 0.5
+prt_o_retardant_11                  = 6, 0.45
+prt_o_retardant_12                  = 6, 0.45
+prt_o_retardant_13                  = 6, 0.45
+prt_o_retardant_14                  = 6, 0.45
+prt_o_ballistic_1                   = 8, 0.35
+prt_o_ballistic_2                   = 8, 0.35 
+prt_o_ballistic_3                   = 8, 0.35 
+prt_o_ballistic_4                   = 8, 0.35 
+prt_o_ballistic_5                   = 8, 0.35 
+prt_o_ballistic_6                   = 8, 0.35
+prt_o_ballistic_7                   = 8, 0.35 
+prt_o_ballistic_8                   = 8, 0.35 
+prt_o_ballistic_9                   = 8, 0.35 
+prt_o_ballistic_10                  = 8, 0.35
+prt_o_ballistic_11                  = 6, 0.35
+prt_o_ballistic_12                  = 6, 0.35
+prt_o_ballistic_13                  = 6, 0.35
+prt_o_ballistic_14                  = 6, 0.35
+prt_o_ballistic_15                  = 4, 0.35
+prt_o_ballistic_16                  = 4, 0.35
+prt_o_ballistic_17                  = 4, 0.35
+
+prt_i_ammo                          = 8, 0.5 
+prt_i_textolite                     = 8, 0.5 
+prt_i_capacitors                    = 8, 0.35
+prt_i_transistors                   = 10, 0.35
+prt_i_resistors                     = 10, 0.35
+prt_i_copper                        = 10, 0.4
+prt_i_wood                          = 12, 0.5
+prt_i_scrap                         = 10, 0.6
+prt_i_fasteners                     = 10, 0.5
+prt_i_plastic                       = 8, 0.7
+
+
+[supplies_4]:supplies_3
+grooming                            = 10, 0.5
+swiss_knife                         = 10, 0.5
+
+ball_hammer                         = 10, 0.5
+duct_tape                           = 10, 0.5
+grease                              = 10, 0.5
+steel_wool                          = 10, 0.5
+
+prt_o_fabrics_1                     = 12, 0.5 
+prt_o_fabrics_2                     = 10, 0.5 
+prt_o_fabrics_3                     = 10, 0.5
+prt_o_fabrics_4                     = 10, 0.5
+prt_o_retardant_1                   = 10, 0.5
+prt_o_retardant_2                   = 10, 0.5 
+prt_o_retardant_3                   = 10, 0.5 
+prt_o_retardant_4                   = 10, 0.5 
+prt_o_retardant_5                   = 10, 0.5 
+prt_o_retardant_6                   = 10, 0.5 
+prt_o_retardant_7                   = 10, 0.5 
+prt_o_retardant_8                   = 10, 0.5 
+prt_o_retardant_9                   = 10, 0.5 
+prt_o_retardant_10                  = 10, 0.5
+prt_o_retardant_11                  = 8, 0.45
+prt_o_retardant_12                  = 8, 0.45
+prt_o_retardant_13                  = 8, 0.45
+prt_o_retardant_14                  = 8, 0.45
+prt_o_ballistic_1                   = 10, 0.35
+prt_o_ballistic_2                   = 10, 0.35 
+prt_o_ballistic_3                   = 10, 0.35 
+prt_o_ballistic_4                   = 10, 0.35 
+prt_o_ballistic_5                   = 10, 0.35 
+prt_o_ballistic_6                   = 10, 0.35
+prt_o_ballistic_7                   = 10, 0.35 
+prt_o_ballistic_8                   = 10, 0.35 
+prt_o_ballistic_9                   = 10, 0.35 
+prt_o_ballistic_10                  = 10, 0.35
+prt_o_ballistic_11                  = 8, 0.35
+prt_o_ballistic_12                  = 8, 0.35
+prt_o_ballistic_13                  = 8, 0.35
+prt_o_ballistic_14                  = 8, 0.35
+prt_o_ballistic_15                  = 6, 0.35
+prt_o_ballistic_16                  = 6, 0.35
+prt_o_ballistic_17                  = 6, 0.35
+prt_o_ballistic_18                  = 4, 0.35
+prt_o_ballistic_19                  = 4, 0.35
+prt_o_ballistic_20	                = 4, 0.35
+
+prt_i_ammo                          = 10, 0.5 
+prt_i_textolite                     = 10, 0.5 
+prt_i_capacitors                    = 10, 0.35
+prt_i_transistors                   = 12, 0.35
+prt_i_resistors                     = 12, 0.35
+prt_i_copper                        = 12, 0.4
+prt_i_wood                          = 14, 0.5
+prt_i_scrap                         = 12, 0.6
+prt_i_fasteners                     = 12, 0.5
+prt_i_plastic                       = 10, 0.7

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+
+<!-- ================================================================================================================== -->
+<!--                                                                                                                    -->
+<!--     Original Author(s) : explorerbee, kostyumier, dzimka                                                           -->
+<!--     Edited : N/A                                                                                                   -->
+<!--     License : Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)            -->
+<!--                                                                                                                    -->
+<!-- ================================================================================================================== -->
+
+<string_table>
+    <!-- Darkscape Trader -->
+    <!-- Help Wounded Medic -->
+    <string id="nep_help_wounded_medic_1_0">
+        <text>Who's that poor bastard lying by the fire?</text>
+    </string>
+    <string id="nep_help_wounded_medic_1_1">
+        <text>Same old story—another "adventurer" biting off more than he could chew. We found him not far from here with his buddies... except they were already dead. Hauled him back to camp, patched him up as best we could, and now... well, now we don't know what to do with him.</text>
+    </string> 
+    <string id="nep_help_wounded_medic_1_2">
+        <text>Yeah, sounds about right... Still, leaving him to die isn't exactly right.</text>
+    </string>
+    <string id="nep_help_wounded_medic_1_3">
+        <text>You think I don't know that? Damn it, if only we had something to treat him with... but out here, there's nothing—just anomalies and boars lurking under the pines.</text>
+    </string>
+    <string id="nep_help_wounded_medic_1_4">
+        <text>Maybe I can help somehow?</text>
+    </string>
+    <string id="nep_help_wounded_medic_1_5">
+        <text>Well, I doubt you got that attached to him in the last few minutes, but if you manage to find anything like a medkit, bring it here. We'll see if we can get this unlucky bastard back on his feet. In the meantime, we'll at least keep changing his bandages.</text>
+    </string>
+    <string id="nep_help_wounded_medic_1_6">
+        <text>I'll do my best to be quick.</text>
+    </string>
+    <string id="nep_help_wounded_medic_1_7">
+        <text>Yeah, and we'll do our best to keep him in this miserable world a little longer. Name's Lumberjack, by the way. Anyway, don't waste time—get going.</text>
+    </string>
+    <string id="nep_help_wounded_medic_1_8">
+        <text>Hope I make it in time...</text>
+    </string>
+
+    <!-- Help Wounded Medic Complete -->
+    <string id="nep_help_wounded_medic_complete_1_0">
+        <text>Got some good news.</text>
+    </string>
+    <string id="nep_help_wounded_medic_complete_1_1">
+        <text>You found it?!</text>
+    </string>
+    <string id="nep_help_wounded_medic_complete_1_2">
+        <text>As you can see, yeah. Had to turn half the Zone upside down looking for it. Not something you find in every backpack, that's for sure.</text>
+    </string>
+    <string id="nep_help_wounded_medic_complete_1_3">
+        <text>What matters is that you found it. Thanks, stalker. Here, take this—it's not much, we don't live large out here... \n \nAnyway, we'll do our best to get the poor guy back on his feet. Thanks again for the help.</text>
+    </string>
+    <string id="nep_help_wounded_medic_complete_1_4">
+        <text>That's for sure. Take care!</text>
+    </string>
+
+    <!-- Cordon Medic -->
+    <!-- Start -->
+    <string id="nep_cordon_medic_start_1">
+        <text>Hey, stalker. What brings you here?</text>
+    </string>
+
+    <!-- Bio -->
+    <string id="nep_cordon_medic_bio_1_0">
+        <text>Who are you? And what are you doing here?</text>
+    </string>
+    <string id="nep_cordon_medic_bio_1_1">
+        <text>Me? As you can see, I'm a doctor. Folks around here call me Esmarch—got that nickname right after I set foot in the Zone. I'm not a young man anymore, running around and getting into firefights ain't for me. But sitting here, patching up the younger ones—that suits me just fine. Quiet, peaceful... gives me time to read a book, think about things... you know, the eternal questions.</text>
+    </string>
+    <string id="nep_cordon_medic_bio_1_2">
+        <text>"Esmarch"? That's an unusual nickname. How'd you get it?</text>
+    </string>
+    <string id="nep_cordon_medic_bio_1_3">
+        <text>Well, you look like a tough guy, so I probably don't need to explain who Esmarch was. But since you're curious, I'll tell you the story. \n \nWhen I first entered the Zone, I came through the Cordon—just like most do. You know the area well, I bet. There's an army checkpoint there. So, I'm walking along the road when I spot a soldier lying in the bushes. Blood everywhere, even I felt a little dizzy looking at it. The guy was young, barely conscious, just groaning. I ran over—after all, I'm a doctor. His leg was torn to shreds—later found out some pseudodogs got to him. And me? I had nothing. No tourniquet, no painkillers. Good thing I've got experience, life's taught me a thing or two. Ripped off my shirt sleeve, wrapped his leg up tight—real tight, to stop the infection—then picked him up and carried him to the checkpoint. \n \nThe soldiers tensed up when they saw me, but once they realized I was carrying their comrade, they rushed in to help. Took him off my hands, their medic checked him over, and they hauled him off to their infirmary. As a thank-you, they poured me a shot of vodka—and gave me a nickname. When I told them I was new here, their medic laughed and said, "If not for this field Esmarch, poor Mishka would be a cripple for life." Spit over your shoulder, as they say. \n \nAnd that's how it happened, stalker. I liked the nickname—better than ‘One-Eyed,' ‘Limping,' or whatever else the young ones call each other around here.</text>
+    </string>
+    <string id="nep_cordon_medic_bio_1_4">
+        <text>That's quite the story. And before the Zone? What did you do? You seem like you've got some combat experience. Am I right?</text>
+    </string>
+    <string id="nep_cordon_medic_bio_1_5">
+        <text>You're right, stalker... but we won't talk about that. Don't ask. \n \nAs for before the Zone? I was a loader, a driver... and by education, a paramedic. But life didn't go my way, never really found my place. Here, though? Here, I feel at home. I help people, I save lives, and in return, I get gratitude and respect. I'm an old man now—I don't need houses, cars. What matters to me is being useful to folks like you, the young ones. And out here, a doctor is worth his weight in gold, even if you think you're the toughest guy around.</text>
+    </string>
+    <string id="nep_cordon_medic_bio_1_6">
+        <text>Can't argue with that. Well, Esmarch, thanks for the story. And for the work you do.</text>
+    </string>
+    <string id="nep_cordon_medic_bio_1_7">
+        <text>Take care, stalker. And drop by if you ever need a chat—I always appreciate good company.</text>
+    </string>
+    <string id="nep_cordon_medic_bio_1_8">
+        <text>Of course, Esmarch. See you around.</text>
+    </string>
+
+    <!-- General -->
+    <string id="nep_cordon_medic_general_1">
+        <text>Let me take a look... Damn, where'd you get torn up like this? Do you even watch where you're going? At this rate, there won't be a spot on you that isn't scarred. Alright, you'll live—I'll patch you up. Just need to find... where is it... \n \nAnd don't just stand there—get your money ready. That'll be 1,850 rubles.\n \nAnd what about the radiation? You glowing? If so, that'll be another 1,480. I can flush that crap out of you—you'll be cleaner than a bunker scientist.</text>
+    </string>
+    <string id="nep_cordon_medic_general_10">
+        <text>Let's see here... Kid, what the hell are you on about? You've got the health of an ox! You're fine, don't worry.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="nep_cordon_medic_init_0">
+        <text>Alright, let's see what we've got.</text>
+    </string>
+
+    <!-- Darkscape Stalker Medic -->
+    <!-- Start -->
+    <string id="nep_darkscape_medic_stalker_start">
+        <text>Hey there. You here for business or just to chat?</text>
+    </string>
+
+    <!-- Bio -->
+    <string id="nep_darkscape_medic_bio_1_0">
+        <text>Tell me about yourself.</text>
+    </string>
+    <string id="nep_darkscape_medic_bio_1_1">
+        <text>Name's Vet. And yeah, I'm a vet by trade too. Didn't feel like giving cows vaccines till retirement, so I figured I'd try my luck in the Zone. God, what an idiot move... \n \nI mean, I regret it now, after almost getting myself killed. But back when I was planning this? Thought it'd be like in the movies—heroes, adventures, priceless treasures. Turns out, it's all just a complete shitshow.</text>
+    </string>
+    <string id="nep_darkscape_medic_bio_1_2">
+        <text>How did you end up in that field? Where they found you?</text>
+    </string>
+    <string id="nep_darkscape_medic_bio_1_3">
+        <text>I didn't come to the Zone alone. Had some buddies—Slavka and Mishgan. They'd been artifact hunting for a while, made some decent cash. Thought I'd join them. Man, if only I'd known...\n \nSo, we set off together. Reached the Cordon just fine, managed to slip past, and ended up at that old sawmill. Hung around for a day, got to know some of the local stalkers, then figured it was time for our first expedition. The three of us geared up and headed out.\n \nAnd, well... who the hell knew there'd be bandits waiting? Those bastards jumped us—some from behind those damn concrete slabs, others from the bushes. And we? We were standing right out in the open, no cover at all. Slavka got dropped instantly. Mishgan managed to pull out his sawed-off, but he didn't even get a shot off before he went down next to Slavka.\n \nI took a bullet to the leg, went down screaming, and the moment I saw my own blood—boom, lights out. Yeah, that's me. Weak, useless, pathetic—I know, no need to rub it in...</text>
+    </string>
+    <string id="nep_darkscape_medic_bio_1_30">
+        <text>Look, you couldn't have done anything. Just be grateful you're still breathing.</text>
+    </string>
+    <string id="nep_darkscape_medic_bio_1_31">
+        <text>I just got lucky… unlike my buddies. And now, they won't even get a proper burial. Not that it matters much out here—we all rot in the Zone eventually, and no one remembers.\n \nAnyway, I need to sit for a while. Think things over. You go on, don't let this weigh you down. And… sorry, I guess.</text>
+    </string>
+    <string id="nep_darkscape_medic_bio_1_32">
+        <text>It's alright, Vet. Keep your head up. We'll crawl out of this mess somehow. Take care.</text>
+    </string>
+    <string id="nep_darkscape_medic_bio_1_300">
+        <text>Damn, man, you won't last long in the Zone with that attitude. Time to toughen up.</text>
+    </string>
+    <string id="nep_darkscape_medic_bio_1_301">
+        <text>Yeah, I get you, stalker... Harsh, but fair.\n \nI don't know how long I'll make it here. Got a feeling I won't last. But if you ever need a patch-up or supplies for your next run, come by. Might as well be useful while I'm still breathing.</text>
+    </string>
+    <string id="nep_darkscape_medic_bio_1_302">
+        <text>Keep your chin up, Vet. Like they say, "It's all in our hands." Stay safe.</text>
+    </string>
+
+    <!-- General -->
+    <string id="nep_darkscape_medic_general_1">
+        <text>Alright, listen… I ain't the best doctor around, but you've got some real issues here. Or, uh… maybe not? Wait, Miramistin… that's for infections, right? Or was it… no, never mind, you don't need it. \n \nJust get your money ready—1,850 rubles. Wish I could fix you up for free, but I'm flat broke.\n \nOh, and I got something new for radiation. If you're glowing, I can flush that crap out for another 1,480 rubles.</text>
+    </string>
+    <string id="nep_darkscape_medic_general_10">
+        <text>Eh, you look fine to me. Nothing hurts? Then you're good. Better not mess with a healthy guy, might just make him sick.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="stalker_nep_darkscape_medic_init_0">
+        <text>Alright, here's what I've got.</text>
+    </string>
+
+    <!-- Jupiter Ecolog Medic -->
+    <!-- Start -->
+    <string id="nep_jupiter_medic_ecolog_start">
+        <text>Hello, stalker. You here for business or just flapping your gums?</text>
+    </string> 
+
+    <!-- Bio -->
+    <string id="nep_jupiter_medic_ecolog_bio_1_0">
+        <text>Tell me about yourself.</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_1">
+        <text>I have no idea what exactly you expect to hear from me. On the other hand, having a chat is always a pleasure. I'm dying at this job seven times a day, and I could use a well-earned break.\n \nBefore you stands David Waxman, professor of medicine, author of numerous scientific papers on medical radiology and the effects of radiation on complex organisms. Got all that?</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_2">
+        <text>Yeah, yeah, got it. You're not the first egghead I've talked to..</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_3">
+        <text>You say some rather insulting things, stalker. I'd tell you to go run headfirst into a wall, but I'd be the one patching you up afterwards.\n \nAt the university, guys like you got weeded out pretty fast, but in the Zone, you thrive. Unlike me—a cultured and well-mannered man. Not that such things are valued here. You think with your fists, bash your heads against walls, and your vocabulary is limited to, pardon my French, “damn," “shit," and worse. Bah, I spit at your feet. Just wipe it off with your boot, so there's no trace left.</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_4">
+        <text>So why didn't you stay at the university, professor?</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_5">
+        <text>If I had any real say in my fate, I'd have done three things: never gotten married, never gone into medicine, and never set foot in this godforsaken Zone.\n \nBut life works in strange ways, and as one of the most prominent figures in domestic radiology, it was only a matter of time before I ended up here, in the heart of this radioactive hell. At least they didn't throw me into a field research team—I'm considered valuable, after all. But even being stuck in this bunker is unbearable.\n \nFor you stalkers, it's nothing to squat in the bushes and use schmaltz instead of soap, but I'm not accustomed to filth and never will be.</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_6">
+        <text>Well, that's life. Sometimes you barely have time to sit down, and you're talking about soap.</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_7">
+        <text>Shut it from inside your bunker, professor. You haven't even smelled the real Zone.</text>    
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_8">
+        <text>You can make excuses for anything. But this? This isn't life, not when you have to break your back just to make it to tomorrow. Then again, you all chose this wretched fate yourselves, so you've got no right to complain.\n \nBy the way, stalker, you travel the Zone a lot and must know plenty of its inhabitants. Ever run into a junkie named Acid?</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_80">
+        <text>Yeah, I have. His brain's already rotted from whatever garbage he shoots up.</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_81">
+        <text>Ah, well, then there's nothing more to say about that idiot. But just so you know, that man had a bright future in science. The boy was a prodigy in chemistry, but he shoved his talent into a syringe and now pumps it into degenerates—himself included.\n \nWe came to the Zone together—he was my lab assistant. I did what I could to keep his mind intact, but if a man is weak by nature, there's no saving him. A damn shame. I could use an extra pair of hands here—doing all this work alone is exhausting.\n \nAnyway, stalker, break time's over. I have to get back to work.</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_82">
+        <text>Take care, professor.</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_800">
+        <text>No, but the nickname sure sounds promising. A friend of yours?..</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_801">
+        <text>A friend? If I were the last junkie in the Zone, maybe. No, he was my lab assistant. Former lab assistant. The boy was a prodigy in chemistry, but he shoved his talent into a syringe and now pumps it into degenerates—himself included.\n \nWe came to the Zone together—he was my lab assistant. I did what I could to keep his mind intact, but if a man is weak by nature, there's no saving him. A damn shame. I could use an extra pair of hands here—doing all this work alone is exhausting.\n \nAnyway, stalker, break time's over. I have to get back to work.</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_bio_1_9">
+        <text>You stalkers get so close when you talk, I've developed immunity to all the worst smells. Thankfully, we've got running water in this place, but you lot should at least stand in the rain now and then. Not because you need to be fancy for some parade, but just so you don't look like pigs.\n \nAnd as for the Zone, I've got plenty to say. I've handled more artifacts than all of you stalkers combined, studied every one, examined them under a microscope, nearly licked them—though I feel like that might be next on our list of tasks. So spare me your cheap bravado. I may not be running around with a rifle gunning down other lowlifes, but I've drawn my own conclusions about this whole mess.\n \nBy the way, stalker, you travel the Zone a lot and must know plenty of its inhabitants. Ever run into a junkie named Acid?</text>
+    </string>
+
+    <!-- General -->
+    <string id="nep_jupiter_medic_ecolog_general_1">
+        <text>Holy hell, where'd you get banged up like that? Your body's got more holes than it needs—feels like I could catch a draft just standing near you. Listen, don't forget—an assault rifle ain't a pack of smokes, it actually shoots. And often right on target. Now, let the doctor take a look… Yeah, figured as much. That'll be 1,850 rubles and a "thank you." You'll heal up like a damn dog, no worries.\n \nAnd what's your radiation level looking like? Head spinning, body aching, stomach churning? If two out of three are a “yes," then sit your ass back down—we're doing a cleanup. For a separate fee, of course—this ain't a charity. 1,480 rubles, and you'll be good as new.</text>
+    </string>
+    <string id="nep_jupiter_medic_ecolog_general_10">
+        <text>Treatment? For you? Don't test my patience, lowlife, I've got better things to waste it on. Go get yourself some real wounds first, then we'll talk.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="ecolog_nep_jupiter_medic_init_0">
+        <text>Look all you want, but no touching until you pay.</text>
+    </string>
+
+    <!-- Outskirts Stalker Medic -->
+    <!-- Start -->
+    <string id="nep_pripyat_medic_stalker_start">
+        <text>Hello there, friend! What, caught a stray bullet?</text>
+   </string> 
+    
+    <!-- Bio -->
+    <string id="nep_pripyat_medic_stalker_bio_1_0">
+        <text>Tell me about yourself.</text>
+    </string>
+    <string id="nep_pripyat_medic_stalker_bio_1_1">
+        <text>The name's Rhesus. Used to be a stalker like you, but now I patch people up. Got a diploma, know my way around wounds, and this place sure needed a doctor to complete the full package.\n \nDidn't want to keep running through scrapyards and digging for artifacts—just not my thing. Thought I'd at least get some fresh air, enjoy the birds… Yeah, right. One moment it's a pseudodog lunging at your throat, the next—bandits setting up an ambush. Gunfire, stabbings, everyone's killing each other—what kind of nature is that? It's a miracle just to stay alive.\n \nMade it to Pripyat somehow, figured I'd stay. Sure, it's dangerous, no doubt about that, but maybe with a doctor around, fewer guys will end up dead. I help everyone, don't care about patches—Duty, Freedom, whatever gang you're from, doesn't matter to me.</text>
+    </string>
+    <string id="nep_pripyat_medic_stalker_bio_1_2">
+        <text>Getting to Pripyat takes a tough guy. You got combat experience?</text>
+    </string>
+    <string id="nep_pripyat_medic_stalker_bio_1_3">
+        <text>Not really, just got lucky, I guess. I'm not the fighting type. As they say, the best way to win a fight is not to get into one in the first place. And if you do, well, better be ready to leave some pieces of yourself behind.\n \nHere in the Zone, everyone's eager to brawl—sometimes over nothing at all. But what can you do? This is a real war—people against mutants, FUBAR all around.</text>
+    </string>
+    <string id="nep_pripyat_medic_stalker_bio_1_4">
+        <text>Yeah, I hear you. People go feral out here, ready to rip your throat out over the smallest thing.</text>
+    </string>
+    <string id="nep_pripyat_medic_stalker_bio_1_5">
+        <text>Come on, Rhesus, you don't see the whole picture. That's just how the Zone works—kill or be killed.</text>
+    </string>
+    <string id="nep_pripyat_medic_stalker_bio_1_6">
+        <text>Exactly. And that's why I just focus on my job and do it well. The rest is out of my hands.</text>
+    </string>
+    <string id="nep_pripyat_medic_stalker_bio_1_7">
+        <text>Ah, stalker, what's the point? We back ourselves into a corner and then bite each other trying to get out. It's not the Zone that shoots, stabs, and robs. Well, some might argue otherwise, but in that case, humans have no business being here. But I still believe it all comes down to people.</text>
+    </string>
+    <string id="nep_pripyat_medic_stalker_bio_1_8">
+        <text>That's a good way to look at it. Thanks for the talk—gave me something to think about.</text>
+    </string>
+    <string id="nep_pripyat_medic_stalker_bio_1_9">
+        <text>Well, have it your way. Either way, thanks for the chat.</text>
+    </string>
+
+    <!-- General -->
+    <string id="stalker_nep_outskirts_medic_general_1">
+        <text>Come here, let's see… Yep, that's a stab wound, got some bruising there, and—oh, no, better not touch that. Alright, I can patch you up—1850 rubles, covers meds, tools, and, well, a little something for me to eat.\n \nHow're you feeling otherwise? Dizzy? Hearing static in your head? Maybe we should flush out that radiation while we're at it. Your tail's looking a little bald. Haha, kidding, no tail. But for 1480 rubles, I can give you something to clear out the rads.</text>
+    </string>
+    <string id="stalker_nep_outskirts_medic_general_10">
+        <text>Come here. Nah, man, what's there to fix? Health's gotta be in balance, as they say—haha! Just kidding. You're fit as a fresh recruit.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="nep_pripyat_medic_stalker_init_0">
+        <text>We'll get you sorted in no time. Look around, see what you like, and we'll talk price. I won't rip you off.</text>
+    </string>
+
+    <!-- Outskirts Killer Medic -->
+    <!-- Start -->
+    <string id="nep_pripyat_medic_killer_start">
+        <text>Hey there. What brings you here?</text>
+   </string> 
+
+   <!-- Bio -->
+   <string id="nep_pripyat_medic_killer_bio_1_0">
+        <text>Tell me about yourself.</text>
+   </string>
+   <string id="nep_pripyat_medic_killer_bio_1_1">
+        <text>I'm Pharmacist. You won't believe it, but I'm actually a certified pharmacist.\n \nI'm a merc, as you can see. But I'm not just some dumb soldier if that's what you're thinking. Although, I don't really care what you think. But if you need something medical-related, you'd better come to me. I don't make anything myself. don't want to get my hands dirty with that stuff. But I've got plenty of connections, so the choice is pretty good.\n \nIf you're injured, I'll offer you some meds. If you're a junkie, I'll sell you some dope.</text>
+   </string>
+   <string id="nep_pripyat_medic_killer_bio_1_2">
+        <text>You don't like junkies? Interesting to hear that from someone who sells dope.</text>
+   </string>
+   <string id="nep_pripyat_medic_killer_bio_1_3">
+        <text>I don't care personally, money's money. Junkies like to beg for a fix, makes it funny to watch them act like animals.\n \nI've worked with plenty of them. I used to run my own business—a drug lab. Cooked up all sorts of stuff, sometimes on order, sometimes for resale. Had an apprentice too, a guy named Zhenya, but he bailed when the cops cracked down on us. Took all our cash and fled the country. As for me, well, I ended up here.</text>
+   </string>
+   <string id="nep_pripyat_medic_killer_bio_1_4">
+        <text>How did you become a mercenary?</text>
+   </string>
+   <string id="nep_pripyat_medic_killer_bio_1_5">
+        <text>Some contacts helped me out. I needed the job, you know. Being a regular stalker just wasn't my thing. The scientists wouldn't have taken me in, even though I've got an education. And I can't stand those eggheads. So, it was either mercs or bandits. But bandits are real scum, not my crowd.\n \nMercs, on the other hand, not a bad option. The pay's good, they supply gear, and the guys are decent. And nobody's stopping me from doing what I want—smuggling. Or, you can call it honest trade, whatever works. In the end, everyone benefits.</text>
+   </string>
+   <string id="nep_pripyat_medic_killer_bio_1_6">
+        <text>You're right, there's never enough traders. Thanks for the story, it was interesting to hear.</text>
+   </string>
+
+    <!-- General -->
+    <string id="killer_nep_outskirts_medic_general_1">
+        <text>Hurt? Come over, let me take a look. Alright, got it. 1850 rubles, show me the cash upfront. I'm not in this for charity.\n \nI'll clear out your radiation too, so you don't have to come back. Get the cash ready—1480 rubles.</text>
+    </string>
+    <string id="killer_nep_outskirts_medic_general_10">
+        <text>Don't try to fool me, I can see you're fine. Get lost.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="nep_pripyat_medic_killer_init_0">
+        <text>Come on in, pick what you need. Just don't take too long.</text>
+    </string>
+
+    <!-- Garbage Stalker Mechanic -->
+    <!-- Start -->
+    <string id="stalker_nep_garbage_mechanic_start">
+        <text>Hey there, stalker, good to see you! Need something?</text>
+   </string> 
+
+   <!-- Init trade/repair -->
+   <string id="stalker_nep_garbage_mechanic_init_0">
+        <text>We'll get it done in no time. Show me what you need fixed.</text>
+    </string>
+
+   <!-- Bio -->
+   <string id="stalker_nep_garbage_mechanic_bio_1_0">
+        <text>Tell me about yourself.</text>
+   </string> 
+   <string id="stalker_nep_garbage_mechanic_bio_1_1">
+        <text>They call me Bit around here, in the Zone. A "bit" is actually a part, and I'm a mechanic - always tinkering with things, fixing them, so the nickname just stuck.\n \nI'm here with my brother, his nickname is Bob. You've probably already met him, he's over there.</text>
+   </string>  
+   <string id="stalker_nep_garbage_mechanic_bio_1_2">
+        <text>He doesn't seem too friendly, I wouldn't guess you two are brothers. Look at that tense look he's got.</text>
+   </string>  
+   <string id="stalker_nep_garbage_mechanic_bio_1_3">
+        <text>Don't judge him too harshly, he's a good guy, just has a bit of a temper. He's always been like that, even when we were kids. I'm pretty laid-back, been into electronics ever since I was 6 and picked up my first radio, still learning about it. He, on the other hand, always tried to hustle, buying and selling things. That came after the collapse of the USSR, obviously, when commerce started to take off.\n \nFor Bob, it was probably the best time because the 90s were all about making it big from nothing, no investments needed. Things are harder now. That's why he ended up in the Zone—little competition here. Makes sense, who in their right mind would come here otherwise?</text>
+   </string> 
+   <string id="stalker_nep_garbage_mechanic_bio_1_4">
+        <text>And yet, here you are too. What brought you to the Zone?</text>
+   </string> 
+   <string id="stalker_nep_garbage_mechanic_bio_1_5">
+        <text>Bob brought me here. He's got that kind of character, always sticking his nose into things, so he'd come home with bruises almost every day. Either an unhappy customer would show up “to thank" him, or a business partner would try to change the terms.\n \nWhen he said he was heading to the Zone, I decided I'd go with him. What else could I do? I don't have a family, just him. Friends can be found anywhere, but if something happened to Bob, I wouldn't be able to handle it. He might be slippery, but he's family. He's a good guy, you just need to get to know him better.</text>
+   </string>
+   <string id="stalker_nep_garbage_mechanic_bio_1_6">
+        <text>Yeah, looks like fate took you to the wrong place.</text>
+   </string> 
+   <string id="stalker_nep_garbage_mechanic_bio_1_7">
+        <text>For me, though, it's not so bad here. Soviet electronics were the best in the world, and there's plenty of it here, like they say, a ton of it. That's all I need, and my brother's under some sort of watch. People in the Zone are ruthless, you have to be super careful around them. Bob's instinct for self-preservation doesn't seem to have kicked in…\n \nAnyway, if you're ever around here, come by. We can chat, have some tea. I've just built a new kettle to replace the old one that died on me.</text>
+   </string> 
+   <string id="stalker_nep_garbage_mechanic_bio_1_8">
+        <text>I'll definitely stop by, Bit. Take care.</text>
+   </string>
+
+    <!-- Garbage Stalker Medic -->
+    <!-- Start -->
+    <string id="stalker_nep_garbage_medic_start">
+        <text>Greetings. Are you here on business or just to chat?</text>
+    </string>
+
+    <!-- Bio -->
+    <string id="stalker_nep_garbage_medic_bio_1_0">
+        <text>Tell me about yourself.</text>
+    </string>
+    <string id="stalker_nep_garbage_medic_bio_1_1">
+        <text>I'm Bob. A doctor and a trader. I heal and trade. \n \nWhat else do you expect? Do I look like a storyteller? I don't have the time or the desire to share my confessions with you. What do you want to hear? A tragic story of my first love, my favorite recipe for dog steaks, or a couple of dumb jokes? \n \nBetter go to Bit, that's my brother, he's sitting over there. Unlike me, he loves to talk, so bother him, and let me work.</text>
+    </string>
+    <string id="stalker_nep_garbage_medic_bio_1_2">
+        <text>Well, as you say.</text>
+    </string>
+
+    <!-- General -->
+    <string id="stalker_nep_garbage_medic_general_1">
+        <text>I can already see you're barely standing. Sit down, I'll take a look at you. A pill, an injection, maybe I'll wrap something. I won't put a cast, it's expensive, so you'll have to manage on your own there. All in all, it's 1850 rubles, pay in advance, or I'll have to cripple you again. Ha-ha-ha, I'm just joking, why so tense? \n \nBy the way, I can also clean you from radiation while I'm at it. Of course, for a separate fee. 1480 rubles. If you think it's too expensive, go ahead and keep irradiating yourself, but don't come near me, I still want to live.</text>
+    </string>
+    <string id="stalker_nep_garbage_medic_general_10">
+        <text>Well, we'll do it right away... But no, don't try to trick me. What, you came for free vitamin C or what? You're as healthy as an ox! Don't waste my time, it's very valuable.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="stalker_nep_garbage_medic_init_0">
+        <text>Ah, no problem, come in, take a look! I don't offer discounts, it's already cheap. If you find it cheaper, shoot—someone's trying to scam you.</text>
+    </string>
+
+    <!-- Zaton Medic -->
+    <!-- Start -->
+    <string id="nep_zaton_medic_start_1">
+        <text>Hey, stalker. What brings you here?</text>
+    </string>
+
+    <!-- Bio -->
+    <string id="nep_zaton_medic_bio_0">
+        <text>Tell me about yourself.</text>
+    </string>
+    <string id="nep_zaton_medic_bio_1">
+        <text>I'm Corpsman. Not literally, but that's the nickname. Don't ask why. \n \nIf you're asking why I came to this Zone, I don't know myself. I've always been drawn to hot spots. When I was drafted for international duty in Afghanistan, that's when I couldn't settle down. \n \nI'm a military man, always close to the front, whatever it is. But I'm too proud to be just a regular soldier. No money, you know the attitude. Like shit, man. But being a mercenary is good—lots of money, they let you shoot, and if you kill the wrong person, no one will send you to court-martial. "Collateral damage," they said, “when you chop wood, the chips fly.” That's what our commanders always told us.</text>
+    </string>
+    <string id="nep_zaton_medic_bio_2">
+        <text>Where have you fought before the Zone?</text>
+    </string>
+    <string id="nep_zaton_medic_bio_3">
+        <text>Oh, everywhere. Afghanistan, Chechnya, Africa, the Middle East, South America. In short, I've seen the world. \n \nAnd I'll tell you, I've never seen anything as bad as this Zone. I think you'd agree with me if you were a military person. But for you stalkers, this is just a game. I don't buy that approach, I'm too old for that nonsense. When you're young, I guess it's interesting, but as you get older, you just want peace, some kind of certainty.</text>
+    </string>
+    <string id="nep_zaton_medic_bio_4">
+        <text>Well, not really. Stalkers are kind of military too. We dirty our hands for a few rubles, how is that different from you mercenaries?</text>
+    </string>
+    <string id="nep_zaton_medic_bio_5">
+        <text>Ha-ha-ha, that's rich. You think you're a soldier? Your little games of "cossacks and robbers" aren't even close to real war. It's like dog fights, where every dog is ready to tear everyone else's throat out for a can of food. Don't tell me that's not true, you must understand that yourself. Well, if there's still something left in your head that radiation didn't kill. \n \nIn a real war, you wouldn't last long, believe me. I'm telling you this as an old wolf who's been carrying an assault rifle since he was 18. And don't make me laugh like that again, my lungs aren't what they used to be.</text>
+    </string>
+    <string id="nep_zaton_medic_bio_6">
+        <text>Well, whatever you say, Corpsman, think what you want. But it's not a game.</text>
+    </string>
+
+    <!-- General -->
+    <string id="nep_zaton_medic_general_1">
+        <text>Yeah, looks like you got hit pretty bad. Though, if you can still stand, you'll live. I'll use some of my own meds on you, but you know, this isn't the Red Cross, so you'd better have the money ready. 1850 rubles. Don't haggle, if you don't like the price, go to the clinic, there's one a couple of hundred kilometers away. \n \nHave you measured your radiation levels? Maybe I should clean you up while I'm at it? For a separate fee, of course. 1480 rubles will do, I'll pour a special solution into you, almost magical. It'll get rid of the radiation right away.</text>
+    </string>
+    <string id="nep_zaton_medic_general_10">
+        <text>Uh-huh, you've got as many wounds as I have hairs. As you can see, I'm bald. So stop making things up, go on, take a walk.</text>
+    </string>
+
+    <!-- Init -->
+     <string id="nep_zaton_medic_init_0">
+        <text>Pick what you want.</text>
+     </string>
+
+    <!-- Yantar Medic -->
+    <!-- Start -->
+    <string id="nep_yantar_medic_start_1">
+        <text>Well?</text>
+    </string>
+
+    <!-- Bio -->
+    <string id="nep_yantar_medic_bio_1_0">
+        <text>Tell me about yourself.</text>
+    </string>
+    <string id="nep_yantar_medic_bio_1_1">
+        <text>I've got nothing to do but confess to you. Ha! Found myself a peace dove, damn.</text>
+    </string>
+    <string id="nep_yantar_medic_bio_1_2">
+        <text>What does a dove have to do with it?</text>
+    </string>
+    <string id="nep_yantar_medic_bio_1_3">
+        <text>It means go fuck yourself. What do you want to know? I'm Smack, a doctor, damn it. If you weren't so dumb, you'd figure it out yourself.</text>
+    </string>
+    <string id="nep_yantar_medic_bio_1_4">
+        <text>At least I figured out why they call you Smack. You couldn't have come up with anything better.</text>
+    </string>
+    <string id="nep_yantar_medic_bio_1_5">
+        <text>Oh, you're the smart one, huh? Go tell your jokes to the eggheads, or better yet, come and say: “I want to be a test subject!” Then I'll laugh when they stick a needle in your head or shove syringes up your ass. They love doing that.</text>
+    </string>
+    <string id="nep_yantar_medic_bio_1_6">
+        <text>Anyway, you're not in the mood for talking. Fine, take care, Smack.</text>
+    </string>
+
+    <!-- General -->
+    <string id="nep_yantar_medic_general_1">
+        <text>Stand up straight, arms out. Does it hurt here? Here? Is this a bruise or are you just naturally that ugly? I'll fix you, money up front – 1850 rubles. \n \nFor radiation cleansing, an additional 1480 rubles. No haggling.</text>
+    </string>
+    <string id="nep_yantar_medic_general_10">
+        <text>Nothing to treat, you're healthy, get going.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="nep_yantar_medic_init_0">
+        <text>Here, take a look.</text>
+    </string>
+
+    <!-- Truck Cemetery Medic -->
+    <!-- Start -->
+    <string id="nep_truck_cemetery_medic_start_1">
+        <text>Well, hello, wanderer. What brings you here this time?</text>
+    </string>
+
+    <!-- Bio -->
+    <string id="nep_truck_cemetery_medic_bio_1_0">
+        <text>Tell me about yourself.</text>
+    </string>
+    <string id="nep_truck_cemetery_medic_bio_1_1">
+        <text>What's there to tell? I'm Vityok, nickname – Lopyla. That's because I know how to patch up wounds and make people out of pieces. I was a doctor before the Zone, worked in an ambulance, finished that damn medical school. Worked in a clinic, prescribed Analgin to old ladies, gave injections, all that stuff. But apparently, my face didn't please someone, so they sent me off to some village, I can't even remember the name now, and frankly, who cares. \n\nWell, in general, the village wasn't that bad. They gave me a house, a service car, a "loaf", and told me to treat my old ladies here.</text>
+    </string>
+    <string id="nep_truck_cemetery_medic_bio_1_2">
+        <text>Okay, I get the village part, but how did you end up in the Zone?</text>
+    </string>
+    <string id="nep_truck_cemetery_medic_bio_1_3">
+        <text>How did I end up? Don't interrupt me, and you'll find out how.\n\nSo, I settled in that village. It wasn't bad overall. Of course, no money, but the old ladies would bring me vegetables from their garden as a thank you, or some old man would set up some booze. I didn't complain.\n\nBut, damn, as usual, someone always ruins everything. One day, Lydia Petrovna, that witch of hers, came to me. She said, “Vityok, it hurts here, it aches here, it shoots here.” I thought about it and decided it was those... what are they called... solar flares, magnets or something, but never mind. To calm the old lady, I gave her a vitamin shot, just for prevention.\n\nIt seemed like, whatever, the old lady will feel a little pain, then it'll pass. But no, the next day, when I got to work, her husband was sitting on the porch. I barely got close, and he started pointing a gun at my face. And he's yelling that the old lady died! My medicine didn't save her!</text>
+    </string>
+    <string id="nep_truck_cemetery_medic_bio_1_4">
+        <text>So, the old man came to take revenge on his wife's behalf? You sure have drama there. What happened next?</text>
+    </string>
+    <string id="nep_truck_cemetery_medic_bio_1_5">
+        <text>What happened next? You'll find out.\n\nI barely calmed the old man down, told him to come inside and stop waving his gun around in public. He came in, sat down, I sat across from him, and we started twisting like eels in a pan. I told him that his wife probably just sneezed wrong or something, but I didn't kill her.\n\nObviously, that answer didn't satisfy him. He raised the gun again and started yelling that he had nothing left to lose, that he wanted to be with his wife, and now he's going to her, taking me along the way. And he wasn't lying, the old bastard...</text>
+    </string>
+    <string id="nep_truck_cemetery_medic_bio_1_6">
+        <text>Well, considering you're here now, I'm guessing the old man went to his wife alone?</text>
+    </string>
+    <string id="nep_truck_cemetery_medic_bio_1_7">
+        <text>I didn't kill him, don't get me wrong, I'm not a monster, at least not at the end of the damn day.\n\nThe old man had a bad heart, probably from the stress of his wife's death. He dropped dead right there, right in front of me, and I didn't even get to fart. I checked, and he was already cooling off.\n\nIt would seem that the story should end there, but nope. I've got a cold old man with a loaded gun in my office, another one cold in the other house, and I'm somehow indirectly responsible for both. Unpleasant, I thought. So I decided to bail.\n\nI'd met men who traveled to the Zone before. They'd often pass through our area, the village is just a few dozen kilometers from the perimeter. I'd patch them up if they got hurt, and they'd tell me stories in return. So, I went to the Zone, grabbing the old man's gun along the way. He won't need it anymore.\n\nWhen I got here, I joined up with the bandits. I'm an outlaw now, and they needed their own medic. So, here I am. The old man and his wife are probably feeding worms now, and I'm in the Zone, damn it. And who's to say who's worse off?</text>
+    </string>
+    <string id="nep_truck_cemetery_medic_bio_1_8">
+        <text>Well, what a story, can't say much. Well, Vityok, God be your judge, I won't say anything.</text>
+    </string>
+    
+    <!-- General -->
+    <string id="nep_truck_cemetery_medic_general_1">
+        <text>Oh, oh... Yeah. I can see it's bad for you. Don't worry, we'll fix you up. We'll heal you, as they say, a broken bone and hemorrhoids for a small fee! Ha-ha-ha. Just so you know, money up front. 1850 rubles. If something hurts later, any complaints or suggestions? Right, to hell with you.\n\nWe'll clean the radiation too. I've got this magical enema, it'll take care of all the nucle... nucle... damn it, you won't glow anymore. 1480 rubles, cash up front.</text>
+    </string>
+    <string id="nep_truck_cemetery_medic_general_10">
+        <text>Alright, stalker, get out of here, don't bother me. You're healthy as a horse, healthier than any doctor.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="nep_truck_cemetery_medic_init_0">
+        <text>Medications? Yeah, I've got them. Don't grab too much, it's not just for you.</text>
+    </string>
+
+    <!-- Jupiter Bandit Medic --> 
+    <!-- Start -->
+    <string id="nep_jupiter_bandit_medic_start_1">
+        <text>Peace to you, brother.</text>
+    </string>
+
+    <!-- Bio -->
+    <string id="nep_jupiter_bandit_medic_bio_0">
+        <text>Tell me about yourself.</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_1">
+        <text>Quiet! Do you hear that?</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_2">
+        <text>What do you hear? Are you alright?</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_3">
+        <text>Shit, I'm not alright! That thing's behind you, what's it called... It's leaving, stalker, catch it! Mom! Momm-yyyy!</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_40">
+        <text>What are you talking about? There's no one here.</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_41">
+        <text>Wait... Oh shit, I'm hit. Damn, this is bad. No, I could just die, I really need to stop experimenting with artifacts.\n \nSo, what did you ask me, brother?</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_42">
+        <text>You asked who I am. But I get the feeling you're not in the condition to talk right now.</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_43">
+        <text>Acid. I'm kind of a doctor here, but I'm more of a chemist. I like brewing stuff, you know? Here in the Zone, hashish, ganja, and coconuts are the thing, but I prefer painkillers. One ampoule and you're happy for a couple of days. What about you, what do you take?</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_44">
+        <text>Whatever works, as long as it eases the pain.</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_45">
+        <text>Aah, right, you're a fighter! I was in battle too, back in '05, in Manchuria. We wiped out those yellow-faced monkeys.\n \nNo, wait, shit... My head is heavy, I need to slow down... Oh...\n \nAlright, alright... So why did you come here?</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_46">
+        <text>Got it. But how the hell did you get so wasted in the Zone? Hey! Can you hear me?</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_47">
+        <text>Don't yell! I'll yell at you, damn! A-A-A! Is that nice?\n \nYou're distracting me, brother. Are you a stalker? I knew a few stalkers, they roamed the Zone. Are you the same? Have you seen this one guy, that Jew, what's his name? Waxman-Heraxman. He's a real pain in the ass, he's been bothering me. Glad he left.</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_480">
+        <text>Yeah, I've seen him. He's that bunker scientist, how do you know him?</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_481">
+        <text>Aah, so you know him too? I know him as well, so don't get too comfortable. I've seen all those eggheads, I've buried them, and twisted them on a needle. By the way, where is he...\n \nOh, now it's good, now we're getting somewhere. So what did you want from me, stalker? You had a question?</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_482">
+        <text>I think I won't be able to learn anything else. You should stop with that crap, Acid. But hey, it's your life, do what you want.</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_490">
+        <text>Haven't seen him. Who's Waxman?</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_491">
+        <text>Yeah, that egghead, damn, one of them. He was bothering me, so I left. We've known each other a long time, he was a teacher. But I never studied, I just came to drink, and then he, that asshole, noticed me and put me in the lab. Good thing when we got to the Zone, I bailed and came here. They have a dry law there, you know? Each ampoule is handed out with a ticket, but if I just want it? Fuck that!\n \nSo, stalker, what are you doing here? Get the hell out, you're distracting me. I don't care about your stories about labs, scientists, I'm not a scientist. I only knew one, what was his name...</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_492">
+        <text>Alright, whatever, I'm leaving, I can't take it anymore.</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_50">
+        <text>A-A-A! I see it! Got it, got it!</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_51">
+        <text>Come on, stalker, come on! Aah, damn, my head!\n \nUgh, damn you... This really hit me. Are you messing with me? Or did you dose yourself with something radioactive too? I'm telling you, don't try it.\n \nYou asked something, or was it just me hallucinating?</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_bio_52">
+        <text>Yeah, don't scare me like that. I'm already on edge in this Zone, and then you throw your hallucinations on me, no nerves left. Anyway, let's move on. I asked who you are.</text>
+    </string>
+    
+    <!-- General -->
+    <string id="nep_jupiter_bandit_medic_general_1">
+        <text>Hold on... Ah, right. You’ve got those, what are they... Anyway, it's bad news! But I’ve got something cooking here, a kind of medicine, you could say. It'll get you back on your feet fast. Just give me the cash, I don’t do it for free. Let me test it... Ooh, this is good. Don’t worry, I’ve got enough for everyone. Now, fork over the cash, 1850 rubles.\n \nNeed some radiation clean-up? I think I’ve got it... yeah, here it is. Just close your eyes and swallow, don’t savor it, I can’t save you afterward. 1480 rubles for a dose.</text>
+    </string>
+    <string id="nep_jupiter_bandit_medic_general_10">
+        <text>M-m-m... Alright, you can go, you don’t need anything.</text>
+    </string>
+
+    <!-- Init -->
+    <string id="nep_jupiter_bandit_medic_init_0">
+        <text>Alright, take it. But it’s not for free!</text>
+    </string>
+</string_table>

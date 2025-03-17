@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+
+<!-- ================================================================================================================== -->
+<!--                                                                                                                    -->
+<!--     Original Author(s) : explorerbee, kostyumier, dzimka                                                           -->
+<!--     Edited : N/A                                                                                                   -->
+<!--     License : Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)            -->
+<!--                                                                                                                    -->
+<!-- ================================================================================================================== -->
+
+<string_table>
+    <!-- Cordon -->
+    <string id="encyclopedia_characters_stalker_nep_cordon_medic">
+        <text>Esmarch</text>
+    </string>
+
+    <string id="encyclopedia_characters_stalker_nep_cordon_medic_text">
+        <text>
+            %c[pda_white]Esmarch%c[ui_gray_1] is a former army medic on Cordon. \n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \nIf you believe the stories of others, Esmarch passed Afghanistan and a few more conflicts, but with him this topic is better not to raise.
+        </text>
+    </string>
+
+    <!-- Garbage Medic -->
+    <string id="encyclopedia_characters_stalker_nep_garbage_medic">
+        <text>Bob</text>
+    </string>
+
+    <string id="encyclopedia_characters_stalker_nep_garbage_medic_text">
+        <text>
+            %c[pda_white]Bob%c[ui_gray_1] is a local doctor stationed at the Garbage Depot.\n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \Bit's brother. He is a small-time huckster who came to the Zone for easy money. Nevertheless, he's a much better doctor than a merchant.
+        </text>
+    </string>
+
+    <!-- Garbage Mechanic -->
+    <string id="encyclopedia_characters_stalker_nep_garbage_mechanic">
+        <text>Bit</text>
+    </string>
+
+    <string id="encyclopedia_characters_stalker_nep_garbage_mechanic_text">
+        <text>
+            %c[pda_white]Bit%c[ui_gray_1] is a technician who sits at the Garbage Depot. \n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \Bit's brother. Mechanic, knows by heart every bolt in every bucket on wheels in the Zone. He also knows his way around a gun.
+        </text>
+    </string>
+
+    <!-- Darkscape -->
+    <string id="encyclopedia_characters_stalker_nep_darkscape_medic">
+        <text>Vet</text>
+    </string>
+
+    <string id="encyclopedia_characters_stalker_nep_darkscape_medic_text">
+        <text>
+            %c[pda_white]Vet%c[ui_gray_1] a young doctor in Darkscape.\n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \nA very young guy, yesterday's graduate, who by some miracle is still in good health. However, he knows how to heal.
+        </text>
+    </string>
+
+    <!-- Truck Cemetery -->
+    <string id="encyclopedia_characters_bandit_nep_truck_cemetery_medic">
+        <text>Vityok Quack</text>
+    </string>
+
+    <string id="encyclopedia_characters_bandit_nep_truck_cemetery_medic_text">
+        <text>
+            %c[pda_white]Quack%c[ui_gray_1] is a doctor at the bandit base, the Truck Cemetery. \n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \nA doctor is worth his weight in gold, especially in the middle of a radioactive field, so Vityok had a good job. Outside the Zone, he was not known for his law-abiding behavior either.
+        </text>
+    </string>
+
+    <!-- Yantar -->
+    <string id="encyclopedia_characters_killer_nep_yantar_medic">
+        <text>Smack</text>
+    </string>
+
+    <string id="encyclopedia_characters_killer_nep_yantar_medic_text">
+        <text>
+            %c[pda_white]Smack%c[ui_gray_1] is a field medic on Yantar, hired by the scientists. \n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \nAn dishonest merc. He has access to a warehouse of drugs, which he uses to enrich himself. His prices aren't bad.
+        </text>
+    </string>
+
+    <!-- Ecolog Jupiter -->
+    <string id="encyclopedia_characters_ecolog_nep_jupiter_medic">
+        <text>Waksman</text>
+    </string>
+
+    <string id="encyclopedia_characters_ecolog_nep_jupiter_medic_text">
+        <text>
+            %c[pda_white]Waksman%c[ui_gray_1] is a professor of medicine who arrived in a bunker in the vicinity of the "Jupiter" plant.\n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \nProfessor of medicine. Bad temper, sharp tongue. He treats perfectly, but it's better not to approach him unnecessarily, otherwise Waksman gets nervous.
+        </text>
+    </string>
+
+    <!-- Bandit Jupiter -->
+    <string id="encyclopedia_characters_bandit_nep_jupiter_medic">
+        <text>Acid</text>
+    </string>
+
+    <string id="encyclopedia_characters_bandit_nep_jupiter_medic_text">
+        <text>
+            %c[pda_white]Acid%c[ui_gray_1] is a bandit medic in the vicinity of the "Jupiter" plant. \n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \nA former lab assistant at the university, now a gangster and drug addict. His brains have long ago rotted away, but his hands are still golden, and no one can find better drugs.
+        </text>
+    </string>
+
+    <!-- Zaton -->
+    <string id="encyclopedia_characters_killer_nep_zaton_medic">
+        <text>Corpsman</text>
+    </string>
+
+    <string id="encyclopedia_characters_killer_nep_zaton_medic_text">
+        <text>
+            %c[pda_white]%cCorpsman[ui_gray_1] is a medic at the mercs' facility in zaton \n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \n A merc who can't live without war. Old enough to be a soldier, but just right for a field healer.
+        </text>
+    </string>
+
+    <!-- Killer Outskirts -->
+    <string id="encyclopedia_characters_stalker_nep_outskirts_medic">
+        <text>Pharmacist</text>
+    </string>
+
+    <string id="encyclopedia_characters_stalker_nep_outskirts_medic_text">
+        <text>
+            %c[pda_white]%cPharmacist[ui_gray_1] is a doctor, a member of the Gryphon squad in East Pripyat.\n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \nA failed drug lord who escaped to the Zone to save his skin from prison. Where there's no law, the Pharmacist is happy.
+            \n%c[pda_yellow]Trivia%c[ui_gray_1]\n
+            \n• Thanks to his connections, he can get all kinds of medicines in large quantities and at a good price.
+        </text>
+    </string>
+
+    <!-- Stalker Outskirts -->
+    <string id="encyclopedia_characters_stalker_nep_outskirts_medic">
+        <text>Rhesus</text>
+    </string>
+
+    <string id="encyclopedia_characters_stalker_nep_outskirts_medic_text">
+        <text>
+            %c[pda_white]%cRhesus[ui_gray_1] is a doctor on the base of singles, laundry, East of Pripyat.\n
+            \n%c[pda_green]Information%c[ui_gray_1]\n
+            \nA real mystery. Some people don't even believe he exists. But nevertheless, Rhesus exists, and he has golden hands and a kind heart. Rumor has it that he once slaughtered a pack of soldiers with just one knife. Rezus himself guffaws.
+        </text>
+    </string>
+</string_table>
