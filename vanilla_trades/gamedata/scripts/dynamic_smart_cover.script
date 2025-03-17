@@ -39,6 +39,13 @@ local covers = {
 		gvid		= 726,
 		description = "animpoint_sit_low"
 	},
+	stalker_nep_garbage_mechanic_cover = {
+		position 	= vector():set(-108.4580, 0.9257, 24.4791),
+		direction	= vector():set(0, 0, 0),
+		lvid		= 94674,
+		gvid		= 725,
+		description = "animpoint_sit_high"
+	},
 	killer_nep_yantar_medic_cover_night = {
 		position	= vector():set(32.6453, -11.7319, -278.9),
 		direction	= vector():set(0, 2.356, 0),
