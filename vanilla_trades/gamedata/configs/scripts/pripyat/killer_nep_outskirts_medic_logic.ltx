@@ -9,7 +9,7 @@
 
 [logic@killer_nep_outskirts_medic]
 active                              = beh@teleport
-suitable                            = {=check_npc_name(killer_nep_outskirts_medic)} true
+suitable                            = {=check_npc_name(killer_nep_outskirts_medic) !surge_started} true
 prior                               = 300
 level_spot                          = medic
 trade                               = items\trade\trade_generic_medic.ltx

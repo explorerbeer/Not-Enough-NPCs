@@ -10,7 +10,7 @@
 
 [logic@stalker_nep_garbage_mechanic]
 active                              = beh@teleport
-suitable                            = {=check_npc_name(stalker_nep_garbage_mechanic)} true
+suitable                            = {=check_npc_name(stalker_nep_garbage_mechanic) !surge_started} true
 prior                               = 300
 level_spot                          = mechanic
 trade                               = items\trade\trade_mechanic_digger.ltx

@@ -10,7 +10,7 @@
 
 [logic@stalker_nep_darkscape_medic]
 active                              = beh@teleport
-suitable                            = {=check_npc_name(stalker_nep_darkscape_medic)} true
+suitable                            = {=check_npc_name(stalker_nep_darkscape_medic) !surge_started} true
 prior                               = 300
 trade                               = items\trade\trade_generic_medic.ltx
 level_spot                          = medic
