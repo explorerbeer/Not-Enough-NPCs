@@ -32,6 +32,13 @@ local covers = {
 		gvid		= 1405,
 		description	= "animpoint_sit_normal"
 	},
+	stalker_nep_garbage_medic_cover = {
+		position	= vector():set(-94.8328, 0.8520, -0.9777),
+		direction	= vector():set(-1.30, 0, 0.06),
+		lvid		= 104449,
+		gvid		= 726,
+		description = "animpoint_sit_low"
+	},
 	killer_nep_yantar_medic_cover_night = {
 		position	= vector():set(32.6453, -11.7319, -278.9),
 		direction	= vector():set(0, 2.356, 0),
@@ -66,6 +73,13 @@ local covers = {
 		lvid		= 342141,
 		gvid		= 4531,
 		description	= "animpoint_sit_normal"
+	},
+	stalker_nep_outskirts_medic_cover = {
+		position	= vector():set(149.5775, -0.0956, -190.0325),
+		direction   = vector():set(0, -1.4835, 0),
+		lvid        = 378540,
+		gvid		= 4921,
+		description = "animpoint_stay_wall"
 	},
 	killer_nep_outskirts_medic_cover = {
 		position   	= vector():set(-171.11, 0.81, -347),
