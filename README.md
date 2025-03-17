@@ -36,7 +36,8 @@ Optional addons to make your gameplay coupled with my mod:
 1. Download and install the requirements.
 2. Download our addon.
 3. Use the keyboard shortcut Ctrl + M **(MO2 required)** to select the archive with my addon.
-4. Follow the instructions.
+4. If you have the RE:DONE mod - select the compatibility patch when installing the addon.
+5. Follow the instructions.
 
 ---
 
