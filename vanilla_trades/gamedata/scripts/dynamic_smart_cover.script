@@ -75,7 +75,7 @@ local covers = {
 		description	= "animpoint_sit_normal"
 	},
 	stalker_nep_outskirts_medic_cover = {
-		position	= vector():set(149.5775, -0.0956, -190.0325),
+		position	= vector():set(149.5775, -0.0956, -190.2325),
 		direction   = vector():set(0, -1.4835, 0),
 		lvid        = 378540,
 		gvid		= 4921,
