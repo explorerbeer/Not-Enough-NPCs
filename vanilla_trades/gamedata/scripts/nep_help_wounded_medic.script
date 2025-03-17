@@ -1,7 +1,0 @@
-function help_wounded_medic_task_1_start()
-    task_manager.get_task_manager():give_task("nep_help_wounded_medic_task_1")
-end
-
-function help_wounded_medic_task_1_has_item()
-    return nep_utils.actor_has("itm_drugkit")
-end
