@@ -25,6 +25,8 @@ gather_items_enabled                = false
 help_wounded_enabled                = false
 corpse_detection_enabled            = false
 
+invulnerable                        = {=is_warfare} false, {!actor_enemy} true, false
+
 [beh@teleport]
 on_info                             = %=teleport_npc_lvid(667467)% animpoint@wounded
 
@@ -34,7 +36,6 @@ avail_animations                    = zat_b106_wounded_idle
 
 combat_ignore_cond                  = true
 combat_ignore_keep_when_attacked    = true
-invulnerable                        = false
 
 meet                                = no_meet
 
@@ -46,7 +47,6 @@ avail_animations                    = animpoint_stay_wall
 
 combat_ignore_cond                  = {=is_warfare} false, {=check_enemy_name(actor)} false, true
 combat_ignore_keep_when_attacked    = {=is_warfare} false, true
-invulnerable                        = {=is_warfare} false, {!actor_enemy} true, false
 
 meet                                = meet
 
